@@ -1,0 +1,275 @@
+{
+  "header": {
+    "products": "products",
+    "infrastructure": "facilities",
+    "about": "about Us",
+    "contact": "contacts",
+    "language": "PT | EN"
+  },
+  "sobre": {
+    "history_title": "OUR HISTORY",
+    "history_subtitle": "It´s tasty because it´s ours",
+    "history_paragraph": "We are a company dedicated to the production and commercialisation of fruit, located in the magnificent lands of Demo and on the hillsides of the Douro Valley, in the north ofPortugal. Our name, Demodouro, was born from the passion with which we produce our fruit in these unique lands",
+    "buttonText": "learn more"
+  },
+  "products": {
+    "sectionTitle": "Our Products",
+    "sectionHeading": "it's not just FRUIT, it's demodouro!",
+
+    "sectionDescription": "Our fruits are grown in controlled environments and harvested at the perfect ripeness, preserving all their freshness and authentic flavor.",
+    "varietiesLabel": "Varieties:",
+    "mainProducts": [
+      {
+        "name": "Apple",
+        "season": "Production season: Varies",
+        "varieties": [
+          "Royal Gala",
+          "Golden",
+          "Janagored",
+          "Reineta",
+          "Fugi",
+          "Starking",
+          "Bravo Esmolfe"
+        ]
+      },
+      {
+        "name": "Cherry",
+        "season": "Production season: Varies",
+        "varieties": [
+          "Cova da Beira",
+          "Saco do Douro",
+          "São Julião",
+          "Big Burlat",
+          "Summit",
+          "Napoleão Pé Comprido",
+          "Big Windsor (Purple)"
+        ]
+      }
+    ],
+    "smallProducts": [
+      "Chestnut",
+      "Strawberry",
+      "Blueberry",
+      "Kiwi",
+      "Raspberry",
+      "Grape",
+      "Orange",
+      "Lemon"
+    ],
+    "learnMore": "learn more"
+  },
+  "contactForm": {
+    "heading": "WE ARE HERE FOR YOU!",
+    "subheading": "Do you have any questions? Send us a message.",
+    "name": "Name",
+    "email": "Email",
+    "subject": "Subject",
+    "message": "Message",
+    "required": "{{field}} is required",
+    "invalidEmail": "Please enter a valid email",
+    "buttonText": "submit",
+    "mobileButtonText": "to send"
+  },
+  "footer": {
+    "menu": {
+      "title": "Menu",
+      "products": "Products",
+      "infrastructure": "Facilities",
+      "about": "About Us",
+      "contact": "Contacts"
+    },
+    "links": {
+      "title": "Links",
+      "privacy": "Privacy Policy"
+    },
+    "contact": {
+      "title": "Contacts",
+      "phone1": "(+351) 261 567 199",
+      "phone2": "(+351) 925 524 855",
+      "email": "geral@demodouro.pt",
+      "addressLine1": "Rua da Paradinha, N. Granja",
+      "addressLine2": "3620-503 Moimenta da Beira, Portugal"
+    },
+    "cta": {
+      "title": "Talk to us directly!",
+      "description": "Get in touch and experience the best we have to offer.",
+      "button": "LEARN MORE"
+    },
+    "bottom": {
+      "rights": "All rights reserved",
+      "developedBy": "Developed by"
+    }
+  },
+
+  "productsPage": {
+    "section": {
+      "title": "Our Products",
+      "heading": "WE HAVE THE BEST OF NATURE FOR YOU!",
+      "description": "We grow the freshest and tastiest fruit in controlled environments, ensuring ideal conditions for its healthy growth."
+    },
+    "items": [
+      { "id": 1, "name": "Royal Gala Apple" },
+      { "id": 2, "name": "Golden Apple" },
+      { "id": 3, "name": "Red Apple" },
+      { "id": 4, "name": "Reineta Apple" },
+      { "id": 5, "name": "Fuji Apple" },
+      { "id": 6, "name": "Starking Apple" },
+      { "id": 7, "name": "Granny Smith Apple" },
+      { "id": 8, "name": "Bravo Esmolfe Apple" },
+      { "id": 9, "name": "Cherry" },
+      { "id": 10, "name": "Chestnut" },
+      { "id": 11, "name": "Strawberry" },
+      { "id": 12, "name": "Blueberry" },
+      { "id": 13, "name": "Kiwi" },
+      { "id": 14, "name": "Raspberry" },
+      { "id": 15, "name": "Grapefruit" },
+      { "id": 16, "name": "Orange" },
+      { "id": 17, "name": "Lemon" }
+    ],
+    "button": "Learn more"
+  },
+
+ 
+
+  "aboutInfrastructure": {
+    "subtitle": "the taste of quality",
+    "title": "our orchards",
+    "description": "With our own production distributed across several hectares, our orchards are located in a protected geographical area, between 700 and 900 meters above sea level. They benefit from excellent edaphoclimatic conditions, which give the fruit unique characteristics — such as intense coloration, high sugar content, distinctive flavor, and consistent crispness. Our field technical team promotes specialization in both in-house and contracted production. Our agronomists work closely with growers throughout the year, ensuring quality and precision at every stage of the process"
+  },
+  "infraDistribute": {
+    "subtitle": "our trucks",
+    "title": "distribution and export",
+    "description": "We supply national supermarket chains, traditional markets, and ship internationally to several continents, including:",
+    "list": [
+      "Europe",
+      "Africa",
+      "South America",
+      "Central America",
+      "Middle East"
+    ]
+  },
+
+  "aboutHistory": {
+    "subtitle": "OUR HISTORY",
+    "title": "It’s tasty because it’s ours",
+    "description": "We are a company dedicated to the production and commercialisation of fruit, located in the magnificent lands of Demo and on the hillsides of the Douro Valley, in the north of Portugal. Our name, Demodouro, was born from the passion with which we produce our fruit in these unique lands.\n\n Apples and cherries are the products that set us apart, with apples being our main product.\n\n Our commitment to quality is evident at every step of the process, from cultivation to delivery. We work in close partnership with local and regional producers, ensuring the origin and freshness of the fruit that reaches you."
+  },
+  "sobreCard": {
+    "subtitle": "OUR MARKETS",
+    "title": "WHERE ARE WE PRESENT?",
+    "description": "From production to commercialisation, we ensure freshness and quality to supply the markets."
+  },
+  "sobreInfo": {
+    "subtitle": "Dedication That Makes a Difference",
+    "title": "meet our team"
+  },
+  "sobreOfficial": {
+    "subtitle": "SUPPORT",
+    "title": "Official Sponsors"
+  },
+
+  "infraData": {
+  "items": [
+    {
+      "id": 1,
+      "title": "CALIBRATION",
+      "description": "We have several calibrators designed to calibrate and standardise all of our products"
+    },
+    {
+      "id": 2,
+      "title": "CONTROLLED",
+      "description": "atmosphere We have approximately 6,000 tons oof controlled atmosphere storage capacity and 4,000 tons of conventional cold storage."
+    },
+    {
+      "id": 3,
+      "title": "LOGISTICS",
+      "description": "We have our own fleet of 4 refrigerated trucks and complement our operations with outsourced transport services."
+    },
+    {
+      "id": 4,
+      "title": "PACKAGING",
+      "description": "4 packaging lines dedicated to the careful preparation of all products."
+    }
+  ]
+},
+
+
+
+
+  
+  "productDetail": {
+    "products": {
+      "1": {
+        "name": "Royal Gala Apple",
+        "cat": "Apple",
+        "storage": {
+          "Storage": "in controlled atmosphere or normal cold.",
+          "Transport": "refrigerated vehicles at 0ºC to 2ºC.",
+          "Packaging": "in plastic bag/bulk and packed in plastic or cardboard boxes."
+        },
+        "characteristics": [
+          { "label": "Shape", "value": "" },
+          { "label": "Size", "value": "" },
+          { "label": "Texture", "value": "" },
+          { "label": "Color", "value": "" },
+          { "label": "Taste", "value": "" },
+          { "label": "Acidity", "value": "" },
+          { "label": "Water", "value": "" }
+        ],
+        "calendar": {
+          "months": ["JAN","FEB","MAR","APR","MAY","JUN","JUL","AUG","SEP","OCT","NOV","DEC"],
+          "plantacao": { "active": [] },
+          "colheita": { "active": [] },
+          "disponibilidade": { "active": [] }
+        }
+      },
+      "2": {
+        "name": "Product 2",
+        "cat": "Category",
+        "storage": { "Storage": "", "Transport": "", "Packaging": "" },
+        "characteristics": [
+          { "label": "Shape", "value": "" },
+          { "label": "Size", "value": "" },
+          { "label": "Texture", "value": "" },
+          { "label": "Color", "value": "" },
+          { "label": "Taste", "value": "" },
+          { "label": "Acidity", "value": "" },
+          { "label": "Water", "value": "" }
+        ],
+        "calendar": {
+          "months": ["JAN","FEB","MAR","APR","MAY","JUN","JUL","AUG","SEP","OCT","NOV","DEC"],
+          "plantacao": { "active": [] },
+          "colheita": { "active": [] },
+          "disponibilidade": { "active": [] }
+        }
+      },
+      "3": { "name": "Product 3", "cat": "Category", "storage": { "Storage": "", "Transport": "", "Packaging": "" }, "characteristics": [], "calendar": { "months": ["JAN","FEB","MAR","APR","MAY","JUN","JUL","AUG","SEP","OCT","NOV","DEC"], "plantacao": { "active": [] }, "colheita": { "active": [] }, "disponibilidade": { "active": [] } } },
+      "4": { "name": "Product 4", "cat": "Category", "storage": { "Storage": "", "Transport": "", "Packaging": "" }, "characteristics": [], "calendar": { "months": ["JAN","FEB","MAR","APR","MAY","JUN","JUL","AUG","SEP","OCT","NOV","DEC"], "plantacao": { "active": [] }, "colheita": { "active": [] }, "disponibilidade": { "active": [] } } },
+      "5": { "name": "Product 5", "cat": "Category", "storage": { "Storage": "", "Transport": "", "Packaging": "" }, "characteristics": [], "calendar": { "months": ["JAN","FEB","MAR","APR","MAY","JUN","JUL","AUG","SEP","OCT","NOV","DEC"], "plantacao": { "active": [] }, "colheita": { "active": [] }, "disponibilidade": { "active": [] } } },
+      "6": { "name": "Product 6", "cat": "Category", "storage": { "Storage": "", "Transport": "", "Packaging": "" }, "characteristics": [], "calendar": { "months": ["JAN","FEB","MAR","APR","MAY","JUN","JUL","AUG","SEP","OCT","NOV","DEC"], "plantacao": { "active": [] }, "colheita": { "active": [] }, "disponibilidade": { "active": [] } } },
+      "7": { "name": "Product 7", "cat": "Category", "storage": { "Storage": "", "Transport": "", "Packaging": "" }, "characteristics": [], "calendar": { "months": ["JAN","FEB","MAR","APR","MAY","JUN","JUL","AUG","SEP","OCT","NOV","DEC"], "plantacao": { "active": [] }, "colheita": { "active": [] }, "disponibilidade": { "active": [] } } },
+      "8": { "name": "Product 8", "cat": "Category", "storage": { "Storage": "", "Transport": "", "Packaging": "" }, "characteristics": [], "calendar": { "months": ["JAN","FEB","MAR","APR","MAY","JUN","JUL","AUG","SEP","OCT","NOV","DEC"], "plantacao": { "active": [] }, "colheita": { "active": [] }, "disponibilidade": { "active": [] } } },
+      "9": { "name": "Product 9", "cat": "Category", "storage": { "Storage": "", "Transport": "", "Packaging": "" }, "characteristics": [], "calendar": { "months": ["JAN","FEB","MAR","APR","MAY","JUN","JUL","AUG","SEP","OCT","NOV","DEC"], "plantacao": { "active": [] }, "colheita": { "active": [] }, "disponibilidade": { "active": [] } } },
+      "10": { "name": "Product 10", "cat": "Category", "storage": { "Storage": "", "Transport": "", "Packaging": "" }, "characteristics": [], "calendar": { "months": ["JAN","FEB","MAR","APR","MAY","JUN","JUL","AUG","SEP","OCT","NOV","DEC"], "plantacao": { "active": [] }, "colheita": { "active": [] }, "disponibilidade": { "active": [] } } },
+      "11": { "name": "Product 11", "cat": "Category", "storage": { "Storage": "", "Transport": "", "Packaging": "" }, "characteristics": [], "calendar": { "months": ["JAN","FEB","MAR","APR","MAY","JUN","JUL","AUG","SEP","OCT","NOV","DEC"], "plantacao": { "active": [] }, "colheita": { "active": [] }, "disponibilidade": { "active": [] } } },
+      "12": { "name": "Product 12", "cat": "Category", "storage": { "Storage": "", "Transport": "", "Packaging": "" }, "characteristics": [], "calendar": { "months": ["JAN","FEB","MAR","APR","MAY","JUN","JUL","AUG","SEP","OCT","NOV","DEC"], "plantacao": { "active": [] }, "colheita": { "active": [] }, "disponibilidade": { "active": [] } } },
+      "13": { "name": "Product 13", "cat": "Category", "storage": { "Storage": "", "Transport": "", "Packaging": "" }, "characteristics": [], "calendar": { "months": ["JAN","FEB","MAR","APR","MAY","JUN","JUL","AUG","SEP","OCT","NOV","DEC"], "plantacao": { "active": [] }, "colheita": { "active": [] }, "disponibilidade": { "active": [] } } },
+      "14": { "name": "Product 14", "cat": "Category", "storage": { "Storage": "", "Transport": "", "Packaging": "" }, "characteristics": [], "calendar": { "months": ["JAN","FEB","MAR","APR","MAY","JUN","JUL","AUG","SEP","OCT","NOV","DEC"], "plantacao": { "active": [] }, "colheita": { "active": [] }, "disponibilidade": { "active": [] } } },
+      "15": { "name": "Product 15", "cat": "Category", "storage": { "Storage": "", "Transport": "", "Packaging": "" }, "characteristics": [], "calendar": { "months": ["JAN","FEB","MAR","APR","MAY","JUN","JUL","AUG","SEP","OCT","NOV","DEC"], "plantacao": { "active": [] }, "colheita": { "active": [] }, "disponibilidade": { "active": [] } } },
+      "16": { "name": "Product 16", "cat": "Category", "storage": { "Storage": "", "Transport": "", "Packaging": "" }, "characteristics": [], "calendar": { "months": ["JAN","FEB","MAR","APR","MAY","JUN","JUL","AUG","SEP","OCT","NOV","DEC"], "plantacao": { "active": [] }, "colheita": { "active": [] }, "disponibilidade": { "active": [] } } },
+      "17": { "name": "Product 17", "cat": "Category", "storage": { "Storage": "", "Transport": "", "Packaging": "" }, "characteristics": [], "calendar": { "months": ["JAN","FEB","MAR","APR","MAY","JUN","JUL","AUG","SEP","OCT","NOV","DEC"], "plantacao": { "active": [] }, "colheita": { "active": [] }, "disponibilidade": { "active": [] } } }
+    },
+    "calendar": {
+      "plantacao": "Planting",
+      "colheita": "Harvest",
+      "disponibilidade": "Availability"
+    },
+    "buttons": {
+      "backToProducts": "See other products"
+    }
+  }
+}
+
+
+
+

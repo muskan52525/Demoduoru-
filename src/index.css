@@ -1,0 +1,142 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+body {
+  font-family: "poppins";
+}
+.font-mono45 {
+  font-family: "mono45_headline";
+}
+.font-poppins {
+  font-family: "poppins";
+}
+.font-mulish {
+  font-family: "Mulish", sans-serif;
+}
+.font-muli {
+  font-family: "Muli", sans-serif;
+}
+
+.text-outline {
+  -webkit-text-stroke: 5px #e5376b;
+}
+
+.text-outline-shadow {
+  -webkit-text-stroke: 5px #e5376b;
+  color: transparent;
+  filter: drop-shadow(0px 4px 4px #d6134d);
+}
+.text-outline-green {
+  color: #a1c128;
+  -webkit-text-stroke: 7px #fff;
+  paint-order: stroke fill;
+}
+
+.text-outline-pink {
+  color: #e5376b;
+  -webkit-text-stroke: 7px #fff;
+  paint-order: stroke fill;
+}
+
+.banner-button {
+  background-color: #e5376b;
+  font-weight: 600;
+  font-size: 14px;
+  color: #ffffff;
+  line-height: 24px;
+  min-width: 160px;
+}
+
+.card-btn {
+  padding: 12px 42px;
+  background-color: #e5376b;
+  font-weight: 500;
+  font-size: 18px;
+  color: #ffffff;
+  line-height: 20px;
+  display: flex;
+}
+
+.slider-btn {
+  /* padding: 8px 26px; */
+  background-color: #e5376b;
+  font-size: 18px;
+  color: #ffffff;
+  line-height: 45px;
+  width: 145px;
+}
+
+/* Arrows */
+.slick-prev:before,
+.slick-next:before {
+  color: #fff !important;
+  font-size: 30px !important;
+  opacity: 1 !important;
+  z-index: 50;
+}
+
+.slick-prev {
+  left: -35px !important;
+}
+.slick-next {
+  right: -35px !important;
+}
+
+.slick-dots li button:before {
+  color: #fff !important;
+  font-size: 12px !important;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #e5376b !important;
+}
+.slick-dots {
+  list-style: none !important;
+}
+
+.slick-prev,
+.slick-next {
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: none !important;
+  font-size: 30px !important;
+  opacity: 1 !important;
+}
+
+.active-link {
+  background: #a1c128;
+  border-radius: 11px;
+  color: white;
+}
+
+.green-titile {
+  color: #a4c428;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 22px;
+  letter-spacing: 1.28px;
+  font-family: "poppins";
+  text-transform: uppercase;
+}
+.pink-title {
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 42px;
+  color: #e5376b;
+  font-family: "mono45_headline";
+  text-transform: uppercase;
+}
+
+.outline-heading {
+  -webkit-text-stroke: 7px #a1c128;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 400;
+  position: relative;
+  font-family: "mono45_headline";
+  paint-order: stroke fill;
+}

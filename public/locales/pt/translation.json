@@ -1,0 +1,270 @@
+{
+  "header": {
+    "products": "produtos",
+    "infrastructure": "infraestruturas",
+    "about": "sobre",
+    "contact": "contactos",
+    "language": "PT | EN"
+  },
+  "sobre": {
+    "history_title": "A NOSSA HISTÓRIA",
+    "history_subtitle": "It´s tasty because it´s ours",
+    "history_paragraph": "Somos uma empresa dedicada à produção e comercialização de frutas, localizada nas belas terras do Demo e nas encostas do Douro, no norte de Portugal.O nosso nome, Demodouro, nasceu da paixão com que cultivamos a nossa fruta nestas terras únicas.",
+    "buttonText": "saber mais"
+  },
+  "products": {
+    "sectionTitle": "Os nossos produtos",
+    "sectionHeading": "não é só FRUTA, é demodouro!",
+    "sectionDescription": "As nossas frutas são cultivadas em ambientes controladas e colhidas no ponto perfeito de maturação, preservando toda a sua frescura e sabor autêntico.",
+    "varietiesLabel": "Variedades:",
+    "mainProducts": [
+      {
+        "name": "Maçã",
+        "season": "Época de produção: Variável",
+        "varieties": [
+          "Royal Gala",
+          "Golden",
+          "Janagored",
+          "Reineta",
+          "Fugi",
+          "Starking",
+          "Bravo Esmolfe"
+        ]
+      },
+      {
+        "name": "Cereja",
+        "season": "Época de produção: Variável",
+        "varieties": [
+          "Cova da Beira",
+          "Saco do Douro",
+          "São Julião",
+          "Big Burlat",
+          "Summit",
+          "Napoleão Pé Comprido",
+          "Big Windsor (Roxa)"
+        ]
+      }
+    ],
+    "smallProducts": [
+      "Castanha",
+      "Morango",
+      "Mirtilo",
+      "Kiwi",
+      "Framboesa",
+      "Uva",
+      "Laranja",
+      "Limão"
+    ],
+    "learnMore": "saber mais"
+  },
+
+  "contactForm": {
+    "heading": "ESTAMOS AQUI PARA SI!",
+    "subheading": "Tem alguma pergunta? Envie-nos uma mensagem.",
+    "name": "Nome",
+    "email": "Email",
+    "subject": "Assunto",
+    "message": "Mensagem",
+    "required": "{{field}} é obrigatório",
+    "invalidEmail": "Por favor, insira um email válido",
+    "buttonText": "saber mais",
+    "mobileButtonText": "enviar"
+  },
+  "footer": {
+    "menu": {
+      "title": "Menu",
+      "products": "Produtos",
+      "infrastructure": "Infraestruturas",
+      "about": "Sobre",
+      "contact": "Contactos"
+    },
+    "links": {
+      "title": "Links",
+      "privacy": "Política de Privacidade"
+    },
+    "contact": {
+      "title": "Contactos",
+      "phone1": "(+351) 261 567 199",
+      "phone2": "(+351) 925 524 855",
+      "email": "geral@demodouro.pt",
+      "addressLine1": "Rua da Paradinha, N. Granja",
+      "addressLine2": "3620-503 Moimenta da Beira, Portugal"
+    },
+    "cta": {
+      "title": "Fale diretamente connosco!",
+      "description": "Entre em contacto e prove o melhor que temos para lhe dar.",
+      "button": "SABER MAIS"
+    },
+    "bottom": {
+      "rights": "Todos os direitos reservados",
+      "developedBy": "Desenvolvido  por"
+    }
+  },
+
+  "productsPage": {
+    "section": {
+      "title": "Os nossos produtos",
+      "heading": "Temos o melhor da natureza para si!",
+      "description": "Cultivamos as frutas mais frescas e saborosas em ambientes controlados, garantindo condições ideais para o seu crescimento saudável."
+    },
+    "items": [
+      { "id": 1, "name": "Maçã Royal Gala" },
+      { "id": 2, "name": "Maçã Golden" },
+      { "id": 3, "name": "Maçã Red" },
+      { "id": 4, "name": "Maçã Reineta" },
+      { "id": 5, "name": "Maçã Fuji" },
+      { "id": 6, "name": "Maçã Starking" },
+      { "id": 7, "name": "Maçã Granny Smith" },
+      { "id": 8, "name": "Maçã Bravo Esmolfe" },
+      { "id": 9, "name": "Cereja" },
+      { "id": 10, "name": "Castanha" },
+      { "id": 11, "name": "Morango" },
+      { "id": 12, "name": "Mirtilo" },
+      { "id": 13, "name": "Kiwi" },
+      { "id": 14, "name": "Framboesa" },
+      { "id": 15, "name": "Uva" },
+      { "id": 16, "name": "Laranja" },
+      { "id": 17, "name": "Limão" }
+    ],
+    "button": "saber mais"
+  },
+
+  "aboutInfrastructure": {
+    "subtitle": "o sabor da qualidade",
+    "title": "os nossos pomares",
+    "description": "Com produção própria distribuída por vários hectares, os nossos pomares localizam-se numa área geográfica protegida, entre os 700 e os 900 metros de altitude. Beneficiam de excelentes condições edafo-climáticas, que lhes conferem características únicas — como coloração intensa, elevado teor de açúcares, sabor marcante e crocância consistente.\nA nossa equipa técnica de campo promove a especialização tanto na produção própria como na contratada. Os nossos técnicos acompanham os produtores ao longo de todo o ano, assegurando qualidade e rigor em cada etapa do processo."
+  },
+
+  "infraDistribute": {
+    "subtitle": "os nossos camiões",
+    "title": "distribuição e exportação",
+    "description": "Comercializamos para os supermercados nacionais, mercados tradicionais e exportação marítima para vários continentes, nomeadamente:",
+    "list": [
+      "Europa",
+      "África",
+      "América do Sul",
+      "América Central",
+      "Médio Oriente"
+    ]
+  },
+
+  "aboutHistory": {
+    "subtitle": "A NOSSA HISTÓRIA",
+    "title": "É saboroso porque é nosso",
+    "description": "Somos uma empresa dedicada à produção e comercialização de frutas, localizada nas belas terras do Demo e nas encostas do Douro, no norte de Portugal. O nosso nome, Demodouro, nasceu da paixão com que cultivamos a nossa fruta nestas terras únicas.\n\nA maçã e a cereja são os produtos que nos distinguem, sendo a maçã o nosso principal produto.\n\nO nosso compromisso com a qualidade é evidente em cada passo do processo, desde o cultivo até à entrega. Trabalhamos em parceria com produtores locais e regionais, assegurando a origem e a frescura das frutas que chegam até si."
+  },
+  "sobreCard": {
+    "subtitle": "OS NOSSOS MERCADOS",
+    "title": "ONDE ESTAMOS PRESENTES?",
+    "description": "Da produção à comercialização, garantimos frescura e qualidade para abastecer os mercados"
+  },
+  "sobreInfo": {
+    "subtitle": "Dedicação que Faz a Diferença",
+    "title": "conheça a nossa equipa"
+  },
+  "sobreOfficial": {
+    "subtitle": "APOIOS",
+    "title": "Patrocinadores oficiais"
+  },
+
+  "infraData": {
+  "items": [
+    {
+      "id": 1,
+      "title": "calibragem",
+      "description": "Contamos com diversos calibradores, cujo objetivo é o de calibrar e normalizar todos os produtos."
+    },
+    {
+      "id": 2,
+      "title": "Atmosfera controlada",
+      "description": "Dispomos de cerca de 6.000 toneladas de capacidade em atmosfera controlada e 4.000 toneladas em frio normal."
+    },
+    {
+      "id": 3,
+      "title": "logística",
+      "description": "Contamos com uma frota própria de 4 camiões refrigerados e complementamos a nossa operação com serviços subcontratados."
+    },
+    {
+      "id": 4,
+      "title": "embalamento",
+      "description": "4 linhas de embalamento dedicadas à preparação cuidada de todos os produtos."
+    }
+  ]
+},
+
+
+  "productDetail": {
+    "products": {
+      "1": {
+        "name": "Maçã ROYAL GALA",
+        "cat": "Maçã",
+        "storage": {
+          "Armazenamento": "em atmosfera controlada ou em frio normal.",
+          "Transporte": "veículos frigoríficos à temperatura de 0ºC a 2ºC.",
+          "Embalamento": "em saco plástico/granel e acondicionado em caixa de plástico ou cartão."
+        },
+        "characteristics": [
+          { "label": "FORMA", "value": "" },
+          { "label": "CALIBRE", "value": "" },
+          { "label": "TEXTURA", "value": "" },
+          { "label": "COR", "value": "" },
+          { "label": "SABOR", "value": "" },
+          { "label": "ACIDEZ", "value": "" },
+          { "label": "ÁGUA", "value": "" }
+        ],
+        "calendar": {
+          "months": ["JAN","FEV","MAR","ABR","MAI","JUN","JUL","AGO","SET","OUT","NOV","DEZ"],
+          "plantacao": { "active": [] },
+          "colheita": { "active": [] },
+          "disponibilidade": { "active": [] }
+        }
+      },
+      "2": {
+        "name": "Produto 2",
+        "cat": "Categoria",
+        "storage": { "Armazenamento": "", "Transporte": "", "Embalamento": "" },
+        "characteristics": [
+          { "label": "FORMA", "value": "" },
+          { "label": "CALIBRE", "value": "" },
+          { "label": "TEXTURA", "value": "" },
+          { "label": "COR", "value": "" },
+          { "label": "SABOR", "value": "" },
+          { "label": "ACIDEZ", "value": "" },
+          { "label": "ÁGUA", "value": "" }
+        ],
+        "calendar": {
+          "months": ["JAN","FEV","MAR","ABR","MAI","JUN","JUL","AGO","SET","OUT","NOV","DEZ"],
+          "plantacao": { "active": [] },
+          "colheita": { "active": [] },
+          "disponibilidade": { "active": [] }
+        }
+      },
+      "3": { "name": "Produto 3", "cat": "Categoria", "storage": { "Armazenamento": "", "Transporte": "", "Embalamento": "" }, "characteristics": [], "calendar": { "months": ["JAN","FEV","MAR","ABR","MAI","JUN","JUL","AGO","SET","OUT","NOV","DEZ"], "plantacao": { "active": [] }, "colheita": { "active": [] }, "disponibilidade": { "active": [] } } },
+      "4": { "name": "Produto 4", "cat": "Categoria", "storage": { "Armazenamento": "", "Transporte": "", "Embalamento": "" }, "characteristics": [], "calendar": { "months": ["JAN","FEV","MAR","ABR","MAI","JUN","JUL","AGO","SET","OUT","NOV","DEZ"], "plantacao": { "active": [] }, "colheita": { "active": [] }, "disponibilidade": { "active": [] } } },
+      "5": { "name": "Produto 5", "cat": "Categoria", "storage": { "Armazenamento": "", "Transporte": "", "Embalamento": "" }, "characteristics": [], "calendar": { "months": ["JAN","FEV","MAR","ABR","MAI","JUN","JUL","AGO","SET","OUT","NOV","DEZ"], "plantacao": { "active": [] }, "colheita": { "active": [] }, "disponibilidade": { "active": [] } } },
+      "6": { "name": "Produto 6", "cat": "Categoria", "storage": { "Armazenamento": "", "Transporte": "", "Embalamento": "" }, "characteristics": [], "calendar": { "months": ["JAN","FEV","MAR","ABR","MAI","JUN","JUL","AGO","SET","OUT","NOV","DEZ"], "plantacao": { "active": [] }, "colheita": { "active": [] }, "disponibilidade": { "active": [] } } },
+      "7": { "name": "Produto 7", "cat": "Categoria", "storage": { "Armazenamento": "", "Transporte": "", "Embalamento": "" }, "characteristics": [], "calendar": { "months": ["JAN","FEV","MAR","ABR","MAI","JUN","JUL","AGO","SET","OUT","NOV","DEZ"], "plantacao": { "active": [] }, "colheita": { "active": [] }, "disponibilidade": { "active": [] } } },
+      "8": { "name": "Produto 8", "cat": "Categoria", "storage": { "Armazenamento": "", "Transporte": "", "Embalamento": "" }, "characteristics": [], "calendar": { "months": ["JAN","FEV","MAR","ABR","MAI","JUN","JUL","AGO","SET","OUT","NOV","DEZ"], "plantacao": { "active": [] }, "colheita": { "active": [] }, "disponibilidade": { "active": [] } } },
+      "9": { "name": "Produto 9", "cat": "Categoria", "storage": { "Armazenamento": "", "Transporte": "", "Embalamento": "" }, "characteristics": [], "calendar": { "months": ["JAN","FEV","MAR","ABR","MAI","JUN","JUL","AGO","SET","OUT","NOV","DEZ"], "plantacao": { "active": [] }, "colheita": { "active": [] }, "disponibilidade": { "active": [] } } },
+      "10": { "name": "Produto 10", "cat": "Categoria", "storage": { "Armazenamento": "", "Transporte": "", "Embalamento": "" }, "characteristics": [], "calendar": { "months": ["JAN","FEV","MAR","ABR","MAI","JUN","JUL","AGO","SET","OUT","NOV","DEZ"], "plantacao": { "active": [] }, "colheita": { "active": [] }, "disponibilidade": { "active": [] } } },
+      "11": { "name": "Produto 11", "cat": "Categoria", "storage": { "Armazenamento": "", "Transporte": "", "Embalamento": "" }, "characteristics": [], "calendar": { "months": ["JAN","FEV","MAR","ABR","MAI","JUN","JUL","AGO","SET","OUT","NOV","DEZ"], "plantacao": { "active": [] }, "colheita": { "active": [] }, "disponibilidade": { "active": [] } } },
+      "12": { "name": "Produto 12", "cat": "Categoria", "storage": { "Armazenamento": "", "Transporte": "", "Embalamento": "" }, "characteristics": [], "calendar": { "months": ["JAN","FEV","MAR","ABR","MAI","JUN","JUL","AGO","SET","OUT","NOV","DEZ"], "plantacao": { "active": [] }, "colheita": { "active": [] }, "disponibilidade": { "active": [] } } },
+      "13": { "name": "Produto 13", "cat": "Categoria", "storage": { "Armazenamento": "", "Transporte": "", "Embalamento": "" }, "characteristics": [], "calendar": { "months": ["JAN","FEV","MAR","ABR","MAI","JUN","JUL","AGO","SET","OUT","NOV","DEZ"], "plantacao": { "active": [] }, "colheita": { "active": [] }, "disponibilidade": { "active": [] } } },
+      "14": { "name": "Produto 14", "cat": "Categoria", "storage": { "Armazenamento": "", "Transporte": "", "Embalamento": "" }, "characteristics": [], "calendar": { "months": ["JAN","FEV","MAR","ABR","MAI","JUN","JUL","AGO","SET","OUT","NOV","DEZ"], "plantacao": { "active": [] }, "colheita": { "active": [] }, "disponibilidade": { "active": [] } } },
+      "15": { "name": "Produto 15", "cat": "Categoria", "storage": { "Armazenamento": "", "Transporte": "", "Embalamento": "" }, "characteristics": [], "calendar": { "months": ["JAN","FEV","MAR","ABR","MAI","JUN","JUL","AGO","SET","OUT","NOV","DEZ"], "plantacao": { "active": [] }, "colheita": { "active": [] }, "disponibilidade": { "active": [] } } },
+      "16": { "name": "Produto 16", "cat": "Categoria", "storage": { "Armazenamento": "", "Transporte": "", "Embalamento": "" }, "characteristics": [], "calendar": { "months": ["JAN","FEV","MAR","ABR","MAI","JUN","JUL","AGO","SET","OUT","NOV","DEZ"], "plantacao": { "active": [] }, "colheita": { "active": [] }, "disponibilidade": { "active": [] } } },
+      "17": { "name": "Produto 17", "cat": "Categoria", "storage": { "Armazenamento": "", "Transporte": "", "Embalamento": "" }, "characteristics": [], "calendar": { "months": ["JAN","FEV","MAR","ABR","MAI","JUN","JUL","AGO","SET","OUT","NOV","DEZ"], "plantacao": { "active": [] }, "colheita": { "active": [] }, "disponibilidade": { "active": [] } } }
+    },
+    "calendar": {
+      "plantacao": "PLANTAÇÃO",
+      "colheita": "COLHEITA",
+      "disponibilidade": "DISPONIBILIDADE"
+    },
+    "buttons": {
+      "backToProducts": "Ver outros produtos"
+    }
+  }
+}
+
+
+
