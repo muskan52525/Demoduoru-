@@ -28,14 +28,14 @@ const Products = () => {
   });
 
   const smallProducts = [
-    { name: smallProductsNames[0], img: ChestnutImg },
-    { name: smallProductsNames[1], img: Strawberries },
-    { name: smallProductsNames[2], img: mirtilo },
-    { name: smallProductsNames[3], img: kiwi },
-    { name: smallProductsNames[4], img: berries },
-    { name: smallProductsNames[5], img: uva },
-    { name: smallProductsNames[6], img: laranja },
-    { name: smallProductsNames[7], img: lemon },
+    { name: smallProductsNames[0], img: ChestnutImg, id:10 },
+    { name: smallProductsNames[1], img: Strawberries, id:11 },
+    { name: smallProductsNames[2], img: mirtilo, id:12 },
+    { name: smallProductsNames[3], img: kiwi, id:13 },
+    { name: smallProductsNames[4], img: berries, id:14 },
+    { name: smallProductsNames[5], img: uva, id:15 },
+    { name: smallProductsNames[6], img: laranja, id:16 },
+    { name: smallProductsNames[7], img: lemon, id:17 },
   ];
 
   useEffect(() => {
@@ -186,7 +186,7 @@ const Products = () => {
           {imagesLoaded && (
             <div className="max-w-full md:max-w-[1300px] mx-auto">
               <Slider key="loaded" ref={sliderRef} {...sliderSettings}>
-                {smallProducts.map((item, idx) => (
+                {smallProducts.map((item, idx, id) => (
                   <div key={idx} className="">
                     <div className="bg-white rounded-[30px] shadow-md p-6 flex flex-col items-center justify-between mx-auto max-w-[250px]">
                       <img
@@ -199,7 +199,7 @@ const Products = () => {
                       </h3>
                       <button
                         className="banner-button font-mulish min-w-[180px] md:min-w-[246px] mt-4 p-1 lg:px-6 lg:py-2 cursor-pointer"
-                        onClick={() => (window.location.href = "/products")}
+                        onClick={() => (window.location.href = `/product/${item.id}`)}
                       >
                         {t("products.learnMore")}
                       </button>
