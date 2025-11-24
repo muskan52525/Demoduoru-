@@ -26,7 +26,7 @@ const SobreCardComponent = () => {
               <img
                 src={market.image}
                 alt={market.title}
-                className="rounded-[32px] w-full h-[250px] object-cover"
+                className="rounded-[32px] w-[350px] h-[350px] object-cover"
               />
               <h3 className="bg-[#A4C428] font-mulish text-white  font-medium text-lg py-[10px] mt-[30px] leading-6 min-w-full lg:min-w-[380px] w-full">
                 {market.title}

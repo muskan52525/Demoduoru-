@@ -33,7 +33,7 @@ const ContactDetail = () => {
           </div>
           <div className="flex lg:items-start items-center lg:justify-start justify-center gap-4 cursor-pointer ">
             <img className="w-5 object-contain mt-2" src={LocationIcon} alt="location" />
-            <p className="text-black font-normal leading-[26px] text-base font-poppins">
+            <p className="text-black font-normal leading-[26px] text-base font-poppins lg:text-left text-center">
               Rua da Padaria, S/N, Granjinha/Sever,<br/>
               3620-503 Moimenta da Beira,
               Portugal

@@ -192,7 +192,7 @@ const Products = () => {
                       <img
                         src={item.img}
                         alt={item.name}
-                        className="h-[200px] w-[200px] object-contain"
+                        className="lg:h-[200px] h-[100px] w-[200px] object-contain"
                       />
                       <h3 className="text-[#9AC433] mt-4 text-[24px] leading-[30px] font-normal font-mono45">
                         {item.name}

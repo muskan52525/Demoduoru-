@@ -136,16 +136,26 @@ export default function Header() {
         </div>
 
         {/* ===== Mobile Menu Button ===== */}
-        <button
-          className="lg:hidden bg-[#ffd4d4] p-2 rounded-[4px]"
-          onClick={() => setMenuOpen(!menuOpen)}
-        >
+        <div className="lg:hidden flex w-full items-center justify-center mx-auto"> 
+          <button
+            className="lg:hidden bg-[#ffd4d4] p-2 rounded-[4px]"
+            onClick={() => setMenuOpen(!menuOpen)}
+          >
           {menuOpen ? (
             <IoMdClose color="#e5376b" className="h-6 w-6" />
           ) : (
             <FaBars color="#e5376b" className="h-6 w-6" />
           )}
-        </button>
+          </button>
+          <button className="block mx-auto" onClick={() => handleNavigate("/")}>
+            <img
+              src={Logo}
+              alt="Logo"
+              className="h-[60px] w-[60px] md:w-[110px] md:h-[110px] object-contain cursor-pointer"
+            />
+          </button>
+        </div>
+        
       </div>
 
       {/* ===== Mobile Navigation ===== */}

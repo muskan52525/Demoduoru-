@@ -24,7 +24,7 @@ export default function ProductDetail({ product: productProp }) {
         {/* ---------- MOBILE LAYOUT ---------- */}
         <div className="block lg:hidden px-5 md:px-[50px]">
           {/* Product Name */}
-          <h1 className="text-[34px] sm:text-[42px] font-medium font-mono45 uppercase tracking-wide text-[#E64C73] mb-6 text-center">
+          <h1 className="text-[34px] sm:text-[42px] font-medium font-mono45 uppercase tracking-wide text-[#E64C73] lg:mb-6 text-center">
             {product.name}
           </h1>
 
@@ -36,6 +36,15 @@ export default function ProductDetail({ product: productProp }) {
               className="object-contain w-full h-full"
             />
           </div>
+
+          {/* Category Box */}
+              {product.cat && (
+                <div className="flex-1 border border-[#E64C73] rounded-[16px] px-6 py-[12px] mb-6 flex justify-center">
+                  <span className="text-[22px] font-mono45 font-light uppercase tracking-wide text-[#E64C73] text-center">
+                    {product.cat}
+                  </span>
+                </div>
+              )}
 
           {/* Pink Info Box */}
           <div

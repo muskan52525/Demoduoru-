@@ -90,6 +90,9 @@ import decor41 from "../assets/png/productdecore-41.png";
 import decor42 from "../assets/png/productdecore-42.png";
 import decor43 from "../assets/png/productdecore-43.png";
 import decor44 from "../assets/png/productdecore-44.png";
+import decor45 from "../assets/png/ESMOLFE-1.png";
+import decor46 from "../assets/png/ESMOLFE-3.png";
+import decor47 from "../assets/png/ESMOLFE-2.png"
 
 
 export const products = [
@@ -309,6 +312,11 @@ export const products = [
     id: 8,
     name: "Maçã Bravo Esmolfe",
     img: productcardApple,
+    decor: {
+    topLeft:    decor45,
+    topRight:   decor46,
+    bottomLeft: decor47
+    },
     storage: {
       Armazenamento: "Em Atmosfera Controlada ou em Frio Normal.",
       Transporte: "veículos frigoríficos à temperatura de 0ºC e 2ºC.",

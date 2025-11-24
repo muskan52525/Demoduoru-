@@ -21,7 +21,7 @@ const Banner = () => {
 
   return (
     <>
-      <div className="hidden">
+      <div className="lg:hidden">
         <img
           src={bannerData.bannerImg}
           className="2xl:h-[820px] w-full object-cover"
