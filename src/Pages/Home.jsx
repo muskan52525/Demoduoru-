@@ -4,7 +4,7 @@ import Banner from '../components/Banner'
 import Products from '../components/Products'
 import ContactForm from '../components/ContactForm'
 import StoryPage from '../components/StoryPage'
-import BlackberryImg from "../assets/jpg/BlackberryImg.jpg"
+import BlackberryImg from "../assets/png/formulario_contacto.png"
 import ContactFormImage from "../assets/png/Contact_form_image.png"
 
 const Home = () => {

@@ -9,7 +9,7 @@
   "sobre": {
     "history_title": "A NOSSA HISTÓRIA",
     "history_subtitle": "It´s tasty because it´s ours",
-    "history_paragraph": "Somos uma empresa dedicada à produção e comercialização de frutas, localizada nas belas terras do Demo e nas encostas do Douro, no norte de Portugal.O nosso nome, Demodouro, nasceu da paixão com que cultivamos a nossa fruta nestas terras únicas.",
+    "history_paragraph": "Somos uma empresa dedicada à produção e comercialização de frutas, localizada nas belas terras do Demo e nas encostas do Douro, no norte de Portugal. O nosso nome, Demodouro, nasceu da paixão com que cultivamos a nossa fruta nestas terras únicas.",
     "buttonText": "saber mais"
   },
   "products": {
@@ -67,7 +67,7 @@
     "message": "Mensagem",
     "required": "{{field}} é obrigatório",
     "invalidEmail": "Por favor, insira um email válido",
-    "buttonText": "saber mais",
+    "buttonText": "enviar",
     "mobileButtonText": "enviar"
   },
   "footer": {

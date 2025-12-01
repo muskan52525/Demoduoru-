@@ -25,17 +25,17 @@ const StoryPage = () => {
         backgroundImage: `url(${StoryBgImg})`,
       }}
     >
-      <div className="max-w-6xl mx-auto text-center rounded-xl pt-[30px] md:pt-[60px] md:pb-[60px] pb-[30px]">
+      <div className="max-w-6xl mx-auto text-center rounded-xl pt-[30px] md:pt-[30px] md:pb-[30px] pb-[30px]">
         {/* Subheading */}
 
         {/* Main Heading */}
         <h2
-          class="text-outline-pink font-normal text-[20px] md:text-[40px] mt-1 md:leading-[70px] font-mono45"
+          class="text-outline-white font-normal text-[20px] md:text-[40px] mt-1 md:leading-[70px] font-mono45"
         >
           FIQUE A PAR DAS NOVIDADES
         </h2>
 
-        <p className="uppercase text-2xl text-[#E5376B] tracking-widest mt-[27px]">
+        <p className="uppercase text-base text-[#E5376B] tracking-widest mt-[15px]">
           Siga-nos nas redes sociais
         </p>
 
@@ -68,7 +68,7 @@ const StoryPage = () => {
                 <img
                   src={post.img}
                   alt="post"
-                  className="w-full h-auto object-contain"
+                  className="w-full h-[350px] object-cover object-top"
                 />
               </div>
 

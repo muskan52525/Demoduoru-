@@ -33,11 +33,11 @@ const Banner = () => {
         style={{ backgroundImage: `url(${bgImg})` }}
       >
         {/* center */}
-        <div className="flex flex-col items-center justify-center h-full absolute">
+        <div className="flex flex-col items-center justify-center h-full absolute" style={{ width:"25%"}}>
           <img
             src={currentLangImages.novidade}
             alt="Novidade"
-            className="w-16 sm:w-40 2xl:w-96"
+            className="w-16 sm:w-40 2xl:w-75"
           />
           <img
             src={currentLangImages.tittle}

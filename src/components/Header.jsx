@@ -15,14 +15,14 @@ export default function Header() {
   const { t, i18n } = useTranslation();
 
   // Force re-render on language change
-  const [, forceUpdate] = useState(0);
-  useEffect(() => {
-    const handleLanguageChanged = () => forceUpdate((n) => n + 1);
-    i18n.on("languageChanged", handleLanguageChanged);
-    return () => {
-      i18n.off("languageChanged", handleLanguageChanged);
-    };
-  }, [i18n]);
+  // const [, forceUpdate] = useState(0);
+  // useEffect(() => {
+  //   const handleLanguageChanged = () => forceUpdate((n) => n + 1);
+  //   i18n.on("languageChanged", handleLanguageChanged);
+  //   return () => {
+  //     i18n.off("languageChanged", handleLanguageChanged);
+  //   };
+  // }, [i18n]);
 
   // Updated keys to include "header." prefix
   const links = [
@@ -71,14 +71,33 @@ export default function Header() {
     <header className="bg-[#E5376B] relative">
       <div className="max-w-[1468px] mx-auto w-full px-6 flex items-center justify-between py-2 lg:py-3">
         {/* ===== Desktop Navigation ===== */}
-        <div className="hidden lg:flex w-full items-center justify-center mx-auto max-w-5xl gap-x-20">
+        <div className="hidden lg:flex w-full items-center justify-center mx-auto gap-x-20">
           {/* Left Links */}
-          <div className="flex items-center gap-20 justify-center w-1/2">
+          <div className="flex items-center gap-20 justify-center">
             {links.slice(0, 2).map(({ path, labelKey }) => (
               <button
                 key={labelKey}
                 onClick={() => handleNavigate(path)}
-                className={`text-white text-base font-poppins font-medium px-[18px] py-[2px]  cursor-pointer hover:opacity-80 transition lowercase ${
+                className={`text-white text-base font-poppins font-black px-[18px] py-[2px]  cursor-pointer hover:opacity-80 transition lowercase ${
+                  activePath === path ? "active-link" : ""
+                }`}
+              >
+                {t(labelKey)}
+              </button>
+            ))}
+            {/* Center Logo */}
+          <button onClick={() => handleNavigate("/")}>
+            <img
+              src={Logo}
+              alt="Logo"
+              className="h-[60px] w-[60px] md:w-[110px] md:h-[110px] object-contain cursor-pointer"
+            />
+          </button>
+            {links.slice(2,4).map(({ path, labelKey }) => (
+              <button
+                key={labelKey}
+                onClick={() => handleNavigate(path)}
+                className={`text-white text-base font-poppins font-black px-[18px] py-[2px]  cursor-pointer hover:opacity-80 transition lowercase ${
                   activePath === path ? "active-link" : ""
                 }`}
               >
@@ -87,22 +106,16 @@ export default function Header() {
             ))}
           </div>
 
-          {/* Center Logo */}
-          <button onClick={() => handleNavigate("/")}>
-            <img
-              src={Logo}
-              alt="Logo"
-              className="h-[60px] w-[60px] md:w-[110px] md:h-[110px] object-contain cursor-pointer"
-            />
-          </button>
+          
 
           {/* Right Links */}
-          <div className="flex items-center gap-8 justify-between w-1/2">
-            {links.slice(2).map(({ path, labelKey, isLangSwitcher }) => (
+          <div className="flex items-center gap-8 justify-between">
+            
+            {links.slice(4).map(({ path, labelKey, isLangSwitcher }) => (
               <div key={labelKey} className="relative" ref={isLangSwitcher ? dropdownRef : null}>
                 <button
                   onClick={() => handleNavigate(path, isLangSwitcher)}
-                  className={`text-white text-base px-[18px] py-[2px]  cursor-pointer font-poppins font-medium hover:opacity-80 transition  ${
+                  className={`text-white text-base px-[18px] py-[2px]  cursor-pointer font-poppins font-black hover:opacity-80 transition  ${
                     !isLangSwitcher && activePath === path ? "active-link" : ""
                   }`}
                 >

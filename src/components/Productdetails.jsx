@@ -109,7 +109,7 @@ export default function ProductDetail({ product: productProp }) {
             <img
               src={product.img}
               alt={product.name}
-              className={`object-contain w-full h-full ${
+              className={`object-contain w-full h-full md:mt-[50px] ${
                 product.imageAdjust ?? ""
               }`}
             />
@@ -128,7 +128,7 @@ export default function ProductDetail({ product: productProp }) {
               {/* Category Box */}
               {product.cat && (
                 <div className="flex-1 border border-[#E64C73] rounded-[16px] px-6 py-[12px] flex justify-center">
-                  <span className="text-[22px] font-mono45 font-light uppercase tracking-wide text-[#E64C73] text-center">
+                  <span className="text-[22px] font-mono45 font-regular uppercase tracking-wide text-[#E64C73] text-center">
                     {product.cat}
                   </span>
                 </div>
@@ -150,7 +150,7 @@ export default function ProductDetail({ product: productProp }) {
 
           <div className="col-span-1">
             <div
-              className="rounded-[28px] bg-white p-5 shadow-[0_8px_30px_rgba(0,0,0,0.08)] border-2 sm:px-[18px] sm:py-[18px] w-full min-h-[225px]"
+              className="rounded-[28px] bg-white p-5 shadow-[0_8px_30px_rgba(0,0,0,0.08)] border-2 sm:px-[18px] sm:py-[18px] w-full min-h-[225px] content-center"
               style={{ borderColor: PINK }}
             >
               <dl className="space-y-5 sm:space-y-4">
@@ -172,7 +172,7 @@ export default function ProductDetail({ product: productProp }) {
           </div>
 
           <div className="col-span-2">
-            <div className="rounded-[38px] p-10 px-5 sm:px-10 sm:py-[38px] text-white font-poppins bg-[#A1C128] mb-10">
+            <div className="rounded-[38px] p-10 px-5 sm:px-10 sm:py-[48px] text-white font-poppins bg-[#A1C128] mb-10">
               <Calendar
                 months={product.calendar?.months}
                 plantacao={product.calendar?.plantacao}
@@ -403,7 +403,7 @@ function ProductDecor({ decor }) {
           src={topLeft}
           alt=""
           className="pointer-events-none select-none hidden lg:block 
-                      absolute top-0 left-0 h-[200px] w-[200px]"
+                      absolute top-0 left-0 h-[200px] w-[200px] mt-[20px]"
         />
       )}
 
@@ -412,7 +412,7 @@ function ProductDecor({ decor }) {
           src={topRight}
           alt=""
           className="pointer-events-none select-none  hidden lg:block
-                      absolute top-0 right-0 h-[200px] w-[200px]"
+                      absolute top-0 right-0 h-[200px] w-[200px] mt-[20px]"
         />
       )}
 
@@ -421,7 +421,7 @@ function ProductDecor({ decor }) {
           src={bottomLeft}
           alt=""
           className="pointer-events-none select-none hidden lg:block
-                      absolute bottom-0 left-0 h-[200px] w-[200px]"
+                      absolute bottom-0 left-0 h-[200px] w-[200px] mb-[20px]"
         />
       )}
     </>

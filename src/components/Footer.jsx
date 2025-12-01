@@ -13,11 +13,11 @@ const Footer = () => {
       <footer className="bg-[#A1C835] text-gray-800 py-10">
         <div className="max-w-[1360px] mx-auto flex flex-col items-center sm:grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 lg:gap-10 gap-5 px-6 sm:items-start">
           {/* Logo */}
-          <div className="flex items-center md:items-start justify-start md:justify-center h-full">
+          <div className="flex items-center md:items-start justify-start md:justify-start h-full">
             <img
               src={Logo}
               alt="Demodouro"
-              className="h-[100px] w-[100px] md:h-[150px] md:w-[150px] object-contain mb-4"
+              className="h-[100px] w-[100px] md:h-[242px] md:w-[190px] object-cover object-top mb-4"
             />
           </div>
 

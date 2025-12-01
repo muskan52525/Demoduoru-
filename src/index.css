@@ -37,6 +37,12 @@ body {
   paint-order: stroke fill;
 }
 
+.text-outline-white {
+  color: #ffffff;
+  -webkit-text-stroke: 7px #e5376b;
+  paint-order: stroke fill;
+}
+
 .banner-button {
   background-color: #e5376b;
   font-weight: 600;
@@ -44,6 +50,10 @@ body {
   color: #ffffff;
   line-height: 24px;
   min-width: 160px;
+}
+
+.slider-button{
+  min-width:130px !important;
 }
 
 .card-btn {

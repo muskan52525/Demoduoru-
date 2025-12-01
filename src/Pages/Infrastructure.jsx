@@ -19,7 +19,7 @@ const Infrastructure = () => {
       style={{
         backgroundImage: `url(${bgImage})`,
         backgroundPosition: "center center, center center",
-        backgroundSize: "cover, cover",
+        backgroundSize: "100% 100%",
         backgroundRepeat: "no-repeat, no-repeat",
       }}
     >

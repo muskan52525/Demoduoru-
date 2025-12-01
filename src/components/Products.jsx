@@ -74,13 +74,13 @@ const Products = () => {
 
   return (
     <section className="bg-[#A1C128] w-full relative">
-      <div className="md:py-[100px] py-[60px]  px-5">
+      <div className="md:py-[65px] py-[60px]  px-5">
         {/* Section Header */}
         <div className="max-w-[853px] mx-auto text-center">
           <p className="text-white uppercase tracking-wide md:text-2xl text-base font-medium leading-[22px] font-poppins">
             {t("products.sectionTitle")}
           </p>
-          <h2 className="text-outline-pink font-normal text-[20px] md:text-[40px] mt-1 md:leading-[70px] font-mono45">
+          <h2 className="text-outline-pink font-normal text-[20px] md:text-4xl mt-1 md:leading-[70px] font-mono45">
             {t("products.sectionHeading")}
           </h2>
           <p className="text-white mt-1 md:text-base text-sm font-medium leading-6 mx-auto font-poppins md:max-w-[690px] max-w-full w-full">
@@ -90,11 +90,11 @@ const Products = () => {
 
         {/* Main Products */}
         <div className="max-w-full sm:max-w-[1300px] mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-[30] lg:gap-[70px] justify-between mt-[30px] sm:mt-[60px] md:mt-[100px] px-5 2xl:px-0 gap-y-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-[30] lg:gap-[70px] justify-between mt-[30px] sm:mt-[60px] md:mt-[65px] px-5 2xl:px-0 gap-y-4">
             {mainProductsData.map((product, index) => (
               <div
                 key={index}
-                className="bg-white rounded-[40px] shadow-md p-4 md:p-[46px] flex md:flex-row flex-col items-center justify-between gap-3 md:gap-10 md:max-w-[650px] max-w-full w-full mx-auto"
+                className="bg-white rounded-[40px] shadow-md p-4 md:px-[10px] flex md:flex-row flex-col items-center justify-around gap-3 md:gap-10 md:max-w-[650px] max-w-full w-full mx-auto"
               >
                 {/* --- DESKTOP VIEW --- */}
                 <div className="hidden md:flex flex-col items-center h-full justify-between">
@@ -110,7 +110,7 @@ const Products = () => {
                   </p>
                 </div>
 
-                <div className="hidden md:flex flex-col justify-between gap-1 h-full">
+                <div className="hidden md:flex flex-col gap-1">
                   <h3 className="text-[#9AC433] text-2xl md:text-[32px] font-normal text-start uppercase leading-tight font-mono45">
                     {product.name}
                   </h3>
@@ -125,7 +125,7 @@ const Products = () => {
                     </ul>
                   </div>
                   <button
-                    className="banner-button font-poppins font-medium min-w-[180px] md:min-w-[246px] mt-6 p-1 lg:px-6 lg:py-2 cursor-pointer"
+                    className="banner-button slider-button font-poppins font-medium min-w-[180px] md:min-w-[246px] mt-6 p-1 lg:px-6 lg:py-2 cursor-pointer flex-none"
                     onClick={() => (window.location.href = "/products")}
                   >
                     {t("products.learnMore")}
@@ -160,7 +160,7 @@ const Products = () => {
                   </p>
 
                   <button
-                    className="banner-button font-mulish text-sm px-4 py-1 mt-4 cursor-pointer"
+                    className="banner-button slider-button font-mulish text-sm px-4 py-1 mt-4 cursor-pointer"
                     onClick={() => (window.location.href = "/products")}
                   >
                     {t("products.learnMore")}
@@ -198,7 +198,7 @@ const Products = () => {
                         {item.name}
                       </h3>
                       <button
-                        className="banner-button font-mulish min-w-[180px] md:min-w-[246px] mt-4 p-1 lg:px-6 lg:py-2 cursor-pointer"
+                        className="banner-button slider-button font-poppins min-w-[180px] md:min-w-[246px] mt-4 p-1 lg:px-6 lg:py-2 cursor-pointer"
                         onClick={() => (window.location.href = `/product/${item.id}`)}
                       >
                         {t("products.learnMore")}

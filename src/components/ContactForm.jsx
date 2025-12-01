@@ -75,11 +75,11 @@ const ContactForm = ({
         >
           <div className="flex flex-col justify-center px-6 py-8 md:px-8 md:py-12 mx-auto max-w-[650px] w-full text-center md:text-start">
             <h2
-              className={`text-3xl font-bold mb-2 text-outline-shadow drop-shadow-[0px_4px_4px_#D6134D] font-mono45 ${outlineClass}`}
+              className={`text-4xl font-bold mb-2 text-outline-shadow drop-shadow-[0px_4px_4px_#D6134D] font-mono45 ${outlineClass}`}
             >
               {t("contactForm.heading")}
             </h2>
-            <p className="font-light text-base md:text-xl leading-[26px] mt-[2px] text-white mb-3 font-poppins text-center md:text-start">
+            <p className="font-light text-base md:text-base leading-[26px] mt-[2px] text-white mb-3 font-poppins text-center md:text-start">
               {t("contactForm.subheading")}
             </p>
 

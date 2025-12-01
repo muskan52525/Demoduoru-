@@ -205,7 +205,7 @@ export const products = [
     characteristics: [
       { label: "FORMA", value: "arredondada e achatada, com contornos irregulares" },
       { label: "CALIBRE", value: "65 mm a +90 mm" },
-      { label: "TEXTURA", value: "textura firme com um toque farináceob e pouco sumarenta" },
+      { label: "TEXTURA", value: "textura firme com um toque farináceo e pouco sumarenta" },
       { label: "COR", value: "casca rugosa e em tons de verde-acastanhado" },
       { label: "SABOR", value: "doce e com elevada acidez" },
       { label: "ACIDEZ", value: "não existe acidez específica" },
@@ -304,7 +304,7 @@ export const products = [
     calendar: {
       months: ["JAN","FEV","MAR","ABR","MAI","JUN","JUL","AGO","SET","OUT","NOV","DEZ"],
       plantacao: { active: [0, 1, 2, 10, 11] },
-  colheita: { active: [9, 10] },
+  colheita: { active: [8,9] },
   disponibilidade: { active: [0, 1, 2, 3, 9, 10, 11] }             
     }
   },
@@ -335,7 +335,7 @@ export const products = [
       months: ["JAN","FEV","MAR","ABR","MAI","JUN","JUL","AGO","SET","OUT","NOV","DEZ"],
     plantacao: { active: [0, 1, 2, 10, 11] },
   colheita: { active: [9, 8] },
-  disponibilidade: { active: [0, 1, 2, 10, 11] }            
+  disponibilidade: { active: [0, 1, 2, 9, 10, 11] }            
     }
   },
   {

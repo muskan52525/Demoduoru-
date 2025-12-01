@@ -75,7 +75,7 @@ const ProductsCards = () => {
                 {product.name}
               </h3>
               <button
-                className="banner-button font-medium font-poppins min-w-[180px] md:min-w-[246px] mt-2 p-1 lg:px-6 lg:py-2 cursor-pointer"
+                className="banner-button slider-button font-medium font-poppins min-w-[180px] md:min-w-[246px] mt-2 p-1 lg:px-6 lg:py-2 cursor-pointer"
                 onClick={() => {
                   navigate(`/product/${product.id}`);
                   window.scrollTo(0, 0);
