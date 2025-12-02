@@ -58,11 +58,11 @@ const Hero = () => {
           {t("sobre.history_title")}
         </h2>
 
-        <p className="text-[#A4C428] uppercase text-lg md:text-4xl font-medium leading-[22px]">
+        <p className="text-[#A4C428] uppercase text-2xl md:text-4xl font-medium leading-[22px]">
           {t("sobre.history_subtitle")}
         </p>
 
-        <p className="text-[#666F77] 2xl:mt-6 md:mt-4 mt-3 text-sm sm:text-base leading-[26px] font-normal px-2 whitespace-pre-line">
+        <p className="text-[#666F77] 2xl:mt-6 md:mt-4 mt-3 text-base sm:text-base leading-[26px] font-normal px-2 whitespace-pre-line">
           {t("sobre.history_paragraph")}
         </p>
 

@@ -8,10 +8,10 @@ const SobreHistory = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 items-center px-3 py-5 md:flex">
       <div className="w-full max-w-full md:max-w-[700px] mx-auto">
-        <h3 className="green-titile text-center lg:text-left">
+        <h3 className="green-titile text-center text-xl md:text-2xl lg:text-left">
           {t("aboutHistory.subtitle")}
         </h3>
-        <h2 className="pink-title mt-[19px] text-center lg:text-left">
+        <h2 className="pink-title mt-[19px] text-center text-2xl md:text-3xl lg:text-left">
           {t("aboutHistory.title")}
         </h2>
 
@@ -20,7 +20,7 @@ const SobreHistory = () => {
         </p>
       </div>
 
-      <div className="flex justify-center mx-auto h-[550px] w-[400px]">
+      <div className="flex justify-center mx-auto h-[550px] w-[365px] md:w-[400px]">
         <img src={Map} alt="DetailImg" className="h-full w-full object-contain" />
       </div>
     </div>

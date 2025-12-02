@@ -175,40 +175,55 @@ export default function Header() {
       {menuOpen && (
         <div className="lg:hidden flex flex-col items-center gap-3 bg-[#E5376B] pb-6">
           {links.map(({ path, labelKey, isLangSwitcher }) => (
-            <div key={labelKey} className="relative">
-              <button
-                onClick={() => handleNavigate(path, isLangSwitcher)}
-                className={`font-medium text-base px-[18px] py-[2px] ${
-                  !isLangSwitcher && activePath === path
-                    ? "text-[#ffd4d4]"
-                    : "text-white"
-                }`}
-              >
-                {!isLangSwitcher ? t(labelKey) : "PT | EN"}
-              </button>
+  <div key={labelKey} className="relative" ref={isLangSwitcher ? dropdownRef : null}>
+    <button
+      onClick={(e) => {
+        e.stopPropagation();
+        handleNavigate(path, isLangSwitcher);
+      }}
+      className={`font-medium text-base px-[18px] py-[2px] ${
+        !isLangSwitcher && activePath === path
+          ? "text-[#ffd4d4]"
+          : "text-white"
+      }`}
+    >
+      {!isLangSwitcher ? t(labelKey) : "PT | EN"}
+    </button>
 
-              {isLangSwitcher && showLangDropdown && (
-                <div className="absolute left-1/2 transform -translate-x-1/2 mt-2 w-[100px] bg-white rounded-xl shadow-md z-10">
-                  <button
-                    onClick={() => handleLanguageChange("pt")}
-                    className={`block w-full text-center px-3 py-2 hover:bg-gray-100 ${
-                      i18n.language === "pt" ? "text-[#E5376B] font-bold" : ""
-                    }`}
-                  >
-                    PT
-                  </button>
-                  <button
-                    onClick={() => handleLanguageChange("en")}
-                    className={`block w-full text-center px-3 py-2 hover:bg-gray-100 ${
-                      i18n.language === "en" ? "text-[#E5376B] font-bold" : ""
-                    }`}
-                  >
-                    EN
-                  </button>
-                </div>
-              )}
-            </div>
-          ))}
+    {/* Mobile Language Dropdown */}
+    {isLangSwitcher && showLangDropdown && (
+      <div
+        className="absolute left-1/2 transform -translate-x-1/2 mt-2 w-[100px] bg-white rounded-xl shadow-md z-10"
+        onClick={(e) => e.stopPropagation()}
+      >
+        <button
+          onClick={(e) => {
+            e.stopPropagation();
+            handleLanguageChange("pt");
+          }}
+          className={`block w-full text-center px-3 py-2 hover:bg-gray-100 ${
+            i18n.language === "pt" ? "text-[#E5376B] font-bold" : ""
+          }`}
+        >
+          PT
+        </button>
+
+        <button
+          onClick={(e) => {
+            e.stopPropagation();
+            handleLanguageChange("en");
+          }}
+          className={`block w-full text-center px-3 py-2 hover:bg-gray-100 ${
+            i18n.language === "en" ? "text-[#E5376B] font-bold" : ""
+          }`}
+        >
+          EN
+        </button>
+      </div>
+    )}
+  </div>
+))}
+
         </div>
       )}
     </header>

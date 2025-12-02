@@ -7,10 +7,10 @@ const SobreCardComponent = () => {
   return (
     <section className="bg-[#E5376B] py-[60px] md:py-[125px]">
       <div className="flex flex-col max-w-[1407px] mx-auto text-center px-4 gap-4 ">
-        <h4 className="uppercase text-white text-2xl font-medium leading-[22px] tracking-[1.28px] font-poppins">
+        <h4 className="uppercase text-white text-xl md:text-2xl font-medium leading-[22px] tracking-[1.28px] font-poppins">
           {t("sobreCard.subtitle")}
         </h4>
-        <h2 className="font-mono45 font-normal text-[40px] text-outline-green leading-[45px]">
+        <h2 className="font-mono45 font-normal text-2xl md:text-[40px] text-outline-green leading-[45px]">
           {t("sobreCard.title")}
         </h2>
         <p className="text-white text-base sm:text-lg font-poppins font-normal leading-6 mb-3 sm:max-w-[704px] mx-auto">

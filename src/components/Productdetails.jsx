@@ -22,7 +22,7 @@ export default function ProductDetail({ product: productProp }) {
       <ProductDecor decor={product.decor} />
       <div className="mx-auto max-w-[1400px] px-4 sm:px-6 lg:px-0">
         {/* ---------- MOBILE LAYOUT ---------- */}
-        <div className="block lg:hidden px-5 md:px-[50px]">
+        <div className="block lg:hidden md:px-5 md:px-[50px]">
           {/* Product Name */}
           <h1 className="text-[34px] sm:text-[42px] font-medium font-mono45 uppercase tracking-wide text-[#E64C73] lg:mb-6 text-center">
             {product.name}
@@ -40,7 +40,7 @@ export default function ProductDetail({ product: productProp }) {
           {/* Category Box */}
               {product.cat && (
                 <div className="flex-1 border border-[#E64C73] rounded-[16px] px-6 py-[12px] mb-6 flex justify-center">
-                  <span className="text-[22px] font-mono45 font-light uppercase tracking-wide text-[#E64C73] text-center">
+                  <span className="text-[22px] font-mono45 font-regular uppercase tracking-wide text-[#E64C73] text-center">
                     {product.cat}
                   </span>
                 </div>
@@ -207,7 +207,7 @@ function CharLine({ label, value }) {
         className="relative h-auto flex items-start before:content-[''] before:w-[10px] before:h-[10px] before:bg-white
       before:rounded-full before:absolute before:left-0 before:-bottom-[6px] before:z-[2]"
       >
-        <span className="relative z-[1] text-sm sm:text-lg font-medium uppercase leading-[28px] font-poppins pl-5">
+        <span className="relative z-[1] text-sm sm:text-lg font-medium uppercase leading-[28px] font-poppins md:pl-5">
           {label}
         </span>
       </div>
@@ -270,7 +270,7 @@ function Calendar({
 
         {/* Mobile months (one letter each, no scroll) */}
         <div className="block sm:hidden">
-          <div className="ml-[30px] grid grid-cols-12 gap-[2px]">
+          <div className="md:ml-[30px] ml-[40px] grid grid-cols-12 gap-[2px]">
             {shortMonths.map((m, i) => (
               <span
                 key={i}
@@ -341,7 +341,7 @@ function Row({ label, months, data, activeColor = "rgba(255,255,255,0.95)" }) {
         className="relative h-auto flex items-center before:content-[''] before:w-[10px] before:h-[10px] before:bg-white
       before:rounded-full before:absolute before:left-0 before:-bottom-[9px] before:z-[2]"
       >
-        <span className="relative z-[1] text-xs ml-3 sm:text-[17px] font-medium uppercase font-poppins leading-[28px] ">
+        <span className="relative z-[1] text-xs md:ml-3 sm:text-[17px] font-medium uppercase font-poppins leading-[28px] ">
           {label}
         </span>
       </div>

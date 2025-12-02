@@ -30,7 +30,7 @@ const StoryPage = () => {
 
         {/* Main Heading */}
         <h2
-          class="text-outline-white font-normal text-[20px] md:text-[40px] mt-1 md:leading-[70px] font-mono45"
+          class="text-outline-white font-normal text-2xl md:text-[40px] mt-1 md:leading-[70px] font-mono45"
         >
           FIQUE A PAR DAS NOVIDADES
         </h2>
