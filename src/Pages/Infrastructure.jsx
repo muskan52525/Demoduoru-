@@ -2,6 +2,7 @@ import React from 'react'
 import AboutInfraStructure from '../components/AboutInfraStructure'
 import { InfraData } from "../data/form";
 import bgImage from "../assets/png/IngraBgimg.png";
+import bgImageMobile from "../assets/png/image_INFRAESTRUTURAS.png";
 import InfraDistribute from '../components/InfraDistribute'
 import ContactForm from '../components/ContactForm'
 import Infraform from "../assets/jpg/infraform.jpg"
@@ -15,7 +16,7 @@ const Infrastructure = () => {
     <>
       <AboutInfraStructure/>
        <section
-      className="relative bg-cover bg-center min-h-[800px] md:min-h-[700px] w-full flex items-center justify-center"
+      className="hidden md:block relative bg-cover bg-center min-h-[800px] md:min-h-[700px] w-full flex items-center justify-center"
       style={{
         backgroundImage: `url(${bgImage})`,
         backgroundPosition: "center center, center center",
@@ -24,7 +25,7 @@ const Infrastructure = () => {
       }}
     >
   
-      <div className="hidden md:block absolute inset-0">
+      <div className="absolute inset-0">
         {InfraData.map((feature, index) => {
           const positions = [
             { top: "60px", left: "450px" },
@@ -57,8 +58,20 @@ const Infrastructure = () => {
         })}
       </div>
 
-      {/* Mobile View */}
-      <div className="md:hidden grid grid-cols-1 md:grid-cols-2 gap-4 px-6 py-10 ">
+    </section>
+    
+    {/* Mobile View */}
+    <section
+      className="relative bg-cover bg-center min-h-[800px] md:min-h-[700px] w-full flex items-center justify-center md:hidden "
+      style={{
+        backgroundImage: `url(${bgImageMobile})`,
+        backgroundPosition: "center center, center center",
+        backgroundSize: "100% 100%",
+        backgroundRepeat: "no-repeat, no-repeat",
+      }}
+    >
+
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 px-6 py-10 ">
         {InfraData.map((feature) => (
           <div
             key={feature.id}
