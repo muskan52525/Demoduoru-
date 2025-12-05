@@ -35,7 +35,7 @@ const StoryPage = () => {
           FIQUE A PAR DAS NOVIDADES
         </h2>
 
-        <p className="uppercase text-base text-[#E5376B] tracking-widest mt-[15px]">
+        <p className="uppercase text-base text-[#E5376B] tracking-widest">
           Siga-nos nas redes sociais
         </p>
 
@@ -68,7 +68,7 @@ const StoryPage = () => {
                 <img
                   src={post.img}
                   alt="post"
-                  className="w-full h-[350px] object-cover object-top"
+                  className="w-full h-[300px] object-cover object-top"
                 />
               </div>
 

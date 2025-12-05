@@ -1,8 +1,9 @@
 import React from 'react'
 import AboutInfraStructure from '../components/AboutInfraStructure'
 import { InfraData } from "../data/form";
-import bgImage from "../assets/png/IngraBgimg.png";
-import bgImageMobile from "../assets/png/image_INFRAESTRUTURAS.png";
+import bgImage from "../assets/png/image_INFRAESTRUTURAS.png";
+import bgImageMobile from "../assets/png/image_INFRAESTRUTURA_ MOBILE.png";
+import logobanner from "../assets/png/logo banner_INFRAESTRUTURAS.png";
 import InfraDistribute from '../components/InfraDistribute'
 import ContactForm from '../components/ContactForm'
 import Infraform from "../assets/jpg/infraform.jpg"
@@ -16,16 +17,22 @@ const Infrastructure = () => {
     <>
       <AboutInfraStructure/>
        <section
-      className="hidden md:block relative bg-cover bg-center min-h-[800px] md:min-h-[700px] w-full flex items-center justify-center"
-      style={{
-        backgroundImage: `url(${bgImage})`,
-        backgroundPosition: "center center, center center",
-        backgroundSize: "100% 100%",
-        backgroundRepeat: "no-repeat, no-repeat",
-      }}
-    >
-  
-      <div className="absolute inset-0">
+  className="hidden md:block relative w-full min-h-[800px] md:min-h-[700px] bg-cover bg-center"
+  style={{
+    backgroundImage: `url(${bgImage})`,
+    backgroundPosition: "center center",
+    backgroundSize: "cover",          // full width, no stretch
+    backgroundRepeat: "no-repeat",
+  }}
+>
+  <img
+    src={logobanner}
+    className="w-[15%] absolute top-[50%] left-[52%] -translate-x-1/2 -translate-y-1/2"
+    alt=""
+  />
+</section>
+
+    {/* <div className="absolute inset-0">
         {InfraData.map((feature, index) => {
           const positions = [
             { top: "60px", left: "450px" },
@@ -56,9 +63,7 @@ const Infrastructure = () => {
             </div>
           );
         })}
-      </div>
-
-    </section>
+      </div> */}
     
     {/* Mobile View */}
     <section

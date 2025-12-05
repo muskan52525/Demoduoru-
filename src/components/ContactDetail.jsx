@@ -18,20 +18,20 @@ const ContactDetail = () => {
           <p className="text-black font-normal text-center lg:text-left leading-[26px] text-base font-poppins">
             Fale diretamente connosco e prove o melhor que temos para lhe dar
           </p>
-          <div className="flex lg:items-start items-center lg:justify-start justify-center gap-4 cursor-pointer font-poppins">
+          <div className="flex flex-col lg:flex-row lg:items-start items-center lg:justify-start justify-center gap-1 md:gap-4 cursor-pointer font-poppins">
             <img className="w-5 object-contain mt-2" src={PhoneIcon} alt=""/>
             <p className="text-black font-normal leading-[26px] text-base font-poppins">
               (+351) 912 345 678 <br />
               (+351) 925 524 855
             </p>
           </div>
-          <div className="flex lg:items-start items-center lg:justify-start justify-center gap-4 cursor-pointer">
+          <div className="flex flex-col lg:flex-row lg:items-start items-center lg:justify-start justify-center gap-1 md:gap-4 cursor-pointer">
             <img className="w-5 object-contain mt-1" src={MessageIcon} alt="MessageIcon" />
             <p className="text-black font-normal leading-[26px] text-base font-poppins">
               geral@demodouro.pt
             </p>
           </div>
-          <div className="flex lg:items-start items-center lg:justify-start justify-center gap-4 cursor-pointer ">
+          <div className="flex flex-col lg:flex-row lg:items-start items-center lg:justify-start justify-center gap-1 md:gap-4 cursor-pointer ">
             <img className="w-5 object-contain mt-2" src={LocationIcon} alt="location" />
             <p className="text-black font-normal leading-[26px] text-base font-poppins lg:text-left text-center">
               Rua da Padaria, S/N, Granjinha/Sever,<br/>

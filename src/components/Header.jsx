@@ -26,10 +26,10 @@ export default function Header() {
 
   // Updated keys to include "header." prefix
   const links = [
-    { path: "/products", labelKey: "header.products" },
-    { path: "/infrastructure", labelKey: "header.infrastructure" },
-    { path: "/sobre", labelKey: "header.about" },
-    { path: "/contact", labelKey: "header.contact" },
+    { path: "/products", labelKey: "header.products", newTab: true  },
+    { path: "/infrastructure", labelKey: "header.infrastructure", newTab: true  },
+    { path: "/sobre", labelKey: "header.about", newTab: true  },
+    { path: "/contact", labelKey: "header.contact", newTab: true  },
     { path: "", labelKey: "header.language", isLangSwitcher: true },
   ];
 
@@ -68,24 +68,40 @@ export default function Header() {
   }, []);
 
   return (
-    <header className="bg-[#E5376B] relative">
+    <header className="bg-[#E5376B] relative sticky top-0 z-50">
       <div className="max-w-[1468px] mx-auto w-full px-6 flex items-center justify-between py-2 lg:py-3">
         {/* ===== Desktop Navigation ===== */}
         <div className="hidden lg:flex w-full items-center justify-center mx-auto gap-x-20">
           {/* Left Links */}
           <div className="flex items-center gap-20 justify-center">
-            {links.slice(0, 2).map(({ path, labelKey }) => (
+            {links.slice(0, 2).map(({ path, labelKey, newTab }) => (
+              newTab ? (
+                <a
+                  key={labelKey}
+                  onClick={() => setActivePath(path)}
+                  href={path}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={`text-white text-base font-poppins font-black px-[18px] py-[2px] cursor-pointer hover:opacity-80 transition lowercase ${
+                    activePath === path ? "active-link" : ""
+                  }`}
+                >
+                  {t(labelKey)}
+                </a>
+              ) : (
               <button
                 key={labelKey}
                 onClick={() => handleNavigate(path)}
-                className={`text-white text-base font-poppins font-black px-[18px] py-[2px]  cursor-pointer hover:opacity-80 transition lowercase ${
+                className={`text-white text-base font-poppins font-black px-[18px] py-[2px] cursor-pointer hover:opacity-80 transition lowercase ${
                   activePath === path ? "active-link" : ""
                 }`}
               >
                 {t(labelKey)}
               </button>
-            ))}
-            {/* Center Logo */}
+            )
+          ))}
+
+          {/* Center Logo */}
           <button onClick={() => handleNavigate("/")}>
             <img
               src={Logo}
@@ -93,17 +109,32 @@ export default function Header() {
               className="h-[60px] w-[60px] md:w-[110px] md:h-[110px] object-contain cursor-pointer"
             />
           </button>
-            {links.slice(2,4).map(({ path, labelKey }) => (
+            {links.slice(2,4).map(({ path, labelKey, newTab }) => (
+              newTab ? (
+                <a
+                  key={labelKey}
+                  onClick={() => setActivePath(path)}
+                  href={path}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={`text-white text-base font-poppins font-black px-[18px] py-[2px] cursor-pointer hover:opacity-80 transition lowercase ${
+                    activePath === path ? "active-link" : ""
+                  }`}
+                >
+                  {t(labelKey)}
+                </a>
+              ) : (
               <button
                 key={labelKey}
                 onClick={() => handleNavigate(path)}
-                className={`text-white text-base font-poppins font-black px-[18px] py-[2px]  cursor-pointer hover:opacity-80 transition lowercase ${
+                className={`text-white text-base font-poppins font-black px-[18px] py-[2px] cursor-pointer hover:opacity-80 transition lowercase ${
                   activePath === path ? "active-link" : ""
                 }`}
               >
                 {t(labelKey)}
               </button>
-            ))}
+            )
+          ))}
           </div>
 
           
@@ -149,7 +180,7 @@ export default function Header() {
         </div>
 
         {/* ===== Mobile Menu Button ===== */}
-        <div className="lg:hidden flex w-full items-center justify-center mx-auto"> 
+        {/* <div className="lg:hidden flex w-full items-center justify-center mx-auto"> 
           <button
             className="lg:hidden bg-[#ffd4d4] p-2 rounded-[4px]"
             onClick={() => setMenuOpen(!menuOpen)}
@@ -167,7 +198,36 @@ export default function Header() {
               className="h-[60px] w-[60px] md:w-[110px] md:h-[110px] object-contain cursor-pointer"
             />
           </button>
-        </div>
+        </div> */}
+
+        <div className="lg:hidden relative w-full flex items-center">
+  
+  {/* Menu Button - Left */}
+  <button
+    className="bg-[#ffd4d4] p-2 rounded-[4px]"
+    onClick={() => setMenuOpen(!menuOpen)}
+  >
+    {menuOpen ? (
+      <IoMdClose color="#e5376b" className="h-6 w-6" />
+    ) : (
+      <FaBars color="#e5376b" className="h-6 w-6" />
+    )}
+  </button>
+
+  {/* Center Logo */}
+  <button
+    className="absolute left-1/2 -translate-x-1/2"
+    onClick={() => handleNavigate("/")}
+  >
+    <img
+      src={Logo}
+      alt="Logo"
+      className="h-[60px] w-[60px] md:w-[110px] md:h-[110px] object-contain cursor-pointer"
+    />
+  </button>
+
+</div>
+
         
       </div>
 

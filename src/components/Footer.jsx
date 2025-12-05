@@ -17,7 +17,7 @@ const Footer = () => {
             <img
               src={Logo}
               alt="Demodouro"
-              className="h-[128px] w-[100px] md:h-[242px] md:w-[190px] object-cover object-top mb-4"
+              className="h-[128px] w-[100px] md:h-[191px] md:w-[150px] object-cover object-top mb-4"
             />
           </div>
 

@@ -29,11 +29,11 @@ export default function ProductDetail({ product: productProp }) {
           </h1>
 
           {/* Image */}
-          <div className="flex justify-center items-center mb-6 h-[350px] sm:h-[550px]">
+          <div className="flex justify-center items-center">
             <img
               src={product.img}
               alt={product.name}
-              className="object-contain w-full h-full"
+              className="object-contain w-full h-auto"
             />
           </div>
 
@@ -150,7 +150,7 @@ export default function ProductDetail({ product: productProp }) {
 
           <div className="col-span-1">
             <div
-              className="rounded-[28px] bg-white p-5 shadow-[0_8px_30px_rgba(0,0,0,0.08)] border-2 sm:px-[18px] sm:py-[18px] w-full min-h-[225px] content-center"
+              className="rounded-[28px] bg-white p-5 shadow-[0_8px_30px_rgba(0,0,0,0.08)] border-2 sm:px-[18px] sm:py-[18px] w-full min-h-[242px] content-center"
               style={{ borderColor: PINK }}
             >
               <dl className="space-y-5 sm:space-y-4">
@@ -403,7 +403,7 @@ function ProductDecor({ decor }) {
           src={topLeft}
           alt=""
           className="pointer-events-none select-none hidden lg:block 
-                      absolute top-0 left-0 h-[200px] w-[200px] mt-[20px]"
+                      absolute top-0 left-0 h-[200px] w-[230px] mt-[30px]"
         />
       )}
 
@@ -412,7 +412,7 @@ function ProductDecor({ decor }) {
           src={topRight}
           alt=""
           className="pointer-events-none select-none  hidden lg:block
-                      absolute top-0 right-0 h-[200px] w-[200px] mt-[20px]"
+                      absolute top-0 right-0 h-[200px] w-[230px] mt-[30px]"
         />
       )}
 
@@ -421,7 +421,7 @@ function ProductDecor({ decor }) {
           src={bottomLeft}
           alt=""
           className="pointer-events-none select-none hidden lg:block
-                      absolute bottom-0 left-0 h-[200px] w-[200px] mb-[20px]"
+                      absolute bottom-0 left-0 h-[200px] w-[230px] mb-[20px]"
         />
       )}
     </>

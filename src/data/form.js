@@ -245,7 +245,7 @@ export const products = [
       months: ["JAN","FEV","MAR","ABR","MAI","JUN","JUL","AGO","SET","OUT","NOV","DEZ"],
       plantacao: { active: [0, 1, 2, 10, 11] },
   colheita: { active: [9, 10] },
-  disponibilidade: { active: [0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 11] }               
+  disponibilidade: { active: [0, 1, 2, 3, 4, 5, 6, 9, 10, 11] }               
     }
   },
   {
@@ -624,12 +624,14 @@ export const markets = [
     title: "MARL ( Mercado Abastecedor de Lisboa )",
     address: "Lugar do, Quintanilho, 2660-421 São Julião do Tojal",
     image: CardImg1,
+    link: "https://maps.app.goo.gl/4keYYsNRgM5B6N5L7"
   },
   {
     id: 2,
     title: "MAP ( Mercado Abastecedor do Porto )",
     address: "R. Chaves de Oliveira 181 a 193, Porto",
     image: CardImg2,
+    link: "https://maps.app.goo.gl/mgzi8vx16ygd7fLW7"
   },
 ];
 

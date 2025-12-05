@@ -7,7 +7,14 @@ const InfraDistribute = () => {
   const list = t("infraDistribute.list", { returnObjects: true });
 
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-2">      
+    <div className="grid grid-cols-1 lg:grid-cols-2">
+      <div className="md:hidden flex-1 max-h-full sm:max-h-[550px]">
+        <img
+          src={InfraImg}
+          alt={t("infraDistribute.subtitle")}
+          className="w-full lg:h-full h-[40vh] object-cover"
+        />
+      </div>      
       <div className="flex-1 lg:m-auto my-3 lg:px-0 px-5 ">
         <div className="px-4 py-10 md:py-10 lg:py-0">
           <h4 className="green-titile text-xl text-center lg:text-left">{t("infraDistribute.subtitle")}</h4>
@@ -22,7 +29,7 @@ const InfraDistribute = () => {
           </ul>
         </div>
       </div>
-      <div className="flex-1 max-h-full sm:max-h-[550px]">
+      <div className="hidden md:block flex-1 max-h-full sm:max-h-[550px]">
         <img
           src={InfraImg}
           alt={t("infraDistribute.subtitle")}
@@ -30,6 +37,8 @@ const InfraDistribute = () => {
         />
       </div>
     </div>
+    
+    
   );
 };
 
