@@ -70,6 +70,15 @@
     "buttonText": "enviar",
     "mobileButtonText": "enviar"
   },
+  "storypage": {
+    "heading":"FIQUE A PAR DAS NOVIDADES",
+    "subheading":"Siga-nos nas redes sociais"
+  },
+  "contactpage":{
+    "heading": "contactos",
+    "subheading": "entre em contacto",
+    "text": "Fale diretamente connosco e prove o melhor que temos para lhe dar"
+  },
   "footer": {
     "menu": {
       "title": "Menu",
@@ -192,78 +201,256 @@
   ]
 },
 
-
-  "productDetail": {
-    "products": {
-      "1": {
+  "individualproducts":{
+      "FORMA":  "forma", 
+      "CALIBRE": "calibre",
+      "TEXTURA": "textura",
+      "COR": "cor",
+      "SABOR": "sabor",
+      "ACIDEZ": "acidez",
+      "ÁGUA": "agua",
+      "plantacao": "plantacao",
+      "colheita": "colheita",
+      "disponibilidade": "disponibilidade",
+      "JAN" : "JAN",
+      "FEV" : "FEV",
+      "MAR" : "MAR",
+      "ABR" : "ABR",
+      "MAI" : "MAI",
+      "JUN" : "JUN",
+      "JUL" : "JUL",
+      "AGO" : "AGO",
+      "SET" : "SET",
+      "OUT" : "OCT",
+      "NOV" : "NOV",
+      "DEZ" : "DEZ",
+      "Armazenamento": "Armazenamento",
+      "Transporte" : "Transporte",
+      "Embalamento" : "Embalamento",
+      "buttontext":"Ver outros produtos",
+      "macaroyal": {
         "name": "Maçã ROYAL GALA",
-        "cat": "Maçã",
-        "storage": {
-          "Armazenamento": "em atmosfera controlada ou em frio normal.",
-          "Transporte": "veículos frigoríficos à temperatura de 0ºC a 2ºC.",
-          "Embalamento": "em saco plástico/granel e acondicionado em caixa de plástico ou cartão."
-        },
-        "characteristics": [
-          { "label": "FORMA", "value": "" },
-          { "label": "CALIBRE", "value": "" },
-          { "label": "TEXTURA", "value": "" },
-          { "label": "COR", "value": "" },
-          { "label": "SABOR", "value": "" },
-          { "label": "ACIDEZ", "value": "" },
-          { "label": "ÁGUA", "value": "" }
-        ],
-        "calendar": {
-          "months": ["JAN","FEV","MAR","ABR","MAI","JUN","JUL","AGO","SET","OUT","NOV","DEZ"],
-          "plantacao": { "active": [] },
-          "colheita": { "active": [] },
-          "disponibilidade": { "active": [] }
-        }
+        "Armazenamento": "em atmosfera controlada ou em frio normal.",
+        "Transporte": "veículos frigoríficos à temperatura de 0ºC a 2ºC.",
+        "Embalamento":"em saco plástico/granel e acondicionado em caixa de plástico ou cartão.",
+        "FORMA": "alongada ovoide ligeiramente tronco-cónica",
+        "CALIBRE": "55 mm a 90 mm",
+        "TEXTURA": "fina, crocante, estaladiça e sumarenta",
+        "COR": "vermelho vivo, ligeiramente estriado, com fundo amarelo",
+        "SABOR": "doce e suave",
+        "ACIDEZ": "5,7 a 6,2 meq/100ml",
+        "ÁGUA" : "80% a 86%"              
       },
-      "2": {
-        "name": "Produto 2",
-        "cat": "Categoria",
-        "storage": { "Armazenamento": "", "Transporte": "", "Embalamento": "" },
-        "characteristics": [
-          { "label": "FORMA", "value": "" },
-          { "label": "CALIBRE", "value": "" },
-          { "label": "TEXTURA", "value": "" },
-          { "label": "COR", "value": "" },
-          { "label": "SABOR", "value": "" },
-          { "label": "ACIDEZ", "value": "" },
-          { "label": "ÁGUA", "value": "" }
-        ],
-        "calendar": {
-          "months": ["JAN","FEV","MAR","ABR","MAI","JUN","JUL","AGO","SET","OUT","NOV","DEZ"],
-          "plantacao": { "active": [] },
-          "colheita": { "active": [] },
-          "disponibilidade": { "active": [] }
-        }
+      "macared":{
+        "name": "Maçã Red",
+        "Armazenamento": "Em Atmosfera Controlada ou em Frio Normal.",
+        "Transporte": "veículos frigoríficos à temperatura de 0ºC e 2ºC.",
+        "Embalamento": "em saco plástico/granel e acondicionado em caixa de plástico ou de cartão.",
+        "FORMA" : "alongada",
+        "CALIBRE" : "55 mm a 90 mm",
+        "TEXTURA" : "polpa suculenta, macia, de textura fina e consistente" ,
+        "COR" : "vermelho intenso e brilhante",
+        "SABOR" : "suave e doce, com acidez discreta",
+        "ACIDEZ" : "2,6 a 3,4 meq/100ml",
+         "ÁGUA" : "86%" 
       },
-      "3": { "name": "Produto 3", "cat": "Categoria", "storage": { "Armazenamento": "", "Transporte": "", "Embalamento": "" }, "characteristics": [], "calendar": { "months": ["JAN","FEV","MAR","ABR","MAI","JUN","JUL","AGO","SET","OUT","NOV","DEZ"], "plantacao": { "active": [] }, "colheita": { "active": [] }, "disponibilidade": { "active": [] } } },
-      "4": { "name": "Produto 4", "cat": "Categoria", "storage": { "Armazenamento": "", "Transporte": "", "Embalamento": "" }, "characteristics": [], "calendar": { "months": ["JAN","FEV","MAR","ABR","MAI","JUN","JUL","AGO","SET","OUT","NOV","DEZ"], "plantacao": { "active": [] }, "colheita": { "active": [] }, "disponibilidade": { "active": [] } } },
-      "5": { "name": "Produto 5", "cat": "Categoria", "storage": { "Armazenamento": "", "Transporte": "", "Embalamento": "" }, "characteristics": [], "calendar": { "months": ["JAN","FEV","MAR","ABR","MAI","JUN","JUL","AGO","SET","OUT","NOV","DEZ"], "plantacao": { "active": [] }, "colheita": { "active": [] }, "disponibilidade": { "active": [] } } },
-      "6": { "name": "Produto 6", "cat": "Categoria", "storage": { "Armazenamento": "", "Transporte": "", "Embalamento": "" }, "characteristics": [], "calendar": { "months": ["JAN","FEV","MAR","ABR","MAI","JUN","JUL","AGO","SET","OUT","NOV","DEZ"], "plantacao": { "active": [] }, "colheita": { "active": [] }, "disponibilidade": { "active": [] } } },
-      "7": { "name": "Produto 7", "cat": "Categoria", "storage": { "Armazenamento": "", "Transporte": "", "Embalamento": "" }, "characteristics": [], "calendar": { "months": ["JAN","FEV","MAR","ABR","MAI","JUN","JUL","AGO","SET","OUT","NOV","DEZ"], "plantacao": { "active": [] }, "colheita": { "active": [] }, "disponibilidade": { "active": [] } } },
-      "8": { "name": "Produto 8", "cat": "Categoria", "storage": { "Armazenamento": "", "Transporte": "", "Embalamento": "" }, "characteristics": [], "calendar": { "months": ["JAN","FEV","MAR","ABR","MAI","JUN","JUL","AGO","SET","OUT","NOV","DEZ"], "plantacao": { "active": [] }, "colheita": { "active": [] }, "disponibilidade": { "active": [] } } },
-      "9": { "name": "Produto 9", "cat": "Categoria", "storage": { "Armazenamento": "", "Transporte": "", "Embalamento": "" }, "characteristics": [], "calendar": { "months": ["JAN","FEV","MAR","ABR","MAI","JUN","JUL","AGO","SET","OUT","NOV","DEZ"], "plantacao": { "active": [] }, "colheita": { "active": [] }, "disponibilidade": { "active": [] } } },
-      "10": { "name": "Produto 10", "cat": "Categoria", "storage": { "Armazenamento": "", "Transporte": "", "Embalamento": "" }, "characteristics": [], "calendar": { "months": ["JAN","FEV","MAR","ABR","MAI","JUN","JUL","AGO","SET","OUT","NOV","DEZ"], "plantacao": { "active": [] }, "colheita": { "active": [] }, "disponibilidade": { "active": [] } } },
-      "11": { "name": "Produto 11", "cat": "Categoria", "storage": { "Armazenamento": "", "Transporte": "", "Embalamento": "" }, "characteristics": [], "calendar": { "months": ["JAN","FEV","MAR","ABR","MAI","JUN","JUL","AGO","SET","OUT","NOV","DEZ"], "plantacao": { "active": [] }, "colheita": { "active": [] }, "disponibilidade": { "active": [] } } },
-      "12": { "name": "Produto 12", "cat": "Categoria", "storage": { "Armazenamento": "", "Transporte": "", "Embalamento": "" }, "characteristics": [], "calendar": { "months": ["JAN","FEV","MAR","ABR","MAI","JUN","JUL","AGO","SET","OUT","NOV","DEZ"], "plantacao": { "active": [] }, "colheita": { "active": [] }, "disponibilidade": { "active": [] } } },
-      "13": { "name": "Produto 13", "cat": "Categoria", "storage": { "Armazenamento": "", "Transporte": "", "Embalamento": "" }, "characteristics": [], "calendar": { "months": ["JAN","FEV","MAR","ABR","MAI","JUN","JUL","AGO","SET","OUT","NOV","DEZ"], "plantacao": { "active": [] }, "colheita": { "active": [] }, "disponibilidade": { "active": [] } } },
-      "14": { "name": "Produto 14", "cat": "Categoria", "storage": { "Armazenamento": "", "Transporte": "", "Embalamento": "" }, "characteristics": [], "calendar": { "months": ["JAN","FEV","MAR","ABR","MAI","JUN","JUL","AGO","SET","OUT","NOV","DEZ"], "plantacao": { "active": [] }, "colheita": { "active": [] }, "disponibilidade": { "active": [] } } },
-      "15": { "name": "Produto 15", "cat": "Categoria", "storage": { "Armazenamento": "", "Transporte": "", "Embalamento": "" }, "characteristics": [], "calendar": { "months": ["JAN","FEV","MAR","ABR","MAI","JUN","JUL","AGO","SET","OUT","NOV","DEZ"], "plantacao": { "active": [] }, "colheita": { "active": [] }, "disponibilidade": { "active": [] } } },
-      "16": { "name": "Produto 16", "cat": "Categoria", "storage": { "Armazenamento": "", "Transporte": "", "Embalamento": "" }, "characteristics": [], "calendar": { "months": ["JAN","FEV","MAR","ABR","MAI","JUN","JUL","AGO","SET","OUT","NOV","DEZ"], "plantacao": { "active": [] }, "colheita": { "active": [] }, "disponibilidade": { "active": [] } } },
-      "17": { "name": "Produto 17", "cat": "Categoria", "storage": { "Armazenamento": "", "Transporte": "", "Embalamento": "" }, "characteristics": [], "calendar": { "months": ["JAN","FEV","MAR","ABR","MAI","JUN","JUL","AGO","SET","OUT","NOV","DEZ"], "plantacao": { "active": [] }, "colheita": { "active": [] }, "disponibilidade": { "active": [] } } }
+      "macagolden":{
+        "name": "Maçã Golden",
+        "Armazenamento": "Em Atmosfera Controlada ou em Frio Normal.",
+        "Transporte": "veículos frigoríficos à temperatura de 0ºC e 2ºC.",
+        "Embalamento": "em saco plástico/granel e acondicionado em caixa de plástico ou de cartão.",
+        "FORMA" : "alongada ovoide ligeiramente tronco-cónica",
+        "CALIBRE" : "55 mm a 90 mm",
+        "TEXTURA" : "crocante e suculenta" ,
+        "COR" : "verde-amarelado a amarelo-dourado, por vezes exibe coloração rosada",
+        "SABOR" : "doce, suave e equilibrado, com um toque refrescante de acidez",
+        "ACIDEZ" : "3,8 a 6,2 meq/100ml",
+         "ÁGUA" : "83% a 86%" 
+      },
+      "macareineta":{
+      "name": "Maçã Reineta",
+      "Armazenamento": "Em Atmosfera Controlada ou em Frio Normal.",
+      "Transporte": "veículos frigoríficos à temperatura de 0ºC e 2ºC.",
+      "Embalamento": "em saco plástico/granel e acondicionado em  caixa de plástico ou de cartão.",
+      "FORMA" : "arredondada e achatada, com contornos irregulares",
+      "CALIBRE" : "65 mm a +90 mm",
+      "TEXTURA" : "fextura firme com um toque farináceo e pouco sumarenta" ,
+      "COR" : "casca rugosa e em tons de verde-acastanhado",
+      "SABOR" : "doce e com elevada acidez",
+      "ACIDEZ" : "não existe acidez específica",
+      "ÁGUA" : "80% a 83%" 
     },
-    "calendar": {
-      "plantacao": "PLANTAÇÃO",
-      "colheita": "COLHEITA",
-      "disponibilidade": "DISPONIBILIDADE"
+    "macafuji":{
+      "name": "Maçã Fuji",
+      "Armazenamento": "Em Atmosfera Controlada ou em Frio Normal.",
+      "Transporte": "veículos frigoríficos à temperatura de 0ºC e 2ºC.",
+      "Embalamento": "em saco plástico/granel e acondicionado em  caixa de plástico ou de cartão.",
+      "FORMA" : "Homogénea, alongada cilíndrica",
+      "CALIBRE" : "55 mm a 90 mm",
+      "TEXTURA" : "densa, firme e crocante" ,
+      "COR" : "amarela ou amarela-esverdeada, por vezes com laivos vermelhos",
+      "SABOR" : "predominantemente doce, com uma baixa acidez que proporciona um equilíbrio refrescante",
+      "ACIDEZ" : "3,8 e 3,9 meq/100ml",
+      "ÁGUA" : "84,3% a 86%" 
     },
-    "buttons": {
-      "backToProducts": "Ver outros produtos"
+    "macastarking":{
+      "name": "Maçã Starking",
+      "Armazenamento": "Em Atmosfera Controlada ou em Frio Normal.",
+      "Transporte": "veículos frigoríficos à temperatura de 0ºC e 2ºC.",
+      "Embalamento": "em saco plástico/granel e acondicionado em  caixa de plástico ou de cartão.",
+      "FORMA" : "alongada, tronco-cónica, costada, irregular",
+      "CALIBRE" : "55 mm a 90 mm",
+      "TEXTURA" : "polpa branca-creme, fina, consistente e crocante" ,
+      "COR" : "vermelho com estrias, sobre um fundo amarelado",
+      "SABOR" : "doce, aromático (com um toque de ananás) e levemente acidulado",
+      "ACIDEZ" : "2,6 a 3,4 meq/100ml",
+      "ÁGUA" : "80%" 
+    },
+    "macagranny":{
+      "name": "Maçã Granny Smith",
+      "Armazenamento": "Em Atmosfera Controlada ou em Frio Normal.",
+      "Transporte": "veículos frigoríficos à temperatura de 0ºC e 2ºC.",
+      "Embalamento": "em saco plástico/granel e acondicionado em  caixa de plástico ou de cartão.",
+      "FORMA" : "semi elevada, levemente tronco-cónica, regular",
+      "CALIBRE" : "65 mm a 90 mm",
+      "TEXTURA" : "firme e crocante" ,
+      "COR" : "verde intenso e brilhante, lisa e com alguns pontos brancos (lenticelas)",
+      "SABOR" : "fortemente ácido, com um toque refrescante e um travo menos doce em comparação com outras variedades de maçã",
+      "ACIDEZ" : "elevada acidez e sabor amargo",
+      "ÁGUA" : "83% a 86%" 
+    },
+    "macabravo":{
+      "name": "Maçã Bravo Esmolfe",
+      "Armazenamento": "Em Atmosfera Controlada ou em Frio Normal.",
+      "Transporte": "veículos frigoríficos à temperatura de 0ºC e 2ºC.",
+      "Embalamento": "em saco plástico/granel e acondicionado em  caixa de plástico ou de cartão.",
+      "FORMA" : "oblongo-cónica",
+      "CALIBRE" : "60 mm a 80 mm",
+      "TEXTURA" : "polpa macia, fina e sucolenta",
+      "COR" : "esbranquiçada, pode apresentar manchas avermelhadas, e ser manchada e/ou raiada de carepa na fossa peduncular",
+      "SABOR" : "doce, muito pouco acidulada e perfumada",
+      "ACIDEZ" : "5,7 a 6,4 meq/100ml",
+      "ÁGUA" : "83%" 
+    },
+    "cereja":{
+      "name": "Cereja",
+      "Armazenamento": "Em Atmosfera Controlada ou em Frio Normal.",
+      "Transporte": "veículos frigoríficos à temperatura de 2ºc a 4ºC",
+      "Embalamento": "cuvetes e em caixa de cartão ou plástico.",
+      "FORMA" : "redonda ou ligeiramente oval",
+      "CALIBRE" : "17 mm a +26 mm",
+      "TEXTURA" : "polpa firme, carnuda, suculenta, de textura suave",
+      "COR" : "evermelho intenso e brilhante",
+      "SABOR" : "ddoce a adocicado e levemente adstringente",
+      "ACIDEZ" : "1.2% acidez titulável",
+      "ÁGUA" : "82%" 
+    },
+    "castanha":{
+      "name": "Castanha",
+      "Armazenamento": "Em Atmosfera Controlada ou em Frio Normal.",
+      "Transporte": "veículos frigoríficos à temperatura de xºc a xº c.",
+      "Embalamento": "saco ou caixa de acordo com as especificações.",
+      "FORMA" : "achatada onde se liga à casca e ponta mais aguda no outro extremo",
+      "CALIBRE" : "20 mm a 30 mm",
+      "TEXTURA" : "macia e friável",
+      "COR" : "lisa e brilhante, com coloração castanho-escura e reflexos acobreados",
+      "SABOR" : "doce, mas que pode variar consoante a variedade",
+      "ACIDEZ" : "acidez pouco expressiva, alto tero de amido e fibra",
+      "ÁGUA" : "cerca de 50%" 
+    },
+    "morango":{
+      "name": "Morango",
+      "Armazenamento": "Em Atmosfera Controlada ou em Frio Normal.",
+      "Transporte": "veículos frigoríficos à temperatura de xºc a xº c.",
+      "Embalamento": "saco ou caixa de acordo com as especificações.",
+      "FORMA" : "cónico ou arredondado, ponta mais estreita e base mais larga",
+      "CALIBRE" : "18 mm a 25 mm",
+      "TEXTURA" : "suculenta e firme",
+      "COR" : "vermelha brilhante e intensa",
+      "SABOR" : "equilíbrio entre a doçura e acidez",
+      "ACIDEZ" : "0,6 e 1,1% (ou g/100g de fruta), sendo o valor mediano de 0,85%",
+      "ÁGUA" : "90% a 92%" 
+    },
+    "mirtilo":{
+      "name": "Mirtilo",
+      "Armazenamento": "Em Atmosfera Controlada ou em Frio Normal.",
+      "Transporte": "veículos frigoríficos à temperatura de xºc a xº c.",
+      "Embalamento": "saco ou caixa de acordo com as especificações.",
+      "FORMA": "pequena, marca em forma de estrela de cinco pontas na parte superior",
+      "CALIBRE": "13 mm a 22 mm" ,
+      "TEXTURA": "firme com polpa suculenta e aromática",
+      "COR": "azul-cerosa quando maduro, podendo variar para vermelho dependendo da variedade",
+      "SABOR": "agridoce",
+      "ACIDEZ": "superior a 130 meq/L",
+      "ÁGUA": "84% a 89%" 
+    },
+    "kiwi":{
+      "name": "kiwi",
+      "Armazenamento": "Em Atmosfera Controlada ou em Frio Normal.",
+      "Transporte": "veículos frigoríficos à temperatura de xºc a xº c.",
+      "Embalamento": "saco ou caixa de acordo com as especificações.",
+      "FORMA": "oval variando o tamanho entre 5 e 8 cm de comprimento",
+      "CALIBRE": "65g a 90g",
+      "TEXTURA": "polpa macia e suave, com um toque cremoso e ligeira firmeza",
+      "COR": "casca castanha e fibrosa, polpa verde ou amarela com sementes pretas",
+      "SABOR": "paladar característico, entre o ácido e o doce, com um toque cítrico",
+      "ACIDEZ": "levemente ácido, com pH entre 3,31 e 3,44 — varia consoante a variedade e maturação",
+      "ÁGUA": "83% a 85%" 
+    },
+    "framboesa":{
+      "name": "Framboesa",
+      "Armazenamento": "Em Atmosfera Controlada ou em Frio Normal.",
+      "Transporte": "veículos frigoríficos à temperatura de xºc a xº c.",
+      "Embalamento": "saco ou caixa de acordo com as especificações.",
+      "FORMA": "irregular",
+      "CALIBRE": "N/A",
+      "TEXTURA": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "COR": "avermelhada",
+      "SABOR": "doce",
+      "ACIDEZ": "x a x g/l",
+      "ÁGUA": "xx% a xx%"
+    },
+    "uva":{
+      "name": "Uva",
+      "Armazenamento": "Em Atmosfera Controlada ou em Frio Normal.",
+      "Transporte": "veículos frigoríficos à temperatura de xºc a xº c.",
+      "Embalamento": "saco ou caixa de acordo com as especificações.",
+      "FORMA": "redonda ou oval em cachos cónicos, com tamanho e densidade variáveis",
+      "CALIBRE": "bagos grandes e uniformes, com calibre ideal de 18 mm (sem sementes) ou 24 mm (com sementes)",
+      "TEXTURA": "polpa firme e crocante, envolta por película fina" ,
+      "COR": "uvas tintas, varia do verde ao roxo; nas uvas brancas, do verde ao amarelo-esverdeado–dependendo da maturação",
+      "SABOR": "sabor doce e equilibrado, com baixa acidez — pode ser neutro, especial ou moscatel, conforme a variedade",
+      "ACIDEZ": "acidez variável conforme a variedade e maturação, com pH geralmente entre 4 e 4,5",
+      "ÁGUA": "80%"
+    },
+    "laranja":{
+      "name": "Laranja",
+      "Armazenamento": "Em Atmosfera Controlada ou em Frio Normal.",
+      "Transporte": "veículos frigoríficos à temperatura de xºc a xº c.",
+      "Embalamento": "saco ou caixa de acordo com as especificações.",
+      "FORMA": "forma redonda ou ovóide, com variações como umbigo proeminente e casca fina ou grossa",
+      "CALIBRE": "3, 4, 5 a 6/7",
+      "TEXTURA": "polpa suculenta e macia, com textura refrescante",
+      "COR": "casca de laranja brilhante e granulada; polpa laranja-amarelada nas comuns ou vermelha nas sanguíneas",
+      "SABOR": "equilibrado entre doce e ácido, consioante a variedade e maturação",
+      "ACIDEZ": "acidez variável; o suco in natura tem pH médio de 4,34 ",
+      "ÁGUA": "86% a 87%"
+    },
+    "limao":{
+      "name": "LIMÃO",
+      "Armazenamento": "Em Atmosfera Controlada ou em Frio Normal.",
+      "Transporte": "veículos frigoríficos à temperatura de xºc a xº c.",
+      "Embalamento": "saco ou caixa de acordo com as especificações.",
+      "FORMA": "oval ou arredondada, alongada, terminando em duas pontas proeminentes na extremidade",
+      "CALIBRE": "45 mm a 83 mm",
+      "TEXTURA": "polpa suculenta quecede ao toque, indicando maturação e com sumo",
+      "COR": "do verde ao amarelo intenso; quanto mais amarelo, mais maduro; reflexos verdes indicam maior acidez",
+      "SABOR": "ácido e refrescante",
+      "ACIDEZ": "acidez intensa, com 5% a 7% de ácido cítrico e pH entre 2,2 e 2,4",
+      "ÁGUA": "87,4% a 90,1%"
     }
   }
+
 }
 
 

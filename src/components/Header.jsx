@@ -26,22 +26,30 @@ export default function Header() {
 
   // Updated keys to include "header." prefix
   const links = [
-    { path: "/products", labelKey: "header.products", newTab: true  },
-    { path: "/infrastructure", labelKey: "header.infrastructure", newTab: true  },
-    { path: "/sobre", labelKey: "header.about", newTab: true  },
-    { path: "/contact", labelKey: "header.contact", newTab: true  },
+    { path: "/products", labelKey: "header.products"},
+    { path: "/infrastructure", labelKey: "header.infrastructure"},
+    { path: "/sobre", labelKey: "header.about"},
+    { path: "/contact", labelKey: "header.contact"},
     { path: "", labelKey: "header.language", isLangSwitcher: true },
   ];
 
   const handleNavigate = (path, isLangSwitcher = false) => {
     if (isLangSwitcher) {
-      setShowLangDropdown((prev) => !prev);
-      return;
-    }
-    setActivePath(path);
-    setMenuOpen(false);
-    setShowLangDropdown(false);
-    navigate(path);
+    setShowLangDropdown((prev) => !prev);
+    return;
+  }
+
+  setActivePath(path);
+  setMenuOpen(false);
+  setShowLangDropdown(false);
+
+  navigate(path);
+
+  // 🔥 Force scroll to top after navigation
+  window.scrollTo({
+    top: 0,
+    behavior: "instant", // or "smooth"
+  });
   };
 
   const handleLanguageChange = (lang) => {
@@ -74,32 +82,17 @@ export default function Header() {
         <div className="hidden lg:flex w-full items-center justify-center mx-auto gap-x-20">
           {/* Left Links */}
           <div className="flex items-center gap-20 justify-center">
-            {links.slice(0, 2).map(({ path, labelKey, newTab }) => (
-              newTab ? (
-                <a
-                  key={labelKey}
-                  onClick={() => setActivePath(path)}
-                  href={path}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={`text-white text-base font-poppins font-black px-[18px] py-[2px] cursor-pointer hover:opacity-80 transition lowercase ${
-                    activePath === path ? "active-link" : ""
-                  }`}
-                >
-                  {t(labelKey)}
-                </a>
-              ) : (
+           {links.slice(0, 2).map(({ path, labelKey }) => (
               <button
                 key={labelKey}
                 onClick={() => handleNavigate(path)}
-                className={`text-white text-base font-poppins font-black px-[18px] py-[2px] cursor-pointer hover:opacity-80 transition lowercase ${
+                className={`text-white text-base font-poppins font-black px-[18px] py-[2px]  cursor-pointer hover:opacity-80 transition lowercase ${
                   activePath === path ? "active-link" : ""
                 }`}
               >
                 {t(labelKey)}
               </button>
-            )
-          ))}
+            ))}
 
           {/* Center Logo */}
           <button onClick={() => handleNavigate("/")}>
@@ -109,32 +102,17 @@ export default function Header() {
               className="h-[60px] w-[60px] md:w-[110px] md:h-[110px] object-contain cursor-pointer"
             />
           </button>
-            {links.slice(2,4).map(({ path, labelKey, newTab }) => (
-              newTab ? (
-                <a
-                  key={labelKey}
-                  onClick={() => setActivePath(path)}
-                  href={path}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={`text-white text-base font-poppins font-black px-[18px] py-[2px] cursor-pointer hover:opacity-80 transition lowercase ${
-                    activePath === path ? "active-link" : ""
-                  }`}
-                >
-                  {t(labelKey)}
-                </a>
-              ) : (
+            {links.slice(2,4).map(({ path, labelKey }) => (
               <button
                 key={labelKey}
                 onClick={() => handleNavigate(path)}
-                className={`text-white text-base font-poppins font-black px-[18px] py-[2px] cursor-pointer hover:opacity-80 transition lowercase ${
+                className={`text-white text-base font-poppins font-black px-[18px] py-[2px]  cursor-pointer hover:opacity-80 transition lowercase ${
                   activePath === path ? "active-link" : ""
                 }`}
               >
                 {t(labelKey)}
               </button>
-            )
-          ))}
+            ))}
           </div>
 
           

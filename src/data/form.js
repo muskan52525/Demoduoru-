@@ -98,27 +98,26 @@ import decor47 from "../assets/png/ESMOLFE-2.png"
 export const products = [
   {
     id: 1,
-    name: "Maçã ROYAL GALA",
+    name: "macaroyal.name",
     img: productcardApple,
     decor: {
     topLeft:    decor1,
     topRight:   decor2,
     bottomLeft: decor3,
   },
-    storage: {
-      Armazenamento: "em atmosfera controlada ou em frio normal.",
-      Transporte: "veículos frigoríficos à temperatura de 0ºC a 2ºC.",
-      Embalamento:
-        "em saco plástico/granel e acondicionado em caixa de plástico ou cartão."
-    },
+    storage: [
+      { label: "Armazenamento", value: "macaroyal.Armazenamento"},
+      { label: "Transporte", value: "macaroyal.Transporte"},
+      { label: "Embalamento", value: "macaroyal.Embalamento"},
+    ],
     characteristics: [
-      { label: "FORMA", value: "alongada ovoide ligeiramente tronco-cónica"},
-      { label: "CALIBRE", value: "55 mm a 90 mm" },
-      { label: "TEXTURA", value: "fina, crocante, estaladiça e sumarenta" },
-      { label: "COR", value: "vermelho vivo, ligeiramente estriado, com fundo amarelo" },
-      { label: "SABOR", value: "doce e suave" },
-      { label: "ACIDEZ", value: "5,7 a 6,2 meq/100ml" },
-      { label: "ÁGUA", value: "80% a 86%" }
+      { label: "FORMA", value: "macaroyal.FORMA"},
+      { label: "CALIBRE", value: "macaroyal.CALIBRE"},
+      { label: "TEXTURA", value: "macaroyal.TEXTURA"},
+      { label: "COR", value: "macaroyal.COR"},
+      { label: "SABOR", value: "macaroyal.SABOR"},
+      { label: "ACIDEZ", value: "macaroyal.ACIDEZ"},
+      { label: "ÁGUA", value: "macaroyal.ÁGUA"}
     ],
     calendar: {
       months: ["JAN","FEV","MAR","ABR","MAI","JUN","JUL","AGO","SET","OUT","NOV","DEZ"],
@@ -130,26 +129,26 @@ export const products = [
   },
   {
     id: 3,
-    name: "Maçã Red",
+    name: "macared.name",
     img: productcardRed,
     decor: {
-    topLeft:    decor4,
-    topRight:   decor5,
-    bottomLeft: decor6
-  },
-    storage: {
-      Armazenamento: "Em Atmosfera Controlada ou em Frio Normal.",
-      Transporte: "veículos frigoríficos à temperatura de 0ºC e 2ºC.",
-      Embalamento: "em saco plástico/granel e acondicionado em caixa de plástico ou de cartão."
+      topLeft:    decor4,
+      topRight:   decor5,
+      bottomLeft: decor6
     },
+    storage: [
+      { label: "Armazenamento", value: "macared.Armazenamento"},
+      { label: "Transporte", value: "macared.Transporte"},
+      { label: "Embalamento", value: "macared.Embalamento"},
+    ],
     characteristics: [
-      { label: "FORMA", value: "alongada" },
-      { label: "CALIBRE", value: "55 mm a 90 mm" },
-      { label: "TEXTURA", value: "polpa suculenta, macia, de textura fina e consistente" },
-      { label: "COR", value: "vermelho intenso e brilhante" },
-      { label: "SABOR", value: "suave e doce, com acidez discreta" },
-      { label: "ACIDEZ", value: "2,6 a 3,4 meq/100ml" },
-      { label: "ÁGUA", value: "86%" }
+      { label: "FORMA", value: "macared.FORMA"},
+      { label: "CALIBRE", value: "macared.CALIBRE"},
+      { label: "TEXTURA", value: "macared.TEXTURA"},
+      { label: "COR", value: "macared.COR"},
+      { label: "SABOR", value: "macared.SABOR"},
+      { label: "ACIDEZ", value: "macared.ACIDEZ"},
+      { label: "ÁGUA", value: "macared.ÁGUA"}
     ],
     calendar: {
       months: ["JAN","FEV","MAR","ABR","MAI","JUN","JUL","AGO","SET","OUT","NOV","DEZ"],
@@ -160,26 +159,26 @@ export const products = [
   },
   {
     id: 2,
-    name: "Maçã Golden",
+    name: "macagolden.name",
     img: productcardGolden,
     decor: {
     topLeft:    decor7,
     topRight:   decor8,
     bottomLeft: decor3
   },
-    storage: {
-      Armazenamento: "Em Atmosfera Controlada ou em Frio Normal.",
-      Transporte: "veículos frigoríficos à temperatura de 0ºC e 2ºC.",
-      Embalamento: "em saco plástico/granel e acondicionado em caixa de plástico ou de cartão."
-    },
+    storage: [
+      { label: "Armazenamento", value: "macagolden.Armazenamento"},
+      { label: "Transporte", value: "macagolden.Transporte"},
+      { label: "Embalamento", value: "macagolden.Embalamento"},
+    ],
     characteristics: [
-      { label: "FORMA", value: "alongada ovoide ligeiramente tronco-cónica" },
-      { label: "CALIBRE", value: "55 mm a 90 mm" },
-      { label: "TEXTURA", value: "crocante e suculenta" },
-      { label: "COR", value: "verde-amarelado a amarelo-dourado, por vezes exibe coloração rosada" },
-      { label: "SABOR", value: "doce, suave e equilibrado, com um toque refrescante de acidez" },
-      { label: "ACIDEZ", value: "3,8 a 6,2 meq/100ml" },
-      { label: "ÁGUA", value: "83% a 86%" }
+      { label: "FORMA", value: "macagolden.FORMA"},
+      { label: "CALIBRE", value: "macagolden.CALIBRE"},
+      { label: "TEXTURA", value: "macagolden.TEXTURA"},
+      { label: "COR", value: "macagolden.COR"},
+      { label: "SABOR", value: "macagolden.SABOR"},
+      { label: "ACIDEZ", value: "macagolden.ACIDEZ"},
+      { label: "ÁGUA", value: "macagolden.ÁGUA"}
     ],
     calendar: {
       months: ["JAN","FEV","MAR","ABR","MAI","JUN","JUL","AGO","SET","OUT","NOV","DEZ"],
@@ -190,26 +189,26 @@ export const products = [
   },
   {
     id: 4,
-    name: "Maçã Reineta",
+    name: "macareineta.name",
     img: productcardReineta,
     decor: {
     topLeft:    decor9,
     topRight:   decor10,
     bottomLeft: decor11
   },
-    storage: {
-      Armazenamento: "Em Atmosfera Controlada ou em Frio Normal.",
-      Transporte: "veículos frigoríficos à temperatura de 0ºC e 2ºC.",
-      Embalamento: "em saco plástico/granel e acondicionado em  caixa de plástico ou de cartão."
-    },
+    storage: [
+      { label: "Armazenamento", value: "macareineta.Armazenamento"},
+      { label: "Transporte", value: "macareineta.Transporte"},
+      { label: "Embalamento", value: "macareineta.Embalamento"},
+    ],
     characteristics: [
-      { label: "FORMA", value: "arredondada e achatada, com contornos irregulares" },
-      { label: "CALIBRE", value: "65 mm a +90 mm" },
-      { label: "TEXTURA", value: "textura firme com um toque farináceo e pouco sumarenta" },
-      { label: "COR", value: "casca rugosa e em tons de verde-acastanhado" },
-      { label: "SABOR", value: "doce e com elevada acidez" },
-      { label: "ACIDEZ", value: "não existe acidez específica" },
-      { label: "ÁGUA", value: "80% a 83%" }
+      { label: "FORMA", value: "macareineta.FORMA"},
+      { label: "CALIBRE", value: "macareineta.CALIBRE"},
+      { label: "TEXTURA", value: "macareineta.TEXTURA"},
+      { label: "COR", value: "macareineta.COR"},
+      { label: "SABOR", value: "macareineta.SABOR"},
+      { label: "ACIDEZ", value: "macareineta.ACIDEZ"},
+      { label: "ÁGUA", value: "macareineta.ÁGUA"}
     ],
     calendar: {
       months: ["JAN","FEV","MAR","ABR","MAI","JUN","JUL","AGO","SET","OUT","NOV","DEZ"],
@@ -220,26 +219,26 @@ export const products = [
   },
   {
     id: 5,
-    name: "Maçã Fuji",
+    name: "macafuji.name",
     img: productcardFuji,
     decor: {
     topLeft:    decor1,
     topRight:   decor2,
     bottomLeft: decor3
   },
-    storage: {
-      Armazenamento: "Em Atmosfera Controlada ou em Frio Normal.",
-      Transporte: "veículos frigoríficos à temperatura de 0ºC e 2ºC.",
-      Embalamento: "em saco plástico/granel e acondicionado em  caixa de plástico ou de cartão."
-    },
+    storage: [
+      { label: "Armazenamento", value: "macafuji.Armazenamento"},
+      { label: "Transporte", value: "macafuji.Transporte"},
+      { label: "Embalamento", value: "macafuji.Embalamento"},
+    ],
     characteristics: [
-      { label: "FORMA", value: "Homogénea, alongada cilíndrica" },
-      { label: "CALIBRE", value: "55 mm a 90 mm" },
-      { label: "TEXTURA", value: "densa, firme e crocante" },
-      { label: "COR", value: "amarela ou amarela-esverdeada, por vezes com laivos vermelhos" },
-      { label: "SABOR", value: "predominantemente doce, com uma baixa acidez que proporciona um equilíbrio refrescante" },
-      { label: "ACIDEZ", value: "3,8 e 3,9 meq/100ml" },
-      { label: "ÁGUA", value: "84,3% a 86%" }
+      { label: "FORMA", value: "macafuji.FORMA"},
+      { label: "CALIBRE", value: "macafuji.CALIBRE"},
+      { label: "TEXTURA", value: "macafuji.TEXTURA"},
+      { label: "COR", value: "macafuji.COR"},
+      { label: "SABOR", value: "macafuji.SABOR"},
+      { label: "ACIDEZ", value: "macafuji.ACIDEZ"},
+      { label: "ÁGUA", value: "macafuji.ÁGUA"}
     ],
     calendar: {
       months: ["JAN","FEV","MAR","ABR","MAI","JUN","JUL","AGO","SET","OUT","NOV","DEZ"],
@@ -250,26 +249,26 @@ export const products = [
   },
   {
     id: 6,
-    name: "Maçã Starking",
+    name: "macastarking.name",
     img: productcardStarking,
     decor: {
     topLeft:    decor12,
     topRight:   decor13,
     bottomLeft: decor14
   },
-    storage: {
-      Armazenamento: "Em Atmosfera Controlada ou em Frio Normal.",
-      Transporte: "veículos frigoríficos à temperatura de 0ºC e 2ºC.",
-      Embalamento: "em saco plástico/granel e acondicionado em  caixa de plástico ou de cartão."
-    },
+    storage: [
+      { label: "Armazenamento", value: "macastarking.Armazenamento"},
+      { label: "Transporte", value: "macastarking.Transporte"},
+      { label: "Embalamento", value: "macastarking.Embalamento"},
+    ],
     characteristics: [
-      { label: "FORMA", value: "alongada, tronco-cónica, costada, irregular" },
-      { label: "CALIBRE", value: "55 mm a 90 mm" },
-      { label: "TEXTURA", value: "polpa branca-creme, fina, consistente e crocante" },
-      { label: "COR", value: "vermelho com estrias, sobre um fundo amarelado" },
-      { label: "SABOR", value: "doce, aromático (com um toque de ananás) e levemente acidulado" },
-      { label: "ACIDEZ", value: "2,6 a 3,4 meq/100ml" },
-      { label: "ÁGUA", value: "80%" }
+      { label: "FORMA", value: "macastarking.FORMA"},
+      { label: "CALIBRE", value: "macastarking.CALIBRE"},
+      { label: "TEXTURA", value: "macastarking.TEXTURA"},
+      { label: "COR", value: "macastarking.COR"},
+      { label: "SABOR", value: "macastarking.SABOR"},
+      { label: "ACIDEZ", value: "macastarking.ACIDEZ"},
+      { label: "ÁGUA", value: "macastarking.ÁGUA"}
     ],
     calendar: {
       months: ["JAN","FEV","MAR","ABR","MAI","JUN","JUL","AGO","SET","OUT","NOV","DEZ"],
@@ -280,26 +279,26 @@ export const products = [
   },
   {
     id: 7,
-    name: "Maçã Granny Smith",
+    name: "macagranny.name",
     img: productcardGranny,
     decor: {
     topLeft:    decor15,
     topRight:   decor16,
     bottomLeft: decor17
   },
-    storage: {
-      Armazenamento: "Em Atmosfera Controlada ou em Frio Normal.",
-      Transporte: "veículos frigoríficos à temperatura de 0ºC e 2ºC.",
-      Embalamento: "em saco plástico/granel e acondicionado em  caixa de plástico ou de cartão."
-    },
+    storage: [
+      { label: "Armazenamento", value: "macagranny.Armazenamento"},
+      { label: "Transporte", value: "macagranny.Transporte"},
+      { label: "Embalamento", value: "macagranny.Embalamento"},
+    ],
     characteristics: [
-      { label: "FORMA", value: "semi elevada, levemente tronco-cónica, regular" },
-      { label: "CALIBRE", value: "65 mm a 90 mm" },
-      { label: "TEXTURA", value: "firme e crocante" },
-      { label: "COR", value: "fortemente ácido, com um toque refrescante e um travo menos doce" },
-      { label: "SABOR", value: "doce" },
-      { label: "ACIDEZ", value: "elevada acidez e sabor amargo" },
-      { label: "ÁGUA", value: "83% a 86%" }
+      { label: "FORMA", value: "macagranny.FORMA"},
+      { label: "CALIBRE", value: "macagranny.CALIBRE"},
+      { label: "TEXTURA", value: "macagranny.TEXTURA"},
+      { label: "COR", value: "macagranny.COR"},
+      { label: "SABOR", value: "macagranny.SABOR"},
+      { label: "ACIDEZ", value: "macagranny.ACIDEZ"},
+      { label: "ÁGUA", value: "macagranny.ÁGUA"}
     ],
     calendar: {
       months: ["JAN","FEV","MAR","ABR","MAI","JUN","JUL","AGO","SET","OUT","NOV","DEZ"],
@@ -310,26 +309,26 @@ export const products = [
   },
   {
     id: 8,
-    name: "Maçã Bravo Esmolfe",
+    name: "macabravo.name",
     img: productcardApple,
     decor: {
     topLeft:    decor45,
     topRight:   decor46,
     bottomLeft: decor47
     },
-    storage: {
-      Armazenamento: "Em Atmosfera Controlada ou em Frio Normal.",
-      Transporte: "veículos frigoríficos à temperatura de 0ºC e 2ºC.",
-      Embalamento: "em saco plástico/granel e acondicionado em  caixa de plástico ou de cartão."
-    },
+    storage: [
+      { label: "Armazenamento", value: "macabravo.Armazenamento"},
+      { label: "Transporte", value: "macabravo.Transporte"},
+      { label: "Embalamento", value: "macabravo.Embalamento"},
+    ],
     characteristics: [
-      { label: "FORMA", value: "oblongo-cónica" },
-      { label: "CALIBRE", value: "60 mm a 80 mm" },
-      { label: "TEXTURA", value: "polpa macia, fina e sucolenta" },
-      { label: "COR", value: "esbranquiçada, pode apresentar manchas avermelhadas, e ser manchada e/ou raiada de carepa na fossa peduncular" },
-      { label: "SABOR", value: "doce, muito pouco acidulada e perfumada" },
-      { label: "ACIDEZ", value: "5,7 a 6,4 meq/100ml" },
-      { label: "ÁGUA", value: "83%" }
+      { label: "FORMA", value: "macabravo.FORMA"},
+      { label: "CALIBRE", value: "macabravo.CALIBRE"},
+      { label: "TEXTURA", value: "macabravo.TEXTURA"},
+      { label: "COR", value: "macabravo.COR"},
+      { label: "SABOR", value: "macabravo.SABOR"},
+      { label: "ACIDEZ", value: "macabravo.ACIDEZ"},
+      { label: "ÁGUA", value: "macabravo.ÁGUA"}
     ],
     calendar: {
       months: ["JAN","FEV","MAR","ABR","MAI","JUN","JUL","AGO","SET","OUT","NOV","DEZ"],
@@ -340,26 +339,26 @@ export const products = [
   },
   {
     id: 9,
-    name: "Cereja",
+    name: "cereja.name",
     img: productcardCereja,
     decor: {
     topLeft:    decor18,
     topRight:   decor19,
     bottomLeft: decor20
   },
-    storage: {
-      Armazenamento: "Em Atmosfera Controlada ou em Frio Normal.",
-      Transporte: "veículos frigoríficos à temperatura de 2ºc a 4ºC",
-      Embalamento: "cuvetes e em caixa de cartão ou plástico."
-    },
+     storage: [
+      { label: "Armazenamento", value: "cereja.Armazenamento"},
+      { label: "Transporte", value: "cereja.Transporte"},
+      { label: "Embalamento", value: "cereja.Embalamento"},
+    ],
     characteristics: [
-      { label: "FORMA", value: "redonda ou ligeiramente oval  " },
-      { label: "CALIBRE", value: "17 mm a +26 mm" },
-      { label: "TEXTURA", value: "polpa firme, carnuda, suculenta, de textura suave" },
-      { label: "COR", value: "vermelho intenso e brilhante" },
-      { label: "SABOR", value: "doce a adocicado e levemente adstringente" },
-      { label: "ACIDEZ", value: "1.2% acidez titulável" },
-      { label: "ÁGUA", value: "82%" }
+      { label: "FORMA", value: "cereja.FORMA"},
+      { label: "CALIBRE", value: "cereja.CALIBRE"},
+      { label: "TEXTURA", value: "cereja.TEXTURA"},
+      { label: "COR", value: "cereja.COR"},
+      { label: "SABOR", value: "cereja.SABOR"},
+      { label: "ACIDEZ", value: "cereja.ACIDEZ"},
+      { label: "ÁGUA", value: "cereja.ÁGUA"}
     ],
     calendar: {
       months: ["JAN","FEV","MAR","ABR","MAI","JUN","JUL","AGO","SET","OUT","NOV","DEZ"],
@@ -370,7 +369,7 @@ export const products = [
   },
   {
     id: 10,
-    name: "Castanha",
+    name: "castanha.name",
     cat: "longal;judia;martaínha",
     img: productcardCastanha,
     decor: {
@@ -378,19 +377,19 @@ export const products = [
     topRight:   decor22,
     bottomLeft: decor23
   },
-    storage: {
-      Armazenamento: "Em Atmosfera Controlada ou em Frio Normal.",
-      Transporte: "veículos frigoríficos à temperatura de xºc a xº c.",
-      Embalamento: "saco ou caixa de acordo com as especificações."
-    },
+    storage: [
+      { label: "Armazenamento", value: "castanha.Armazenamento"},
+      { label: "Transporte", value: "castanha.Transporte"},
+      { label: "Embalamento", value: "castanha.Embalamento"},
+    ],
     characteristics: [
-      { label: "FORMA", value: "achatada onde se liga à casca e ponta mais aguda no outro extremo" },
-      { label: "CALIBRE", value: "20 mm a 30 mm" },
-      { label: "TEXTURA", value: "macia e friável" },
-      { label: "COR", value: "lisa e brilhante, com coloração castanho-escura e reflexos acobreados" },
-      { label: "SABOR", value: "doce, mas que pode variar consoante a variedade" },
-      { label: "ACIDEZ", value: "acidez pouco expressiva, alto tero de amido e fibra" },
-      { label: "ÁGUA", value: "cerca de 50%" }
+      { label: "FORMA", value: "castanha.FORMA"},
+      { label: "CALIBRE", value: "castanha.CALIBRE"},
+      { label: "TEXTURA", value: "castanha.TEXTURA"},
+      { label: "COR", value: "castanha.COR"},
+      { label: "SABOR", value: "castanha.SABOR"},
+      { label: "ACIDEZ", value: "castanha.ACIDEZ"},
+      { label: "ÁGUA", value: "castanha.ÁGUA"}
     ],
     calendar: {
       months: ["JAN","FEV","MAR","ABR","MAI","JUN","JUL","AGO","SET","OUT","NOV","DEZ"],
@@ -401,7 +400,7 @@ export const products = [
   },
   {
     id: 11,
-    name: "Morango",
+    name: "morango.name",
     img: productcardMorango,
     cat: "DIAMANTE; SAN ANDREAS; ALBION; TENTAÇÃO; VENTANA",
     decor: {
@@ -409,19 +408,19 @@ export const products = [
     topRight:   decor25,
     bottomLeft: decor26
   },
-    storage: {
-      Armazenamento: "Em Atmosfera Controlada ou em Frio Normal.",
-      Transporte: "veículos frigoríficos à temperatura de xºc a xº c.",
-      Embalamento: "saco ou caixa de acordo com as especificações."
-    },
+    storage: [
+      { label: "Armazenamento", value: "morango.Armazenamento"},
+      { label: "Transporte", value: "morango.Transporte"},
+      { label: "Embalamento", value: "morango.Embalamento"},
+    ],
     characteristics: [
-      { label: "FORMA", value: "cónico ou arredondado, ponta mais estreita e base mais larga" },
-      { label: "CALIBRE", value: "18 mm a 25 mm" },
-      { label: "TEXTURA", value: "suculenta e firme" },
-      { label: "COR", value: "vermelha brilhante e intensa" },
-      { label: "SABOR", value: "equilíbrio entre a doçura e acidez" },
-      { label: "ACIDEZ", value: "0,6 e 1,1% (ou g/100g de fruta), sendo o valor mediano de 0,85%" },
-      { label: "ÁGUA", value: "90%  a 92%" }
+      { label: "FORMA", value: "morango.FORMA"},
+      { label: "CALIBRE", value: "morango.CALIBRE"},
+      { label: "TEXTURA", value: "morango.TEXTURA"},
+      { label: "COR", value: "morango.COR"},
+      { label: "SABOR", value: "morango.SABOR"},
+      { label: "ACIDEZ", value: "morango.ACIDEZ"},
+      { label: "ÁGUA", value: "morango.ÁGUA"}
     ],
     calendar: {
       months: ["JAN","FEV","MAR","ABR","MAI","JUN","JUL","AGO","SET","OUT","NOV","DEZ"],
@@ -432,7 +431,7 @@ export const products = [
   },
   {
     id: 12,
-    name: "Mirtilo",
+    name: "mirtilo.name",
     img: productcardMirtilo,
     cat: "Northern Highbush;Southern Highbush;Rabbiteye",
     decor: {
@@ -440,19 +439,19 @@ export const products = [
     topRight:   decor28,
     bottomLeft: decor29
   },
-    storage: {
-      Armazenamento: "Em Atmosfera Controlada ou em Frio Normal.",
-      Transporte: "veículos frigoríficos à temperatura de xºc a xº c.",
-      Embalamento: "saco ou caixa de acordo com as especificações."
-    },
+    storage: [
+      { label: "Armazenamento", value: "mirtilo.Armazenamento"},
+      { label: "Transporte", value: "mirtilo.Transporte"},
+      { label: "Embalamento", value: "mirtilo.Embalamento"},
+    ],
     characteristics: [
-      { label: "FORMA", value: "pequena, marca em forma de estrela de cinco pontas na parte superior" },
-      { label: "CALIBRE", value: "13 mm a 22 mm" },
-      { label: "TEXTURA", value: "firme com polpa suculenta e aromática" },
-      { label: "COR", value: "azul-cerosa quando maduro, podendo variar para vermelho dependendo da variedade" },
-      { label: "SABOR", value: "agridoce" },
-      { label: "ACIDEZ", value: "superior a 130 meq/L" },
-      { label: "ÁGUA", value: "84% a 89%" }
+      { label: "FORMA", value: "mirtilo.FORMA"},
+      { label: "CALIBRE", value: "mirtilo.CALIBRE"},
+      { label: "TEXTURA", value: "mirtilo.TEXTURA"},
+      { label: "COR", value: "mirtilo.COR"},
+      { label: "SABOR", value: "mirtilo.SABOR"},
+      { label: "ACIDEZ", value: "mirtilo.ACIDEZ"},
+      { label: "ÁGUA", value: "mirtilo.ÁGUA"}
     ],
     calendar: {
       months: ["JAN","FEV","MAR","ABR","MAI","JUN","JUL","AGO","SET","OUT","NOV","DEZ"],
@@ -463,7 +462,7 @@ export const products = [
   },
   {
     id: 13,
-    name: "Kiwi",
+    name: "kiwi.name",
     img: productcardKiwi,
     cat: "Hayward;Abott;Allison;Monty.",
     decor: {
@@ -471,19 +470,19 @@ export const products = [
     topRight:   decor31,
     bottomLeft: decor32
   },
-    storage: {
-      Armazenamento: "Em Atmosfera Controlada ou em Frio Normal.",
-      Transporte: "veículos frigoríficos à temperatura de xºc a xº c.",
-      Embalamento: "saco ou caixa de acordo com as especificações."
-    },
+     storage: [
+      { label: "Armazenamento", value: "kiwi.Armazenamento"},
+      { label: "Transporte", value: "kiwi.Transporte"},
+      { label: "Embalamento", value: "kiwi.Embalamento"},
+    ],
     characteristics: [
-      { label: "FORMA", value: "oval variando o tamanho entre 5 e 8 cm de comprimento" },
-      { label: "CALIBRE", value: "65g a 90g" },
-      { label: "TEXTURA", value: "polpa macia e suave, com um toque cremoso e ligeira firmeza" },
-      { label: "COR", value: "casca castanha e fibrosa, polpa verde ou amarela com sementes pretas" },
-      { label: "SABOR", value: "paladar característico, entre o ácido e o doce, com um toque cítrico" },
-      { label: "ACIDEZ", value: "levemente ácido, com pH entre 3,31 e 3,44 — varia consoante a variedade e maturação" },
-      { label: "ÁGUA", value: "83% a 85%" }
+      { label: "FORMA", value: "kiwi.FORMA"},
+      { label: "CALIBRE", value: "kiwi.CALIBRE"},
+      { label: "TEXTURA", value: "kiwi.TEXTURA"},
+      { label: "COR", value: "kiwi.COR"},
+      { label: "SABOR", value: "kiwi.SABOR"},
+      { label: "ACIDEZ", value: "kiwi.ACIDEZ"},
+      { label: "ÁGUA", value: "kiwi.ÁGUA"}
     ],
      calendar: {
       months: ["JAN","FEV","MAR","ABR","MAI","JUN","JUL","AGO","SET","OUT","NOV","DEZ"],
@@ -494,7 +493,7 @@ export const products = [
   },
   {
     id: 14,
-    name: "Framboesa",
+    name: "framboesa.name",
     img: productcardFramboesa ,
     cat: "kweli;imara, adelita;kwanza;maravilla",
     decor: {
@@ -502,19 +501,19 @@ export const products = [
     topRight:   decor34,
     bottomLeft: decor35
   },
-    storage: {
-      Armazenamento: "Em Atmosfera Controlada ou em Frio Normal.",
-      Transporte: "veículos frigoríficos à temperatura de xºc a xº c.",
-      Embalamento: "saco ou caixa de acordo com as especificações."
-    },
+     storage: [
+      { label: "Armazenamento", value: "framboesa.Armazenamento"},
+      { label: "Transporte", value: "framboesa.Transporte"},
+      { label: "Embalamento", value: "framboesa.Embalamento"},
+    ],
     characteristics: [
-      { label: "FORMA", value: "irregular" },
-      { label: "CALIBRE", value: "N/A" },
-      { label: "TEXTURA", value: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx" },
-      { label: "COR", value: "avermelhada" },
-      { label: "SABOR", value: "doce" },
-      { label: "ACIDEZ", value: "x a x g/l" },
-      { label: "ÁGUA", value: "xx% a xx%" }
+      { label: "FORMA", value: "framboesa.FORMA"},
+      { label: "CALIBRE", value: "framboesa.CALIBRE"},
+      { label: "TEXTURA", value: "framboesa.TEXTURA"},
+      { label: "COR", value: "framboesa.COR"},
+      { label: "SABOR", value: "framboesa.SABOR"},
+      { label: "ACIDEZ", value: "framboesa.ACIDEZ"},
+      { label: "ÁGUA", value: "framboesa.ÁGUA"}
     ],
    calendar: {
       months: ["JAN","FEV","MAR","ABR","MAI","JUN","JUL","AGO","SET","OUT","NOV","DEZ"],
@@ -525,7 +524,7 @@ export const products = [
   },
   {
     id: 15,
-    name: "Uva",
+    name: "uva.name",
     img: productcardUva,
     cat: "Cardinal;Cardinal;Black Pearl.",
     decor: {
@@ -533,19 +532,19 @@ export const products = [
     topRight:   decor37,
     bottomLeft: decor38
   },
-    storage: {
-      Armazenamento: "Em Atmosfera Controlada ou em Frio Normal.",
-      Transporte: "veículos frigoríficos à temperatura de xºc a xº c.",
-      Embalamento: "saco ou caixa de acordo com as especificações."
-    },
+     storage: [
+      { label: "Armazenamento", value: "uva.Armazenamento"},
+      { label: "Transporte", value: "uva.Transporte"},
+      { label: "Embalamento", value: "uva.Embalamento"},
+    ],
     characteristics: [
-      { label: "FORMA", value: "redonda ou oval em cachos cónicos, com tamanho e densidade variáveis" },
-      { label: "CALIBRE", value: "bagos grandes e uniformes, com calibre ideal de 18 mm (sem sementes) ou 24 mm (com sementes)" },
-      { label: "TEXTURA", value: "polpa firme e crocante, envolta por película fina" },
-      { label: "COR", value: "uvas tintas, varia do verde ao roxo; nas uvas brancas, do verde ao amarelo-esverdeado – dependendo da maturação" },
-      { label: "SABOR", value: "sabor doce e equilibrado, com baixa acidez — pode ser neutro, especial ou moscatel, conforme a variedade" },
-      { label: "ACIDEZ", value: "acidez variável conforme a variedade e maturação, com pH geralmente entre 4 e 4,5" },
-      { label: "ÁGUA", value: "80%" }
+      { label: "FORMA", value: "uva.FORMA"},
+      { label: "CALIBRE", value: "uva.CALIBRE"},
+      { label: "TEXTURA", value: "uva.TEXTURA"},
+      { label: "COR", value: "uva.COR"},
+      { label: "SABOR", value: "uva.SABOR"},
+      { label: "ACIDEZ", value: "uva.ACIDEZ"},
+      { label: "ÁGUA", value: "uva.ÁGUA"}
     ],
     calendar: {
       months: ["JAN","FEV","MAR","ABR","MAI","JUN","JUL","AGO","SET","OUT","NOV","DEZ"],
@@ -556,7 +555,7 @@ export const products = [
   },
   {
     id: 16,
-    name: "Laranja",
+    name: "laranja.name",
     img: productcardLaranja,
     cat: "DO ALGARVE;NAVEL SANGUE;LANE LATE",
     decor: {
@@ -564,19 +563,19 @@ export const products = [
     topRight:   decor40,
     bottomLeft: decor41
   },
-    storage: {
-      Armazenamento: "Em Atmosfera Controlada ou em Frio Normal.",
-      Transporte: "veículos frigoríficos à temperatura de xºc a xº c.",
-      Embalamento: "saco ou caixa de acordo com as especificações."
-    },
+     storage: [
+      { label: "Armazenamento", value: "laranja.Armazenamento"},
+      { label: "Transporte", value: "laranja.Transporte"},
+      { label: "Embalamento", value: "laranja.Embalamento"},
+    ],
     characteristics: [
-      { label: "FORMA", value: "forma redonda ou ovóide, com variações como umbigo proeminente e casca fina ou grossa" },
-      { label: "CALIBRE", value: "3, 4, 5 a 6/7" },
-      { label: "TEXTURA", value: "polpa suculenta e macia, com textura refrescante" },
-      { label: "COR", value: "casca de laranja brilhante e granulada; polpa laranja-amarelada nas comuns ou vermelha nas sanguíneas" },
-      { label: "SABOR", value: "equilibrado entre doce e ácido, consioante a variedade e maturação" },
-      { label: "ACIDEZ", value: "acidez variável; o suco in natura tem pH médio de 4,34 " },
-      { label: "ÁGUA", value: "86% a 87%" }
+      { label: "FORMA", value: "laranja.FORMA"},
+      { label: "CALIBRE", value: "laranja.CALIBRE"},
+      { label: "TEXTURA", value: "laranja.TEXTURA"},
+      { label: "COR", value: "laranja.COR"},
+      { label: "SABOR", value: "laranja.SABOR"},
+      { label: "ACIDEZ", value: "laranja.ACIDEZ"},
+      { label: "ÁGUA", value: "laranja.ÁGUA"}
     ],
      calendar: {
       months: ["JAN","FEV","MAR","ABR","MAI","JUN","JUL","AGO","SET","OUT","NOV","DEZ"],
@@ -587,27 +586,27 @@ export const products = [
   },
   {
     id: 17,
-    name: "LIMÃO",
+    name: "limao.name",
     img: productcardLimio,
     cat: "SICILIANO;TAITI;GALEGO E CRAVO OU CAIPIRA",
     decor: {
-    topLeft:    decor42,
+    topLeft:    decor44,
     topRight:   decor43,
-    bottomLeft: decor44
+    bottomLeft: decor42
   },
-    storage: {
-      Armazenamento: "Em Atmosfera Controlada ou em Frio Normal.",
-      Transporte: "veículos frigoríficos à temperatura de xºc a xº c.",
-      Embalamento: "saco ou caixa de acordo com as especificações."
-    },
+    storage: [
+      { label: "Armazenamento", value: "limao.Armazenamento"},
+      { label: "Transporte", value: "limao.Transporte"},
+      { label: "Embalamento", value: "limao.Embalamento"},
+    ],
     characteristics: [
-      { label: "FORMA", value: "oval ou arredondada, alongada, terminando em duas pontas proeminentes na extremidade" },
-      { label: "CALIBRE", value: "45 mm a 83 mm" },
-      { label: "TEXTURA", value: "polpa suculenta quecede ao toque, indicando maturação e com sumo" },
-      { label: "COR", value: "do verde ao amarelo intenso; quanto mais amarelo, mais maduro; reflexos verdes indicam maior acidez" },
-      { label: "SABOR", value: "ácido e refrescante" },
-      { label: "ACIDEZ", value: "acidez intensa, com 5% a 7% de ácido cítrico e pH entre 2,2 e 2,4" },
-      { label: "ÁGUA", value: "87,4% a 90,1%" }
+      { label: "FORMA", value: "limao.FORMA"},
+      { label: "CALIBRE", value: "limao.CALIBRE"},
+      { label: "TEXTURA", value: "limao.TEXTURA"},
+      { label: "COR", value: "limao.COR"},
+      { label: "SABOR", value: "limao.SABOR"},
+      { label: "ACIDEZ", value: "limao.ACIDEZ"},
+      { label: "ÁGUA", value: "limao.ÁGUA"}
     ],
     calendar: {
       months: ["JAN","FEV","MAR","ABR","MAI","JUN","JUL","AGO","SET","OUT","NOV","DEZ"],

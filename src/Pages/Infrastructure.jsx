@@ -80,9 +80,9 @@ const Infrastructure = () => {
         {InfraData.map((feature) => (
           <div
             key={feature.id}
-            className="border-[#E5376B] border-[20px] rounded-[30px]"
+            className="rounded-[30px]"
           >
-            <div className="bg-white  rounded-[30px] shadow-lg p-4 text-center cursor-pointer">
+            <div className="bg-white border-[#E5376B] border-[20px] rounded-[30px] shadow-lg p-4 text-center cursor-pointer">
               <h3 className="text-[22px] leading-[35px] text-[#E73569] font-mono45 font-normal">
                 {feature.title}
               </h3>

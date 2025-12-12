@@ -60,7 +60,7 @@ const Products = () => {
     arrows: false,
     lazyLoad: true,
     autoplay: true,
-    autoplaySpeed: 4000,
+    autoplaySpeed: 3000,
   };
 
   const handleImagesLoaded = () => setImagesLoaded(true);
@@ -110,7 +110,7 @@ const Products = () => {
                   </p>
                 </div>
 
-                <div className="hidden md:flex flex-col gap-1">
+                <div className="hidden md:flex flex-col gap-1 max-w-[155px]">
                   <h3 className="text-[#9AC433] text-xl md:text-[32px] font-normal text-start uppercase leading-tight font-mono45">
                     {product.name}
                   </h3>

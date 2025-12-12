@@ -10,14 +10,16 @@ import demonAppleV2 from "../assets/png/bannerProduct/demonAppleV2.png";
 import greenApple from "../assets/png/bannerProduct/greenApple.png";
 import logo from "../assets/png/bannerProduct/logo.png";
 import redApple from "../assets/png/bannerProduct/redApple.png";
+import { useTranslation } from "react-i18next";
 
 const Banner = () => {
-  const lang = "PT";
+  // const lang = "PT";
   const bannerData = {
     bannerImg: Banner2,
   };
-
-  const currentLangImages = bannerProductImages[lang];
+  const { i18n } = useTranslation();
+  const lang = i18n.language.toUpperCase();
+  const currentLangImages = bannerProductImages[lang] ?? bannerProductImages["PT"];  
 
   return (
     <>
@@ -84,12 +86,12 @@ const Banner = () => {
         <img
           src={demonAppleV1}
           alt="demonAppleV1"
-          className="w-20 sm:w-[200px] 2xl:w-[300px] absolute right-[25px] bottom-0 sm:right-[250px]  2xl:right-[140px] 2xl:bottom-[60px]"
+          className="w-20 sm:w-[200px] 2xl:w-[325px] absolute right-[25px] bottom-0 sm:right-[250px]  2xl:right-[140px] 2xl:bottom-[55px]"
         />
         <img
           src={demonAppleV2}
           alt="demonAppleV2"
-          className="w-20 sm:w-[200px]  2xl:w-[300px] absolute right-[40px] top-[15px]  sm:top-0  sm:right-[250px]  2xl:right-[140px] 2xl:top-[80px]"
+          className="w-20 sm:w-[200px]  2xl:w-[325px] absolute right-[40px] top-[15px]  sm:top-0  sm:right-[250px]  2xl:right-[140px] 2xl:top-[55px]"
         />
       </div>
     </>

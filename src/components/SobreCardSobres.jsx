@@ -36,7 +36,7 @@ const SobreCardComponent = () => {
                 href={market.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="font-mulish text-base mt-4 text-[#061829] underline font-bold"
+                className="font-mulish text-base mt-4 text-[#061829] underline font-bold px-[10px]"
               >
                 {market.address}
               </a>

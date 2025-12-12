@@ -3,6 +3,7 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import { products } from "../data/form";
+import { useTranslation } from "react-i18next";
 
 const PINK = "#E64C73";
 const GREEN = "#86B038";
@@ -16,6 +17,8 @@ export default function ProductDetail({ product: productProp }) {
     productProp ?? products.find((p) => p.id === idFromRoute) ?? products[0];
 
   if (!product) return null;
+  const { t } = useTranslation();
+  
 
   return (
     <section className="bg-white py-5 sm:py-12 lg:py-35 relative">
@@ -25,7 +28,7 @@ export default function ProductDetail({ product: productProp }) {
         <div className="block lg:hidden md:px-5 md:px-[50px]">
           {/* Product Name */}
           <h1 className="text-[34px] sm:text-[42px] font-medium font-mono45 uppercase tracking-wide text-[#E64C73] lg:mb-6 text-center">
-            {product.name}
+            {t(`individualproducts.${product.name}`)}
           </h1>
 
           {/* Image */}
@@ -74,19 +77,35 @@ export default function ProductDetail({ product: productProp }) {
             style={{ borderColor: PINK }}
           >
             <dl className="space-y-5 sm:space-y-6">
-              {Object.entries(product.storage ?? {}).map(([label, text]) => (
+              {(product.storage || []).map((c) => (
+                // <CharLine key={c.label} label={c.label} value={c.value} />
+                <div key={c.label}>
+                  <dt
+                    className="text-base sm:text-[22px] leading-6 font-medium font-mono45 uppercase tracking-wide"
+                    style={{ color: PINK }}
+                  >
+                    {/* {c.label} */}
+                    {t(`individualproducts.${c.label}`)}
+                  </dt>
+                  <dd className="text-sm leading-[16px] text-slate-900">
+                    {/* {c.value} */}
+                    {t(`individualproducts.${c.value}`)}
+                  </dd>
+                </div>
+              ))}
+              {/* {Object.entries(product.storage ?? {}).map(([label, value]) => (
                 <div key={label}>
                   <dt
                     className="text-base sm:text-[22px] leading-6 font-medium font-mono45 uppercase tracking-wide"
                     style={{ color: PINK }}
                   >
-                    {label}
+                    {t(`individualproducts.${label}`)}
                   </dt>
                   <dd className="text-sm leading-[16px] text-slate-900">
-                    {String(text)}
+                    {t(`individualproducts.${value}`)}
                   </dd>
                 </div>
-              ))}
+              ))} */}
             </dl>
           </div>
 
@@ -97,7 +116,7 @@ export default function ProductDetail({ product: productProp }) {
               onClick={() => navigate("/products")}
               className="mx-auto block rounded-[15px] border-2 cursor-pointer p-3 text-base sm:text-[20px] font-normal font-mono45 uppercase tracking-[1.25px] hover:bg-black hover:text-white transition text-[#061829]"
             >
-              Ver outros produtos
+              {t("individualproducts.buttontext")}
             </button>
           </div>
         </div>
@@ -122,7 +141,7 @@ export default function ProductDetail({ product: productProp }) {
                 className="text-[34px] sm:text-[42px] lg:text-[56px] font-medium font-mono45 uppercase tracking-wide"
                 style={{ color: PINK }}
               >
-                {product.name}
+                {t(`individualproducts.${product.name}`)}
               </h1>
 
               {/* Category Box */}
@@ -154,19 +173,22 @@ export default function ProductDetail({ product: productProp }) {
               style={{ borderColor: PINK }}
             >
               <dl className="space-y-5 sm:space-y-4">
-                {Object.entries(product.storage ?? {}).map(([label, text]) => (
-                  <div key={label}>
-                    <dt
-                      className="text-base sm:text-[22px] leading-6 font-medium font-mono45 uppercase tracking-wide"
-                      style={{ color: PINK }}
-                    >
-                      {label}
-                    </dt>
-                    <dd className="text-sm leading-[16px] text-slate-900">
-                      {String(text)}
-                    </dd>
-                  </div>
-                ))}
+                {(product.storage || []).map((c) => (
+                // <CharLine key={c.label} label={c.label} value={c.value} />
+                <div key={c.label}>
+                  <dt
+                    className="text-base sm:text-[22px] leading-6 font-medium font-mono45 uppercase tracking-wide"
+                    style={{ color: PINK }}
+                  >
+                    {/* {c.label} */}
+                    {t(`individualproducts.${c.label}`)}
+                  </dt>
+                  <dd className="text-sm leading-[16px] text-slate-900">
+                    {/* {c.value} */}
+                    {t(`individualproducts.${c.value}`)}
+                  </dd>
+                </div>
+              ))}
               </dl>
             </div>
           </div>
@@ -187,7 +209,7 @@ export default function ProductDetail({ product: productProp }) {
                 onClick={() => navigate("/products")}
                 className="mx-auto block rounded-[15px] border-2 cursor-pointer p-3 text-base sm:text-[20px] font-normal font-mono45 uppercase tracking-[1.25px] hover:bg-black hover:text-white transition text-[#061829]"
               >
-                Ver outros produtos
+                {t("individualproducts.buttontext")}
               </button>
             </div>
           </div>
@@ -200,6 +222,7 @@ export default function ProductDetail({ product: productProp }) {
 /* ---------- small parts ---------- */
 
 function CharLine({ label, value }) {
+  const { t } = useTranslation();
   return (
     <div className="grid grid-cols-[80px_1fr] sm:grid-cols-[120px_1fr] md:grid-cols-[180px_1fr] border-b-2 border-white items-end">
       {/* LEFT */}
@@ -208,7 +231,7 @@ function CharLine({ label, value }) {
       before:rounded-full before:absolute before:left-0 before:-bottom-[6px] before:z-[2]"
       >
         <span className="relative z-[1] text-sm sm:text-lg font-medium uppercase leading-[28px] font-poppins md:pl-5">
-          {label}
+          {t(`individualproducts.${label}`)}
         </span>
       </div>
 
@@ -218,7 +241,7 @@ function CharLine({ label, value }) {
       before:rounded-full before:absolute before:left-0 before:-bottom-[6px] before:z-[2]"
       >
         <span className="relative text-xs sm:text-base leading-[22px] sm:leading-[28px] font-medium font-poppins pl-5">
-          {value}
+          {t(`individualproducts.${value}`)}
         </span>
       </div>
     </div>
@@ -243,10 +266,12 @@ function Calendar({
   colheita,
   disponibilidade,
 }) {
+
   const pinkColor = "#E5376B";
 
   // Create a mobile version of months (first letter only)
   const shortMonths = months.map((m) => m[0]);
+  const { t } = useTranslation();
 
   return (
     <div className="space-y-4">
@@ -262,7 +287,7 @@ function Calendar({
                 key={m}
                 className="text-center text-[12px] sm:text-[14px] font-normal leading-[22px] opacity-90 font-poppins"
               >
-                {m}
+                {t(`individualproducts.${m}`)}
               </span>
             ))}
           </div>
@@ -287,19 +312,19 @@ function Calendar({
       {/* Mobile (short months) */}
       <div className="block sm:hidden">
         <Row
-          label="PLANTAÇÃO"
+          label={t("individualproducts.plantacao")}
           months={shortMonths}
           data={plantacao}
           activeColor={pinkColor}
         />
         <Row
-          label="COLHEITA"
+          label={t("individualproducts.colheita")}
           months={shortMonths}
           data={colheita}
           activeColor={pinkColor}
         />
         <Row
-          label="DISPONIBILIDADE"
+          label={t("individualproducts.disponibilidade")}
           months={shortMonths}
           data={disponibilidade}
           activeColor={pinkColor}
@@ -309,19 +334,19 @@ function Calendar({
       {/* Desktop (normal months) */}
       <div className="hidden sm:block">
         <Row
-          label="PLANTAÇÃO"
+          label={t("individualproducts.plantacao")}
           months={months}
           data={plantacao}
           activeColor={pinkColor}
         />
         <Row
-          label="COLHEITA"
+          label={t("individualproducts.colheita")}
           months={months}
           data={colheita}
           activeColor={pinkColor}
         />
         <Row
-          label="DISPONIBILIDADE"
+          label={t("individualproducts.disponibilidade")}
           months={months}
           data={disponibilidade}
           activeColor={pinkColor}

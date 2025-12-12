@@ -10,13 +10,16 @@ import { FiHeart } from "react-icons/fi";
 import { LuMessageCircle } from "react-icons/lu";
 import { FiSend } from "react-icons/fi";
 import { CiSaveDown2 } from "react-icons/ci";
+import { useTranslation } from "react-i18next";
 
 const StoryPage = () => {
+  
   const posts = [
     { id: 1, img: img1 },
     { id: 2, img: img2 },
     { id: 3, img: img3 },
   ];
+  const { t } = useTranslation();
 
   return (
     <section
@@ -32,11 +35,11 @@ const StoryPage = () => {
         <h2
           class="text-outline-white font-normal text-2xl md:text-[40px] mt-1 md:leading-[70px] font-mono45"
         >
-          FIQUE A PAR DAS NOVIDADES
+          {t("storypage.heading")}
         </h2>
 
         <p className="uppercase text-base text-[#E5376B] tracking-widest">
-          Siga-nos nas redes sociais
+          {t("storypage.subheading")}
         </p>
 
         {/* Posts Grid */}
