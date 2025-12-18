@@ -428,7 +428,7 @@ function ProductDecor({ decor }) {
           src={topLeft}
           alt=""
           className="pointer-events-none select-none hidden lg:block 
-                      absolute top-0 left-0 h-[200px] w-[230px] mt-[30px]"
+                      absolute top-0 left-0 h-[200px] w-[150px] mt-[30px]"
         />
       )}
 
@@ -437,7 +437,7 @@ function ProductDecor({ decor }) {
           src={topRight}
           alt=""
           className="pointer-events-none select-none  hidden lg:block
-                      absolute top-0 right-0 h-[200px] w-[230px] mt-[30px]"
+                      absolute top-0 right-0 h-[200px] w-[150px] mt-[30px]"
         />
       )}
 
@@ -446,7 +446,7 @@ function ProductDecor({ decor }) {
           src={bottomLeft}
           alt=""
           className="pointer-events-none select-none hidden lg:block
-                      absolute bottom-0 left-0 h-[200px] w-[230px] mb-[20px]"
+                      absolute bottom-0 left-0 h-[200px] w-[150px] mb-[20px]"
         />
       )}
     </>

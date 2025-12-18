@@ -1,7 +1,7 @@
 import CardImg1 from "../assets/jpg/sobreCard1.jpg";
 import CardImg2 from "../assets/jpg/sobreCard2.jpg";
 import sobreImg1 from "../assets/jpg/sobre1.jpg";
-import sobreImg2 from "../assets/jpg/sobre2.jpg";
+import sobreImg2 from "../assets/png/sobre2.png";
 import sobreImg3 from "../assets/png/sobre3.png";
 import sobreImg4 from "../assets/png/sobre4.png";
 import sobreImg5 from "../assets/png/sobre5.png";
@@ -19,7 +19,7 @@ import sobreImg16 from "../assets/png/sobre16.png";
 import sobreImg17 from "../assets/png/sobre17.png";
 import sobreImg18 from "../assets/png/sobre18.png";
 import sobreImg19 from "../assets/png/sobre19.png";
-import sobreImg20 from "../assets/png/sobre20.png";
+// import sobreImg20 from "../assets/png/sobre20.png";
 import sobreImg21 from "../assets/png/sobre21.png";
 import sobreImg22 from "../assets/png/sobre22.png";  
 import sobreImg23 from "../assets/png/sobre23.png";
@@ -36,7 +36,7 @@ import productcardFuji from "../assets/jpg/productcard-fuji-individual.jpg";
 import productcardStarking from "../assets/jpg/productcard-starking-individual.jpg";
 import productcardGranny from "../assets/jpg/productcard-granny-individual.jpg";
 import productcardCereja from "../assets/jpg/productcard-cereja-individual.jpg";
-import productcardCastanha from "../assets/jpg/productcard-castanha-individual.jpg";
+import productcardCastanha from "../assets/jpg/productcard-castanha-individual.png";
 import productcardMorango from "../assets/jpg/productcard-morango-individual.jpg";
 import productcardMirtilo from "../assets/jpg/productcard-mirtilo-individual.jpg";
 import productcardKiwi from "../assets/jpg/productcard-kiwi-individual.jpg";
@@ -393,7 +393,7 @@ export const products = [
     ],
     calendar: {
       months: ["JAN","FEV","MAR","ABR","MAI","JUN","JUL","AGO","SET","OUT","NOV","DEZ"],
-    plantacao: { active: [0, 1, 2, 10, 11] },
+    plantacao: { active: [0, 1, 10, 11] },
   colheita: { active: [9, 8, 10] },
   disponibilidade: { active: [9, 10] }           
     }
@@ -424,7 +424,7 @@ export const products = [
     ],
     calendar: {
       months: ["JAN","FEV","MAR","ABR","MAI","JUN","JUL","AGO","SET","OUT","NOV","DEZ"],
-    plantacao: { active: [0, 1, 2, 10, 11] },
+    plantacao: { active: [ 1, 2, 8, 9, 10] },
   colheita: { active: [1, 2, 3, 4, 5, 6] },
   disponibilidade: { active: [ 1, 2,3, 4, 5, 6, 7, 8, 9, ] }              
     }
@@ -455,7 +455,7 @@ export const products = [
     ],
     calendar: {
       months: ["JAN","FEV","MAR","ABR","MAI","JUN","JUL","AGO","SET","OUT","NOV","DEZ"],
-   plantacao: { active: [0, 1, 2, 10, 11] },
+   plantacao: { active: [0, 1, 2, 9, 10, 11] },
   colheita: { active: [3, 4, 5, 6, 7, 8] },
   disponibilidade: { active: [ 4, 5, 6, 7, 8] }              
     }
@@ -486,7 +486,7 @@ export const products = [
     ],
      calendar: {
       months: ["JAN","FEV","MAR","ABR","MAI","JUN","JUL","AGO","SET","OUT","NOV","DEZ"],
-      plantacao: "não se aplica" ,
+      plantacao: { active: [0, 1, 2, 10, 11] },
   colheita: { active: [11, 10, 9] },
   disponibilidade: { active: [0, 1, 2, 3, 4, 5, 6, 11] }              
     }
@@ -517,9 +517,9 @@ export const products = [
     ],
    calendar: {
       months: ["JAN","FEV","MAR","ABR","MAI","JUN","JUL","AGO","SET","OUT","NOV","DEZ"],
-      plantacao: "não se aplica" ,
-  colheita: { active: [7, 8, 9] },
-  disponibilidade: { active: [] }              
+      plantacao: { active: [0,1,2,9,10,11] } ,
+  colheita: { active: [4,5,6,7, 8, 9,10] },
+  disponibilidade: { active: [3,4,5,6,7,8,9,10] }              
     }
   },
   {
@@ -548,7 +548,7 @@ export const products = [
     ],
     calendar: {
       months: ["JAN","FEV","MAR","ABR","MAI","JUN","JUL","AGO","SET","OUT","NOV","DEZ"],
-      plantacao: "não se aplica" ,
+      plantacao: { active: [0,1,10,11]} ,
   colheita: { active: [6, 7, 8, 9, 10] },
   disponibilidade: { active: [6, 7, 8, 9, 10] }              
     }
@@ -579,9 +579,9 @@ export const products = [
     ],
      calendar: {
       months: ["JAN","FEV","MAR","ABR","MAI","JUN","JUL","AGO","SET","OUT","NOV","DEZ"],
-      plantacao: "não se aplica" ,
-  colheita: { active: [6, 7, 8, 9, 10] },
-  disponibilidade: { active: [5, 6, 7, 8, 9, 10] }              
+      plantacao: { active: [2,3,4,8,9,10]} ,
+  colheita: { active: [0,1,2,3,4,5,6, 10,11] },
+  disponibilidade: { active: [0,1,2,3,4,5,10,11] }              
     }
   },
   {
@@ -610,7 +610,7 @@ export const products = [
     ],
     calendar: {
       months: ["JAN","FEV","MAR","ABR","MAI","JUN","JUL","AGO","SET","OUT","NOV","DEZ"],
-      plantacao: "não se aplica" ,
+      plantacao: { active: [2,3,4,8,9,10]} ,
   colheita: { active: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11] },
   disponibilidade: { active: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11] }              
     }
@@ -637,56 +637,58 @@ export const markets = [
 export const sobre = [
   {
     id: 1,
-    name: "João Mendes",
-    role: "CEO",
+    name: "BRUNO CARVALHO",
+    role: "sobre.role1",
     image: sobreImg1,
   },
   {
     id: 2,
-    name: "xxxxxx xxxxxxx",
-    role: "xxxxxx",
+    name: "SANDRA CORREIA",
+    role: "sobre.role2",
     image: sobreImg2,
   },
   {
     id: 3,
-    name: "xxxxxx xxxxxxx",
-    role: "xxxxxx",
+    name: "ALEXANDRA BERNARDINO",
+    role: "sobre.role3",
     image: sobreImg3,
   },
   {
     id: 4,
-   name: "xxxxxx xxxxxxx",
-    role: "xxxxxx",
+   name: "ANA PAULA SILVA",
+    role: "sobre.role4",
     image: sobreImg4,
   },
   {
     id: 5,
-    name: "xxxxxx xxxxxxx",
-    role: "xxxxxx",
+    name: "MARIA COSTA",
+    role: "sobre.role4",
     image: sobreImg5,
   },
   {
     id: 6,
-    name: "xxxxxx xxxxxxx",
-    role: "xxxxxx",
+    name: "MARCELO VIEIRA",
+    role: "sobre.role5",
     image: sobreImg6,
   },
   {
     id: 7,
-    name: "xxxxxx xxxxxxx",
-    role: "xxxxxx",
+    name: "ISABEL PEDRO",
+    role: "sobre.role4",
     image: sobreImg7,
   },
   {
     id: 8,
-    name: "xxxxxx xxxxxxx",
-    role: "xxxxxx",
+    name: "BHUMIRAJ PUN",
+    role: "sobre.role4",
+    // name: "MARIA FERREIRA",
+    // role: "sobre.role4",
     image: sobreImg8,
   },
   {
     id: 9,
-    name: "xxxxxx xxxxxxx",
-    role: "xxxxxx",
+    name: "MARIA FERREIRA",
+    role: "sobre.role4",
     image: sobreImg9,
   },
   {
@@ -697,27 +699,29 @@ export const sobre = [
   },
   {
     id: 11,
-    name: "xxxxxx xxxxxxx",
-    role: "xxxxxx",
+    name: "PRADIP SHERESTHA",
+    role: "sobre.role5",
     image: sobreImg11,
   },
   {
     id: 12,
-    name: "xxxxxx xxxxxxx",
-    role: "xxxxxx",
+    name: "ANA PAULA NORTE",
+    role: "sobre.role4",    
     image: sobreImg12,
   },
 
   {
     id: 13,
-    name: "xxxxxx xxxxxxx",
-    role: "xxxxxx",
+    name: "EUGÉNIA SOUSA",
+    role: "sobre.role4",
     image: sobreImg13,
   },
   {
     id: 14,
-    name: "xxxxxx xxxxxxx",
-    role: "xxxxxx",
+    name: "TARA BARAGHARE",
+    role: "sobre.role4",
+    // name: "FERNANDO CORREIA",
+    // role: "sobre.role7",
     image: sobreImg14,
   },
   {
@@ -728,56 +732,58 @@ export const sobre = [
   },
   {
     id: 16,
-    name: "xxxxxx xxxxxxx",
-    role: "xxxxxx",
+    name: "JOAQUIM ALBUQUERQUE",
+    role: "sobre.role9",
     image: sobreImg16,
   },
     {
     id: 17,
-    name: "xxxxxx xxxxxxx",
-    role: "xxxxxx",
+    name: "SURESH KHADKA",
+    role: "sobre.role6",
     image: sobreImg17,
   },
     {
     id: 18,
-   name: "xxxxxx xxxxxxx",
+    name: "xxxxxx xxxxxxx",
     role: "xxxxxx",
     image: sobreImg18,
   },
     {
     id: 19,
-    name: "xxxxxx xxxxxxx",
-    role: "xxxxxx",
+    name: "FERNANDO CORREIA",
+    role: "sobre.role7",
+    // name: "ISABEL PEDRO",
+    // role: "sobre.role4",
     image: sobreImg19,
   },
-    {
-    id: 20,
-    name: "xxxxxx xxxxxxx",
-    role: "xxxxxx",
-    image: sobreImg20,
-  },
+  //   {
+  //   id: 20,
+  //   name: "xxxxxx xxxxxxx",
+  //   role: "xxxxxx",
+  //   image: sobreImg20,
+  // },
     {
     id: 21,
-    name: "xxxxxx xxxxxxx",
-    role: "xxxxxx",
+    name: "SAMRAT KHADKA",
+    role: "sobre.role4",
     image: sobreImg21,
   },
     {
     id: 22,
-   name: "xxxxxx xxxxxxx",
-    role: "xxxxxx",
+    name: "DIPESH ROKA",
+    role: "sobre.role4",
     image: sobreImg22,
   },
     {
     id: 23,
-   name: "xxxxxx xxxxxxx",
-    role: "xxxxxx",
+    name: "SHIVA SAMARI",
+    role: "sobre.role6",
     image: sobreImg23,
   },
     {
     id: 24,
-    name: "xxxxxx xxxxxxx",
-    role: "xxxxxx",
+    name: "MARCO MONTEIRO",
+    role: "sobre.role8",
     image: sobreImg24,
   },
 ];

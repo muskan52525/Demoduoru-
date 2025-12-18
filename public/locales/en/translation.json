@@ -10,7 +10,16 @@
     "history_title": "OUR HISTORY",
     "history_subtitle": "It´s tasty because it´s ours",
     "history_paragraph": "We are a company dedicated to the production and commercialisation of fruit, located in the magnificent lands of Demo and on the hillsides of the Douro Valley, in the north of Portugal. Our name, Demodouro, was born from the passion with which we produce our fruit in these unique lands",
-    "buttonText": "learn more"
+    "buttonText": "learn more",
+    "role1": "Sales Representative",
+    "role2": "Quality and Food Safety Director",
+    "role3": "Administrative Assistant / Logistics Director",
+    "role4": "Production Line Packer",
+    "role5": "Equipment Operator",
+    "role6": "Warehouse Operative",
+    "role7": "Production and Specialized Services Director",
+    "role8": "Office Assistant",
+    "role9": "Forklift Operator"
   },
   "products": {
     "sectionTitle": "Our Products",
@@ -304,7 +313,7 @@
     "castanha":{
       "name": "Chestnut",
       "Armazenamento": "in a controlled atmosphere or at normal cold temperatures.",
-      "Transporte": "in refrigerated vehicles at temperatures between XºC and XºC.",
+      "Transporte": "in refrigerated vehicles at temperatures between 2ºC and 7ºC.",
       "Embalamento": "bag or box according to specifications.",
       "FORMA" : "flattened where it joins the skin and pointed at the other end",
       "CALIBRE" : "20 mm to 30 mm",
@@ -317,7 +326,7 @@
     "morango":{
       "name": "Strawberry",
       "Armazenamento": "in a controlled atmosphere or at normal cold temperatures.",
-      "Transporte": "in refrigerated vehicles at temperatures between XºC and XºC.",
+      "Transporte": "in refrigerated vehicles at temperatures between 0ºC and 2ºC.",
       "Embalamento": "bag or box according to specifications.",
       "FORMA" : "conical or rounded, narrower tip and wider base",
       "CALIBRE" : "18 mm to 25 mm",
@@ -330,7 +339,7 @@
     "mirtilo":{
       "name": "Blueberry",
       "Armazenamento": "in a controlled atmosphere or at normal cold temperatures.",
-      "Transporte": "in refrigerated vehicles at temperatures between XºC and XºC.",
+      "Transporte": "in refrigerated vehicles at temperatures between -0,5ºc a 0º c.",
       "Embalamento": "bag or box according to specifications.",
       "FORMA" : "small, with a five-pointed star-shaped mark on the top",
       "CALIBRE" : "13 mm to 22 mm",
@@ -343,7 +352,7 @@
     "kiwi":{
       "name": "Kiwi",
       "Armazenamento": "in a controlled atmosphere or at normal cold temperatures.",
-      "Transporte": "in refrigerated vehicles at temperatures between XºC and XºC.",
+      "Transporte": "in refrigerated vehicles at temperatures between -0,5°C e 0,5°C.",
       "Embalamento": "bag or box according to specifications.",
       "FORMA" : "oval, varying in size between 5 and 8 cm in length",
       "CALIBRE" : "65g to 90g",
@@ -356,20 +365,20 @@
     "framboesa":{
       "name": "Raspberry",
       "Armazenamento": "in a controlled atmosphere or at normal cold temperatures.",
-      "Transporte": "in refrigerated vehicles at temperatures between XºC and XºC.",
+      "Transporte": "in refrigerated vehicles at temperatures between 0°C e 2°C.",
       "Embalamento": "bag or box according to specifications.",
-      "FORMA": "irregular",
-      "CALIBRE": "N/A",
-      "TEXTURA": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
-      "COR": "avermelhada",
-      "SABOR": "doce",
-      "ACIDEZ": "x a x g/l",
-      "ÁGUA": "xx% a xx%" 
+      "FORMA": "multiple fruit (pluridrupa), composed of small druplets, and hollow in the centre (unlike blackberries)",
+      "CALIBRE": "10 mm to 15 mm",
+      "TEXTURA": "soft, delicate and juicy. It is a soft fruit, with small druplets that detach easily, making it fragile and without a lignified skin",
+      "COR": "varia de rosa (para longas distâncias), vermelho vivo, até preto (framboesa silvestre), com variedades amarelas também existentes",
+      "SABOR": "predominantly sweet and slightly acidic (sweet and sour), with a complex and refreshing aromatic profile",
+      "ACIDEZ": "0.72 to 0.89 g citric acid/100g",
+      "ÁGUA": "85%" 
     },
     "uva":{
       "name": "Grapefruit",
       "Armazenamento": "in a controlled atmosphere or at normal cold temperatures.",
-      "Transporte": "in refrigerated vehicles at temperatures between XºC and XºC.",
+      "Transporte": "in refrigerated vehicles at temperatures between 0°C e 1°C.",
       "Embalamento": "bag or box according to specifications.",
       "FORMA": "round or oval in conical clusters, with variable size and density",
       "CALIBRE": "large, uniform berries, with an ideal calibre of 18 mm (seedless) or 24 mm (seeded)",
@@ -382,7 +391,7 @@
     "laranja":{
       "name": "Orange",
       "Armazenamento": "in a controlled atmosphere or at normal cold temperatures.",
-      "Transporte": "in refrigerated vehicles at temperatures between XºC and XºC.",
+      "Transporte": "in refrigerated vehicles at temperatures between 2°C e 10°C.",
       "Embalamento": "bag or box according to specifications.",
       "FORMA": "round or ovoid, with variations such as a prominent navel and thin or thick skin ",
       "CALIBRE": "l3, 4, 5 to 6/7",
@@ -395,7 +404,7 @@
     "limao":{
       "name": "Lemon",
       "Armazenamento": "in a controlled atmosphere or at normal cold temperatures.",
-      "Transporte": "in refrigerated vehicles at temperatures between XºC and XºC.",
+      "Transporte": "in refrigerated vehicles at temperatures between 10°C e 14°C.",
       "Embalamento": "bag or box according to specifications.",
       "FORMA": "oval or rounded, elongated, ending in two prominent points at the end",
       "CALIBRE": "45 mm to 83 mm ",
@@ -408,6 +417,7 @@
   },
 
   "aboutHistory": {
+    "bgImage": "src/assets/png/image_INFRAESTRUTURAS_en.png",
     "subtitle": "OUR HISTORY",
     "title": "It’s tasty because it’s ours",
     "description": "We are a company dedicated to the production and commercialisation of fruit, located in the magnificent lands of Demo and on the hillsides of the Douro Valley, in the north of Portugal. Our name, Demodouro, was born from the passion with which we produce our fruit in these unique lands.\n\n Apples and cherries are the products that set us apart, with apples being our main product.\n\n Our commitment to quality is evident at every step of the process, from cultivation to delivery. We work in close partnership with local and regional producers, ensuring the origin and freshness of the fruit that reaches you."
@@ -450,10 +460,6 @@
     }
   ]
 },
-
-
-
-
   
   "productDetail": {
     "products": {

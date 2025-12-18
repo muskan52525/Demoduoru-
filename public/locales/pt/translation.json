@@ -10,7 +10,16 @@
     "history_title": "A NOSSA HISTÓRIA",
     "history_subtitle": "It´s tasty because it´s ours",
     "history_paragraph": "Somos uma empresa dedicada à produção e comercialização de frutas, localizada nas belas terras do Demo e nas encostas do Douro, no norte de Portugal. O nosso nome, Demodouro, nasceu da paixão com que cultivamos a nossa fruta nestas terras únicas.",
-    "buttonText": "saber mais"
+    "buttonText": "saber mais",
+    "role1": "Técnico Comercial",
+    "role2": "Diretora de Qualidade e Segurança Alimentar",
+    "role3": "Assistente de Administração/Diretora Logística",
+    "role4": "Embaladora",
+    "role5": "Operador de Máquinas",
+    "role6": "Empregado de Armazém",
+    "role7": "Diretor de produção e Serviços Especializados",
+    "role8": "Empregado de Escritório",
+    "role9": "Operador de empilhador"
   },
   "products": {
     "sectionTitle": "Os nossos produtos",
@@ -139,6 +148,7 @@
   },
 
   "aboutInfrastructure": {
+    "bgImage": "src/assets/png/image_INFRAESTRUTURAS.png",
     "subtitle": "o sabor da qualidade",
     "title": "os nossos pomares",
     "description": "Com produção própria distribuída por vários hectares, os nossos pomares localizam-se numa área geográfica protegida, entre os 700 e os 900 metros de altitude. Beneficiam de excelentes condições edafo-climáticas, que lhes conferem características únicas — como coloração intensa, elevado teor de açúcares, sabor marcante e crocância consistente.\nA nossa equipa técnica de campo promove a especialização tanto na produção própria como na contratada. Os nossos técnicos acompanham os produtores ao longo de todo o ano, assegurando qualidade e rigor em cada etapa do processo."
@@ -209,7 +219,7 @@
       "SABOR": "sabor",
       "ACIDEZ": "acidez",
       "ÁGUA": "agua",
-      "plantacao": "plantacao",
+      "plantacao": "PLANTAÇÃO",
       "colheita": "colheita",
       "disponibilidade": "disponibilidade",
       "JAN" : "JAN",
@@ -348,7 +358,7 @@
     "castanha":{
       "name": "Castanha",
       "Armazenamento": "Em Atmosfera Controlada ou em Frio Normal.",
-      "Transporte": "veículos frigoríficos à temperatura de xºc a xº c.",
+      "Transporte": "veículos frigoríficos à temperatura de 2ºc a 7º c.",
       "Embalamento": "saco ou caixa de acordo com as especificações.",
       "FORMA" : "achatada onde se liga à casca e ponta mais aguda no outro extremo",
       "CALIBRE" : "20 mm a 30 mm",
@@ -361,7 +371,7 @@
     "morango":{
       "name": "Morango",
       "Armazenamento": "Em Atmosfera Controlada ou em Frio Normal.",
-      "Transporte": "veículos frigoríficos à temperatura de xºc a xº c.",
+      "Transporte": "veículos frigoríficos à temperatura de 0ºc a 2º c.",
       "Embalamento": "saco ou caixa de acordo com as especificações.",
       "FORMA" : "cónico ou arredondado, ponta mais estreita e base mais larga",
       "CALIBRE" : "18 mm a 25 mm",
@@ -374,7 +384,7 @@
     "mirtilo":{
       "name": "Mirtilo",
       "Armazenamento": "Em Atmosfera Controlada ou em Frio Normal.",
-      "Transporte": "veículos frigoríficos à temperatura de xºc a xº c.",
+      "Transporte": "veículos frigoríficos à temperatura de -0,5ºc a 0º c.",
       "Embalamento": "saco ou caixa de acordo com as especificações.",
       "FORMA": "pequena, marca em forma de estrela de cinco pontas na parte superior",
       "CALIBRE": "13 mm a 22 mm" ,
@@ -387,7 +397,7 @@
     "kiwi":{
       "name": "kiwi",
       "Armazenamento": "Em Atmosfera Controlada ou em Frio Normal.",
-      "Transporte": "veículos frigoríficos à temperatura de xºc a xº c.",
+      "Transporte": "veículos frigoríficos à temperatura de -0,5°C e 0,5°C.",
       "Embalamento": "saco ou caixa de acordo com as especificações.",
       "FORMA": "oval variando o tamanho entre 5 e 8 cm de comprimento",
       "CALIBRE": "65g a 90g",
@@ -400,20 +410,20 @@
     "framboesa":{
       "name": "Framboesa",
       "Armazenamento": "Em Atmosfera Controlada ou em Frio Normal.",
-      "Transporte": "veículos frigoríficos à temperatura de xºc a xº c.",
+      "Transporte": "veículos frigoríficos à temperatura de 0°C e 2°C.",
       "Embalamento": "saco ou caixa de acordo com as especificações.",
-      "FORMA": "irregular",
-      "CALIBRE": "N/A",
-      "TEXTURA": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
-      "COR": "avermelhada",
-      "SABOR": "doce",
-      "ACIDEZ": "x a x g/l",
-      "ÁGUA": "xx% a xx%"
+      "FORMA": "fruto múltiplo (pluridrupa), composto por pequenas drupéolas, e oco no centro (diferente da amora)",
+      "CALIBRE": "10 mm a 15 mm",
+      "TEXTURA": "macia, delicada e suculenta. É uma fruta mole, com pequenas drupéolas que se desprendem facilmente, tornando-a frágil e sem casca lignificada ",
+      "COR": "varia de rosa (para longas distâncias), vermelho vivo, até preto(framboesa silvestre), com variedades amarelas também existentes ",
+      "SABOR": "predominantemente doce e ligeiramente ácido (agridoce), com um perfil aromático complexo e refrescante",
+      "ACIDEZ": "0,72 a 0,89 g ácido cítrico/100g",
+      "ÁGUA": "85%"
     },
     "uva":{
       "name": "Uva",
       "Armazenamento": "Em Atmosfera Controlada ou em Frio Normal.",
-      "Transporte": "veículos frigoríficos à temperatura de xºc a xº c.",
+      "Transporte": " veículos frigoríficos à temperatura de 0°C e 1°C.",
       "Embalamento": "saco ou caixa de acordo com as especificações.",
       "FORMA": "redonda ou oval em cachos cónicos, com tamanho e densidade variáveis",
       "CALIBRE": "bagos grandes e uniformes, com calibre ideal de 18 mm (sem sementes) ou 24 mm (com sementes)",
@@ -426,7 +436,7 @@
     "laranja":{
       "name": "Laranja",
       "Armazenamento": "Em Atmosfera Controlada ou em Frio Normal.",
-      "Transporte": "veículos frigoríficos à temperatura de xºc a xº c.",
+      "Transporte": "veículos frigoríficos à temperatura de 2°C e 10°C.",
       "Embalamento": "saco ou caixa de acordo com as especificações.",
       "FORMA": "forma redonda ou ovóide, com variações como umbigo proeminente e casca fina ou grossa",
       "CALIBRE": "3, 4, 5 a 6/7",
@@ -439,7 +449,7 @@
     "limao":{
       "name": "LIMÃO",
       "Armazenamento": "Em Atmosfera Controlada ou em Frio Normal.",
-      "Transporte": "veículos frigoríficos à temperatura de xºc a xº c.",
+      "Transporte": " veículos frigoríficos à temperatura de 10°C e 14°C.",
       "Embalamento": "saco ou caixa de acordo com as especificações.",
       "FORMA": "oval ou arredondada, alongada, terminando em duas pontas proeminentes na extremidade",
       "CALIBRE": "45 mm a 83 mm",

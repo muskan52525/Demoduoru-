@@ -29,7 +29,7 @@ const SobreInfoCards = () => {
             </h3>
             {member.role && (
               <p className="text-center text-sm md:text-base text-white font-poppins">
-                {member.role}
+                {t(member.role)}
               </p>
             )}
           </div>

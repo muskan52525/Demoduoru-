@@ -110,7 +110,7 @@ const Products = () => {
                   </p>
                 </div>
 
-                <div className="hidden md:flex flex-col gap-1 max-w-[155px]">
+                <div className="hidden md:flex flex-col gap-1 max-w-[151px]">
                   <h3 className="text-[#9AC433] text-xl md:text-[32px] font-normal text-start uppercase leading-tight font-mono45">
                     {product.name}
                   </h3>

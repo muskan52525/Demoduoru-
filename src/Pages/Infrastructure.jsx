@@ -1,7 +1,8 @@
 import React from 'react'
 import AboutInfraStructure from '../components/AboutInfraStructure'
 import { InfraData } from "../data/form";
-import bgImage from "../assets/png/image_INFRAESTRUTURAS.png";
+import bgImagePT from "../assets/png/image_INFRAESTRUTURAS.png";
+import bgImageEN from "../assets/png/image_INFRAESTRUTURAS_en.png";
 import bgImageMobile from "../assets/png/image_INFRAESTRUTURA_ MOBILE.png";
 import logobanner from "../assets/png/logo banner_INFRAESTRUTURAS.png";
 import InfraDistribute from '../components/InfraDistribute'
@@ -11,15 +12,21 @@ import { useTranslation } from "react-i18next";
 
 const Infrastructure = () => {
 
-   const { t } = useTranslation();
-     const InfraData = t("infraData.items", { returnObjects: true });
+  const historyBgByLang = {
+    pt: bgImagePT,
+    en: bgImageEN,
+  };
+
+  const { t, i18n } = useTranslation();
+  const lang = i18n.language.toUpperCase();
+  const InfraData = t("infraData.items", { returnObjects: true });
   return (
     <>
       <AboutInfraStructure/>
        <section
   className="hidden md:block relative w-full min-h-[800px] md:min-h-[700px] bg-cover bg-center"
   style={{
-    backgroundImage: `url(${bgImage})`,
+    backgroundImage: `url(${historyBgByLang[i18n.language]})`,
     backgroundPosition: "center center",
     backgroundSize: "cover",          // full width, no stretch
     backgroundRepeat: "no-repeat",
