@@ -18,6 +18,7 @@ import FramebosaImg from "../assets/jpg/ProductPageImages/framboesa_produtos_pag
 import UvaImg from "../assets/jpg/ProductPageImages/uva_produtos_page.jpg";
 import LaranjaImg from "../assets/jpg/ProductPageImages/laranja_produtos_page.jpg";
 import NimioImg from "../assets/jpg/ProductPageImages/limão_produtos_page.jpg";
+import bravoImg from "../assets/jpg/productcard-bravo-individual.png";
 
 const imageMap = {
   1: AppleImg,
@@ -27,7 +28,7 @@ const imageMap = {
   5: FujiImg,
   6: StarkingImg,
   7: GrannyImg,
-  8: AppleImg,
+  8: bravoImg,
   9: CerejaImg,
   10: CastanhaImg,
   11: MorangoImg,
