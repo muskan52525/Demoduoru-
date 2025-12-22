@@ -29,7 +29,7 @@ const SobreCardComponent = () => {
                 alt={market.title}
                 className="rounded-[32px] w-[420px] h-[270px] object-cover p-4 md:p-0"
               />
-              <h3 className="bg-[#A4C428] font-mulish text-white  font-medium text-lg py-[10px] px-[15px] mt-[30px] leading-6 whitespace-pre">
+              <h3 className="bg-[#A4C428] font-mulish text-white  font-medium text-lg py-[10px] px-[10px] mt-[30px] leading-6 whitespace-pre">
                 {market.title}
               </h3>
               <a

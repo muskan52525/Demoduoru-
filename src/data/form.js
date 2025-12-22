@@ -29,6 +29,7 @@ import sobreImg24 from "../assets/png/sobre24.png";
 
 
 import productcardApple from "../assets/jpg/productcard-apple-individual.jpg";
+import productcardbravo from "../assets/jpg/productcard-bravo-individual.png";
 import productcardRed from "../assets/jpg/productcard-red-individual.jpg";
 import productcardGolden from "../assets/jpg/productcard-golden-individual.jpg";
 import productcardReineta from "../assets/jpg/productcard-reineta-individual.jpg";
@@ -90,9 +91,9 @@ import decor41 from "../assets/png/productdecore-41.png";
 import decor42 from "../assets/png/productdecore-42.png";
 import decor43 from "../assets/png/productdecore-43.png";
 import decor44 from "../assets/png/productdecore-44.png";
-import decor45 from "../assets/png/ESMOLFE-1.png";
-import decor46 from "../assets/png/ESMOLFE-3.png";
-import decor47 from "../assets/png/ESMOLFE-2.png"
+import decor45 from "../assets/png/productdecore-45.png";
+import decor46 from "../assets/png/productdecore-46.png";
+import decor47 from "../assets/png/productdecore-47.png"
 
 
 export const products = [
@@ -310,7 +311,7 @@ export const products = [
   {
     id: 8,
     name: "macabravo.name",
-    img: productcardApple,
+    img: productcardbravo,
     decor: {
     topLeft:    decor45,
     topRight:   decor46,
@@ -681,8 +682,6 @@ export const sobre = [
     id: 8,
     name: "BHUMIRAJ PUN",
     role: "sobre.role4",
-    // name: "MARIA FERREIRA",
-    // role: "sobre.role4",
     image: sobreImg8,
   },
   {
@@ -691,12 +690,12 @@ export const sobre = [
     role: "sobre.role4",
     image: sobreImg9,
   },
-  {
-    id: 10,
-    name: "xxxxxx xxxxxxx",
-    role: "xxxxxx",
-    image: sobreImg10,
-  },
+  // {
+  //   id: 10,
+  //   name: "xxxxxx xxxxxxx",
+  //   role: "xxxxxx",
+  //   image: sobreImg10,
+  // },
   {
     id: 11,
     name: "PRADIP SHERESTHA",
@@ -720,16 +719,14 @@ export const sobre = [
     id: 14,
     name: "TARA BARAGHARE",
     role: "sobre.role4",
-    // name: "FERNANDO CORREIA",
-    // role: "sobre.role7",
     image: sobreImg14,
   },
-  {
-    id: 15,
-    name: "xxxxxx xxxxxxx",
-    role: "xxxxxx",
-    image: sobreImg15,
-  },
+  // {
+  //   id: 15,
+  //   name: "xxxxxx xxxxxxx",
+  //   role: "xxxxxx",
+  //   image: sobreImg15,
+  // },
   {
     id: 16,
     name: "JOAQUIM ALBUQUERQUE",
@@ -742,18 +739,16 @@ export const sobre = [
     role: "sobre.role6",
     image: sobreImg17,
   },
-    {
-    id: 18,
-    name: "xxxxxx xxxxxxx",
-    role: "xxxxxx",
-    image: sobreImg18,
-  },
+  //   {
+  //   id: 18,
+  //   name: "xxxxxx xxxxxxx",
+  //   role: "xxxxxx",
+  //   image: sobreImg18,
+  // },
     {
     id: 19,
     name: "FERNANDO CORREIA",
     role: "sobre.role7",
-    // name: "ISABEL PEDRO",
-    // role: "sobre.role4",
     image: sobreImg19,
   },
   //   {

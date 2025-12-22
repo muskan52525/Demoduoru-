@@ -140,7 +140,7 @@
       { "id": 12, "name": "Blueberry" },
       { "id": 13, "name": "Kiwi" },
       { "id": 14, "name": "Raspberry" },
-      { "id": 15, "name": "Grapefruit" },
+      { "id": 15, "name": "Grape" },
       { "id": 16, "name": "Orange" },
       { "id": 17, "name": "Lemon" }
     ],
@@ -376,7 +376,7 @@
       "ÁGUA": "85%" 
     },
     "uva":{
-      "name": "Grapefruit",
+      "name": "Grape",
       "Armazenamento": "in a controlled atmosphere or at normal cold temperatures.",
       "Transporte": "in refrigerated vehicles at temperatures between 0°C e 1°C.",
       "Embalamento": "bag or box according to specifications.",
