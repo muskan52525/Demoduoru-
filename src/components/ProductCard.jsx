@@ -10,7 +10,7 @@ import FujiImg from "../assets/jpg/ProductPageImages/maçã_fuji_produtos_page.j
 import StarkingImg from "../assets/jpg/ProductPageImages/maçã_starking_produtos_page.jpg";
 import GrannyImg from "../assets/jpg/ProductPageImages/maça_granny_smith_produtos_page.jpg";
 import CerejaImg from "../assets/jpg/ProductPageImages/cereja_produtos_page.jpg";
-import CastanhaImg from "../assets/jpg/ProductPageImages/castanha_produtos_page.jpg";
+import CastanhaImg from "../assets/jpg/ProductPageImages/castanha_produtos_page.png";
 import MorangoImg from "../assets/jpg/ProductPageImages/morango_produtos_page.jpg";
 import MirtiloImg from "../assets/jpg/ProductPageImages/mirtilo_produtos_page.jpg";
 import KiwiImg from "../assets/jpg/ProductPageImages/kiwi_produtos_page.jpg";

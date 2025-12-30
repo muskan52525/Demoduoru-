@@ -74,13 +74,13 @@ const Products = () => {
 
   return (
     <section className="bg-[#A1C128] w-full relative">
-      <div className="md:py-[65px] py-[60px]  px-5">
+      <div className="pt-[40px] pb-[60px] md:pt-[65px] md:pb-[65px] px-5">
         {/* Section Header */}
         <div className="max-w-[853px] mx-auto text-center">
-          <p className="text-white uppercase tracking-wide md:text-2xl text-xl font-medium leading-[22px] font-poppins">
+          <p className="text-white uppercase tracking-wide md:text-2xl text-xl mb-4 md:mb-0 font-medium leading-[22px] font-poppins">
             {t("products.sectionTitle")}
           </p>
-          <h2 className="text-outline-pink font-normal text-2xl md:text-4xl mt-1 md:leading-[70px] font-mono45">
+          <h2 className="text-outline-pink font-normal text-2xl md:text-4xl mt-1 mb-4 md:mb-0 md:leading-[70px] font-mono45">
             {t("products.sectionHeading")}
           </h2>
           <p className="text-white mt-1 md:text-base text-base font-medium leading-6 mx-auto font-poppins md:max-w-[690px] max-w-full w-full">
@@ -110,7 +110,7 @@ const Products = () => {
                   </p>
                 </div>
 
-                <div className="hidden md:flex flex-col gap-1 max-w-[151px]">
+                <div className="hidden md:flex flex-col gap-1 min-w-[215px]">
                   <h3 className="text-[#9AC433] text-xl md:text-[32px] font-normal text-start uppercase leading-tight font-mono45">
                     {product.name}
                   </h3>
@@ -134,7 +134,7 @@ const Products = () => {
 
                 {/* --- MOBILE VIEW --- */}
                 <div className="flex flex-col items-center justify-center md:hidden w-full text-center">
-                  <h3 className="text-[#9AC433] text-2xl font-normal uppercase leading-tight font-mono45 mb-3">
+                  <h3 className="text-[#9AC433] text-2xl font-normal uppercase leading-tight font-mono45 mb-3 mt-3">
                     {product.name}
                   </h3>
 

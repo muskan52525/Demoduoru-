@@ -21,15 +21,15 @@ const SobreCardComponent = () => {
           {markets.map((market) => (
             <div
               key={market.id}
-              className="bg-white rounded-2xl shadow-lg md:p-4 lg:p-10 flex flex-col items-center md:max-w-[485px]"
+              className="bg-white rounded-[32px] shadow-lg p-4 lg:p-10 flex flex-col items-center md:max-w-[485px]"
               style={{height:"475px"}}
             >
               <img
                 src={market.image}
                 alt={market.title}
-                className="rounded-[32px] w-[420px] h-[270px] object-cover p-4 md:p-0"
+                className="rounded-[32px] w-[420px] h-[270px] object-cover md:p-0"
               />
-              <h3 className="bg-[#A4C428] font-mulish text-white  font-medium text-lg py-[10px] px-[10px] mt-[30px] leading-6 whitespace-pre">
+              <h3 className="bg-[#A4C428] font-mulish text-white font-medium text-lg py-[10px] md:px-[10px] w-full mt-[30px] leading-6 whitespace-pre">
                 {market.title}
               </h3>
               <a

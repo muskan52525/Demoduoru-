@@ -169,7 +169,7 @@
 
   "aboutHistory": {
     "subtitle": "A NOSSA HISTÓRIA",
-    "title": "É saboroso porque é nosso",
+    "title": "IT’S TASTY BECAUSE IT’S OURS",
     "description": "Somos uma empresa dedicada à produção e comercialização de frutas, localizada nas belas terras do Demo e nas encostas do Douro, no norte de Portugal. O nosso nome, Demodouro, nasceu da paixão com que cultivamos a nossa fruta nestas terras únicas.\n\nA maçã e a cereja são os produtos que nos distinguem, sendo a maçã o nosso principal produto.\n\nO nosso compromisso com a qualidade é evidente em cada passo do processo, desde o cultivo até à entrega. Trabalhamos em parceria com produtores locais e regionais, assegurando a origem e a frescura das frutas que chegam até si."
   },
   "sobreCard": {
@@ -253,7 +253,7 @@
       },
       "macared":{
         "name": "Maçã Red",
-        "Armazenamento": "Em Atmosfera Controlada ou em Frio Normal.",
+        "Armazenamento": "em atmosfera controlada ou em frio normal.",
         "Transporte": "veículos frigoríficos à temperatura de 0ºC e 2ºC.",
         "Embalamento": "em saco plástico/granel e acondicionado em caixa de plástico ou de cartão.",
         "FORMA" : "alongada",
@@ -266,7 +266,7 @@
       },
       "macagolden":{
         "name": "Maçã Golden",
-        "Armazenamento": "Em Atmosfera Controlada ou em Frio Normal.",
+        "Armazenamento": "em atmosfera controlada ou em frio normal.",
         "Transporte": "veículos frigoríficos à temperatura de 0ºC e 2ºC.",
         "Embalamento": "em saco plástico/granel e acondicionado em caixa de plástico ou de cartão.",
         "FORMA" : "alongada ovoide ligeiramente tronco-cónica",
@@ -279,7 +279,7 @@
       },
       "macareineta":{
       "name": "Maçã Reineta",
-      "Armazenamento": "Em Atmosfera Controlada ou em Frio Normal.",
+      "Armazenamento": "em atmosfera controlada ou em frio normal.",
       "Transporte": "veículos frigoríficos à temperatura de 0ºC e 2ºC.",
       "Embalamento": "em saco plástico/granel e acondicionado em  caixa de plástico ou de cartão.",
       "FORMA" : "arredondada e achatada, com contornos irregulares",
@@ -292,7 +292,7 @@
     },
     "macafuji":{
       "name": "Maçã Fuji",
-      "Armazenamento": "Em Atmosfera Controlada ou em Frio Normal.",
+      "Armazenamento": "em atmosfera controlada ou em frio normal.",
       "Transporte": "veículos frigoríficos à temperatura de 0ºC e 2ºC.",
       "Embalamento": "em saco plástico/granel e acondicionado em  caixa de plástico ou de cartão.",
       "FORMA" : "Homogénea, alongada cilíndrica",
@@ -305,7 +305,7 @@
     },
     "macastarking":{
       "name": "Maçã Starking",
-      "Armazenamento": "Em Atmosfera Controlada ou em Frio Normal.",
+      "Armazenamento": "em atmosfera controlada ou em frio normal.",
       "Transporte": "veículos frigoríficos à temperatura de 0ºC e 2ºC.",
       "Embalamento": "em saco plástico/granel e acondicionado em  caixa de plástico ou de cartão.",
       "FORMA" : "alongada, tronco-cónica, costada, irregular",
@@ -318,7 +318,7 @@
     },
     "macagranny":{
       "name": "Maçã Granny Smith",
-      "Armazenamento": "Em Atmosfera Controlada ou em Frio Normal.",
+      "Armazenamento": "em atmosfera controlada ou em frio normal.",
       "Transporte": "veículos frigoríficos à temperatura de 0ºC e 2ºC.",
       "Embalamento": "em saco plástico/granel e acondicionado em  caixa de plástico ou de cartão.",
       "FORMA" : "semi elevada, levemente tronco-cónica, regular",
@@ -331,7 +331,7 @@
     },
     "macabravo":{
       "name": "Maçã Bravo Esmolfe",
-      "Armazenamento": "Em Atmosfera Controlada ou em Frio Normal.",
+      "Armazenamento": "em atmosfera controlada ou em frio normal.",
       "Transporte": "veículos frigoríficos à temperatura de 0ºC e 2ºC.",
       "Embalamento": "em saco plástico/granel e acondicionado em  caixa de plástico ou de cartão.",
       "FORMA" : "oblongo-cónica",
@@ -344,20 +344,20 @@
     },
     "cereja":{
       "name": "Cereja",
-      "Armazenamento": "Em Atmosfera Controlada ou em Frio Normal.",
+      "Armazenamento": "em atmosfera controlada ou em frio normal.",
       "Transporte": "veículos frigoríficos à temperatura de 2ºc a 4ºC",
       "Embalamento": "cuvetes e em caixa de cartão ou plástico.",
       "FORMA" : "redonda ou ligeiramente oval",
       "CALIBRE" : "17 mm a +26 mm",
       "TEXTURA" : "polpa firme, carnuda, suculenta, de textura suave",
-      "COR" : "evermelho intenso e brilhante",
-      "SABOR" : "ddoce a adocicado e levemente adstringente",
+      "COR" : "vermelho intenso e brilhante",
+      "SABOR" : "doce a adocicado e levemente adstringente",
       "ACIDEZ" : "1.2% acidez titulável",
       "ÁGUA" : "82%" 
     },
     "castanha":{
       "name": "Castanha",
-      "Armazenamento": "Em Atmosfera Controlada ou em Frio Normal.",
+      "Armazenamento": "em atmosfera controlada ou em frio normal.",
       "Transporte": "veículos frigoríficos à temperatura de 2ºc a 7º c.",
       "Embalamento": "saco ou caixa de acordo com as especificações.",
       "FORMA" : "achatada onde se liga à casca e ponta mais aguda no outro extremo",
@@ -365,12 +365,12 @@
       "TEXTURA" : "macia e friável",
       "COR" : "lisa e brilhante, com coloração castanho-escura e reflexos acobreados",
       "SABOR" : "doce, mas que pode variar consoante a variedade",
-      "ACIDEZ" : "acidez pouco expressiva, alto tero de amido e fibra",
+      "ACIDEZ" : "acidez pouco expressiva, alto teor de amido e fibra",
       "ÁGUA" : "cerca de 50%" 
     },
     "morango":{
       "name": "Morango",
-      "Armazenamento": "Em Atmosfera Controlada ou em Frio Normal.",
+      "Armazenamento": "em atmosfera controlada ou em frio normal.",
       "Transporte": "veículos frigoríficos à temperatura de 0ºc a 2º c.",
       "Embalamento": "saco ou caixa de acordo com as especificações.",
       "FORMA" : "cónico ou arredondado, ponta mais estreita e base mais larga",
@@ -383,7 +383,7 @@
     },
     "mirtilo":{
       "name": "Mirtilo",
-      "Armazenamento": "Em Atmosfera Controlada ou em Frio Normal.",
+      "Armazenamento": "em atmosfera controlada ou em frio normal.",
       "Transporte": "veículos frigoríficos à temperatura de -0,5ºc a 0º c.",
       "Embalamento": "saco ou caixa de acordo com as especificações.",
       "FORMA": "pequena, marca em forma de estrela de cinco pontas na parte superior",
@@ -396,7 +396,7 @@
     },
     "kiwi":{
       "name": "kiwi",
-      "Armazenamento": "Em Atmosfera Controlada ou em Frio Normal.",
+      "Armazenamento": "em atmosfera controlada ou em frio normal.",
       "Transporte": "veículos frigoríficos à temperatura de -0,5°C e 0,5°C.",
       "Embalamento": "saco ou caixa de acordo com as especificações.",
       "FORMA": "oval variando o tamanho entre 5 e 8 cm de comprimento",
@@ -409,7 +409,7 @@
     },
     "framboesa":{
       "name": "Framboesa",
-      "Armazenamento": "Em Atmosfera Controlada ou em Frio Normal.",
+      "Armazenamento": "em atmosfera controlada ou em frio normal.",
       "Transporte": "veículos frigoríficos à temperatura de 0°C e 2°C.",
       "Embalamento": "saco ou caixa de acordo com as especificações.",
       "FORMA": "fruto múltiplo (pluridrupa), composto por pequenas drupéolas, e oco no centro (diferente da amora)",
@@ -422,7 +422,7 @@
     },
     "uva":{
       "name": "Uva",
-      "Armazenamento": "Em Atmosfera Controlada ou em Frio Normal.",
+      "Armazenamento": "em atmosfera controlada ou em frio normal.",
       "Transporte": " veículos frigoríficos à temperatura de 0°C e 1°C.",
       "Embalamento": "saco ou caixa de acordo com as especificações.",
       "FORMA": "redonda ou oval em cachos cónicos, com tamanho e densidade variáveis",
@@ -435,7 +435,7 @@
     },
     "laranja":{
       "name": "Laranja",
-      "Armazenamento": "Em Atmosfera Controlada ou em Frio Normal.",
+      "Armazenamento": "em atmosfera controlada ou em frio normal.",
       "Transporte": "veículos frigoríficos à temperatura de 2°C e 10°C.",
       "Embalamento": "saco ou caixa de acordo com as especificações.",
       "FORMA": "forma redonda ou ovóide, com variações como umbigo proeminente e casca fina ou grossa",
@@ -448,7 +448,7 @@
     },
     "limao":{
       "name": "LIMÃO",
-      "Armazenamento": "Em Atmosfera Controlada ou em Frio Normal.",
+      "Armazenamento": "em atmosfera controlada ou em frio normal.",
       "Transporte": " veículos frigoríficos à temperatura de 10°C e 14°C.",
       "Embalamento": "saco ou caixa de acordo com as especificações.",
       "FORMA": "oval ou arredondada, alongada, terminando em duas pontas proeminentes na extremidade",

@@ -67,7 +67,7 @@ const Hero = () => {
         </p>
 
         <button
-          className="banner-button font-mulish min-w-[180px] md:min-w-[246px] mt-6 p-1 lg:px-6 lg:py-2 cursor-pointer lowercase"
+          className="banner-button font-poppins min-w-[180px] md:min-w-[246px] mt-6 p-1 lg:px-6 lg:py-2 cursor-pointer lowercase"
           onClick={() => {
             window.scrollTo({ top: 0 });
             navigate("/sobre");

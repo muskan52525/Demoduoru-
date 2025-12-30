@@ -7,7 +7,7 @@ const SobreInfoCards = () => {
 
   return (
     <div className="bg-[#A1C128] py-[60px] md:py-[100px] px-2">
-      <h4 className="text-sm sm:text-2xl font-medium leading-[22px] tracking-[1.28px] uppercase font-poppins text-white text-center">
+      <h4 className="text-xl font-medium leading-[22px] tracking-[1.28px] uppercase font-poppins text-white text-center">
         {t("sobreInfo.subtitle")}
       </h4>
       <h2 className="text-outline-pink font-mono45 text-center text-[36px]">
@@ -24,11 +24,11 @@ const SobreInfoCards = () => {
               alt={member.name}
             />
             </div>
-            <h3 className="text-center text-lg md:text-[20px] font-normal leading-[45px] text-white font-mono45">
+            <h3 className="text-center text-[20px] font-normal md:leading-[45px] text-white font-mono45">
               {member.name}
             </h3>
             {member.role && (
-              <p className="text-center text-sm md:text-base text-white font-poppins">
+              <p className="text-center text-base text-white font-poppins whitespace-break-spaces">
                 {t(member.role)}
               </p>
             )}

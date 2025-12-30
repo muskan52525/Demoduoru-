@@ -1,6 +1,6 @@
 import CardImg1 from "../assets/jpg/sobreCard1.jpg";
 import CardImg2 from "../assets/jpg/sobreCard2.jpg";
-import sobreImg1 from "../assets/jpg/sobre1.jpg";
+import sobreImg1 from "../assets/png/sobre1.png";
 import sobreImg2 from "../assets/png/sobre2.png";
 import sobreImg3 from "../assets/png/sobre3.png";
 import sobreImg4 from "../assets/png/sobre4.png";
@@ -24,9 +24,6 @@ import sobreImg21 from "../assets/png/sobre21.png";
 import sobreImg22 from "../assets/png/sobre22.png";  
 import sobreImg23 from "../assets/png/sobre23.png";
 import sobreImg24 from "../assets/png/sobre24.png";
-
-
-
 
 import productcardApple from "../assets/jpg/productcard-apple-individual.jpg";
 import productcardbravo from "../assets/jpg/productcard-bravo-individual.png";
@@ -93,7 +90,7 @@ import decor43 from "../assets/png/productdecore-43.png";
 import decor44 from "../assets/png/productdecore-44.png";
 import decor45 from "../assets/png/productdecore-45.png";
 import decor46 from "../assets/png/productdecore-46.png";
-import decor47 from "../assets/png/productdecore-47.png"
+import decor47 from "../assets/png/productdecore-47.png";
 
 
 export const products = [
@@ -496,7 +493,7 @@ export const products = [
     id: 14,
     name: "framboesa.name",
     img: productcardFramboesa ,
-    cat: "kweli;imara, adelita;kwanza;maravilla",
+    cat: "kweli;imara;adelita;kwanza;maravilla",
     decor: {
     topLeft:    decor33,
     topRight:   decor34,
@@ -527,7 +524,7 @@ export const products = [
     id: 15,
     name: "uva.name",
     img: productcardUva,
-    cat: "Cardinal;Cardinal;Black Pearl.",
+    cat: "Cardinal;Red Globe;Black Pearl.",
     decor: {
     topLeft:    decor36,
     topRight:   decor37,
