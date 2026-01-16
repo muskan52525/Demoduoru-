@@ -49,7 +49,7 @@ const ProductsCards = () => {
 
   return (
     <section className="bg-[#A1C128] md:py-[100px] py-[30px] sm:py-[60px] px-5">
-      <div className="max-w-7xl mx-auto text-center p-5 md:p-0 py-[60px]">
+      <div className="max-w-7xl mx-auto text-center p-5 md:p-0 pt-[30px] pb-[60px]">
         <p className="text-sm sm:text-[24px] font-medium leading-[22px] tracking-[1.28px] uppercase font-poppins text-white text-center">
           {t("productsPage.section.title")}
         </p>

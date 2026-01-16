@@ -22,7 +22,7 @@ const InfraDistribute = () => {
           <p className="mt-3 md:mt-6 font-poppins text-center lg:text-left font-medium text-base  text-[#666F77] flex-wrap leading-7 whitespace-pre-line ">
             {t("infraDistribute.description")}
           </p>
-          <div className="flex justify-center">
+          <div className="flex justify-center lg:justify-left md:justify-left">
             <ul className="mt-3 md:mt-6 font-poppins font-medium text-base text-left text-[#666F77] flex-wrap leading-7 whitespace-pre-line flex flex-col lg:gap-2 list-disc md:pl-[30px]">
             {list.map((item, index) => (
               <li key={index}>{item}</li>

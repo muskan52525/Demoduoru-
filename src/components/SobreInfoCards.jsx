@@ -16,7 +16,7 @@ const SobreInfoCards = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-[16px] md:gap-4 lg:gap-8 xl:gap-12 px-2 md:px-4 lg:px-6 mt-5 md:mt-[40px] lg:mt-[60px] max-w-full sm:max-w-[1580px] mx-auto">
         {sobre.map((member) => (
           <div key={member.id} className="staff-card flex flex-col items-center text-center mb-10 lg:mb-0">
-            <div className="w-[250px] h-[250px]">
+            <div className="w-[250px] h-[250px] mb-[20px] lg:mb-0">
 
             <img
               className="h-full w-full aspect-square object-cover rounded-2xl"

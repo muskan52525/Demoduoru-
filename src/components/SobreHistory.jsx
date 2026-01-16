@@ -7,7 +7,7 @@ const SobreHistory = () => {
 
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 items-center px-3 py-5 md:flex">
-      <div className="w-full max-w-full md:max-w-[700px] mx-auto mb-[35px] md:mb-0">
+      <div className="w-full max-w-full md:max-w-[700px] mx-auto mb-[45px] md:mb-0">
         <h3 className="green-titile text-center text-xl md:text-2xl lg:text-left">
           {t("aboutHistory.subtitle")}
         </h3>

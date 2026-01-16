@@ -39,7 +39,7 @@ const Banner = () => {
           <img
             src={currentLangImages.novidade}
             alt="Novidade"
-            className="w-16 sm:w-40 2xl:w-75"
+            className="w-16 sm:w-40 2xl:w-60"
           />
           <img
             src={currentLangImages.tittle}

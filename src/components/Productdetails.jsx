@@ -364,7 +364,7 @@ function Row({ label, months, data, activeColor = "rgba(255,255,255,0.95)" }) {
     <div className="grid grid-cols-[120px_1fr] sm:grid-cols-[120px_1fr] md:grid-cols-[180px_1fr] items-center h-9 border-b-2 border-white">
       <div
         className="relative h-auto flex items-center before:content-[''] before:w-[10px] before:h-[10px] before:bg-white
-      before:rounded-full before:absolute before:left-0 before:-bottom-[9px] before:z-[2]"
+        before:rounded-full before:absolute before:left-0 before:-bottom-[9px] before:z-[2]"
       >
         <span className="relative z-[1] text-xs md:ml-3 sm:text-[17px] font-medium uppercase font-poppins leading-[28px] ">
           {label}
@@ -373,7 +373,7 @@ function Row({ label, months, data, activeColor = "rgba(255,255,255,0.95)" }) {
 
       <div
         className="relative h-auto flex items-center before:content-[''] before:w-[10px] before:h-[10px] before:bg-white
-    before:rounded-full before:absolute before:-left-5 before:-bottom-[17px] before:z-[2]"
+        before:rounded-full before:absolute before:-left-5 before:-bottom-[17px] before:z-[2]"
       >
         {isText ? (
           <span className="relative z-[1] ml-3 text-xs sm:text-sm leading-[28px] font-medium font-poppins">
@@ -382,16 +382,16 @@ function Row({ label, months, data, activeColor = "rgba(255,255,255,0.95)" }) {
         ) : (
           <div
             className="
-          relative z-[1] 
-          grid grid-cols-12 sm:grid-cols-12 
-          gap-2 w-full  
-          max-w-full
-          sm:grid-rows-1
-          [&>*]:flex-shrink-0
-          sm:[&>*]:flex-shrink
-          sm:[&>*]:w-auto
-        sm:grid 
-          flex-row sm:flex-none 
+            relative z-[1] 
+            grid grid-cols-12 sm:grid-cols-12 
+            gap-2 w-full  
+            max-w-full
+            sm:grid-rows-1
+            [&>*]:flex-shrink-0
+            sm:[&>*]:flex-shrink
+            sm:[&>*]:w-auto
+            sm:grid 
+            flex-row sm:flex-none 
           sm:flex-col
         "
           >
@@ -428,7 +428,7 @@ function ProductDecor({ decor }) {
           src={topLeft}
           alt=""
           className="pointer-events-none select-none hidden lg:block object-cover
-                      absolute top-0 left-0 h-[150px] w-[150px] mt-[30px]"
+                      absolute top-0 left-0 h-[160px] w-[150px] mt-[30px]"
         />
       )}
 
@@ -437,7 +437,7 @@ function ProductDecor({ decor }) {
           src={topRight}
           alt=""
           className="pointer-events-none select-none  hidden lg:block object-cover
-                      absolute top-0 right-0 h-[150px] w-[150px] mt-[30px]"
+                      absolute top-0 right-0 h-[160px] w-[150px] mt-[30px]"
         />
       )}
 
@@ -446,7 +446,7 @@ function ProductDecor({ decor }) {
           src={bottomLeft}
           alt=""
           className="pointer-events-none select-none hidden lg:block object-cover
-                      absolute bottom-0 left-0 h-[150px] w-[120px] mb-[20px]"
+                      absolute bottom-0 left-0 h-[150px] w-[150px] mb-[20px]"
         />
       )}
     </>
