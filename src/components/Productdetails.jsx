@@ -427,7 +427,7 @@ function ProductDecor({ decor }) {
         <img
           src={topLeft}
           alt=""
-          className="pointer-events-none select-none hidden lg:block absolute top-0 left-0 h-[160px] w-[200px] mt-[30px]"
+          className="pointer-events-none select-none hidden lg:block absolute top-0 left-0 h-[160px] w-[170px] mt-[30px]"
         />
       )}
 
