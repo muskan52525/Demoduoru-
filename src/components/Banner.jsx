@@ -65,8 +65,8 @@ const Banner = () => {
         />
         <img
           src={logo}
-          alt="logo"
-          className="w-20 sm:w-55 2xl:w-76 absolute left-[10px] top-[calc(50%-45px)] md:left-[60px] md:top-[calc(50%-70px)]  lg:top-[calc(50%-96px)] xl:left-[120px] xl:top-[calc(50%-145px)] 2xl:left-[130px] 2xl:top-[calc(50%-175px)]"
+          alt={"logo"}
+          className="w-20 sm:w-55 2xl:w-[230px] absolute left-[10px] top-[220px] md:left-[60px] md:top-[calc(50%-70px)]  lg:top-[calc(50%-96px)] xl:left-[120px] xl:top-[calc(50%-145px)] 2xl:left-[220px] 2xl:top-[calc(50%-175px)]"
         />
         <img
           src={appleSliceV1}
