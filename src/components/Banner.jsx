@@ -49,7 +49,7 @@ const Banner = () => {
           <img
             src={currentLangImages.prancheta}
             alt="Prancheta"
-            className="w-16 md:w-28 lg:w-32 xl:w-48 2xl:w-60"
+            className="w-16 md:w-28 lg:w-32 xl:w-48 2xl:w-[160px]"
           />
         </div>
         {/* other element */}
