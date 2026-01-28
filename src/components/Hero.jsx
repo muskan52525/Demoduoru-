@@ -2,8 +2,8 @@ import React from "react";
 import Slider from "react-slick";
 import { useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import HeroBanner1 from "../assets/png/banner_cerejas.png";
-import HeroBanner2 from "../assets/png/banner_maçã.png";
+import HeroBanner1 from "../assets/png/bannerhome1.png";
+import HeroBanner2 from "../assets/png/bannerhome2.png";
 import BannerLogo from "../assets/svg/Banner-logo.svg";
 
 const Hero = () => {
@@ -40,13 +40,13 @@ const Hero = () => {
               />
 
               {/* LOGO OVERLAY */}
-              <div className="absolute top-1/2 right-4 md:right-[178px] -translate-y-1/2 flex flex-col items-end">
+              {/* <div className="absolute top-1/2 right-4 md:right-[178px] -translate-y-1/2 flex flex-col items-end">
                 <img
                   src={BannerLogo}
                   className="h-[80px] sm:h-[120px] w-[120px] md:h-[220px] md:w-[180px] 2xl:h-[362px] 2xl:w-[254px] object-contain"
                   alt="HeroLogo"
                 />
-              </div>
+              </div> */}
             </div>
           ))}
         </Slider>
