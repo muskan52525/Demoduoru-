@@ -7,7 +7,7 @@ const SobreInfoCards = () => {
 
   return (
     <div className="bg-[#A1C128] py-[60px] md:py-[100px] px-2">
-      <h4 className="text-xl font-medium leading-[22px] tracking-[1.28px] uppercase font-poppins text-white text-center">
+      <h4 className="text-sm md:text-xl font-medium leading-[22px] tracking-[1.28px] uppercase font-poppins text-white text-center">
         {t("sobreInfo.subtitle")}
       </h4>
       <h2 className="text-outline-pink font-mono45 text-center text-[36px]">

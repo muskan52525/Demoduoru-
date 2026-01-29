@@ -8,7 +8,7 @@ const SobreOfficialCard = () => {
 
   return (
     <div className="bg-white md:py-[60px] py-[60px] px-2">
-      <h4 className="text-[#E5376B] font-medium text-2xl tracking-[1.28px] leading-[22px] text-center">
+      <h4 className="text-[#E5376B] font-medium text-sm md:text-2xl tracking-[1.28px] leading-[22px] text-center">
         {t("sobreOfficial.subtitle")}
       </h4>
       <h2 className="outline-heading text-[30px] md:text-[36px] mx-auto text-center">
