@@ -77,7 +77,7 @@ const Products = () => {
       <div className="pt-[40px] pb-[60px] md:pt-[65px] md:pb-[65px] px-5">
         {/* Section Header */}
         <div className="max-w-[853px] mx-auto text-center">
-          <p className="text-white uppercase tracking-wide md:text-2xl text-xl mb-4 md:mb-0 font-medium leading-[22px] font-poppins">
+          <p className="text-white uppercase tracking-wide md:text-2xl text-sm mb-4 md:mb-0 font-medium leading-[22px] font-poppins">
             {t("products.sectionTitle")}
           </p>
           <h2 className="text-outline-pink font-normal text-2xl md:text-4xl mt-1 mb-4 md:mb-0 md:leading-[70px] font-mono45">

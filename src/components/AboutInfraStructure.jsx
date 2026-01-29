@@ -19,7 +19,7 @@ const AboutInfraStructure = () => {
         />
       </div>
       <div className="max-w-full w-full lg:max-w-[668px] md:mx-auto py-8 lg:pb-8 px-5 2xl:px-0">
-        <h4 className="green-titile text-xl md:text-xl lg:text-left text-center">
+        <h4 className="green-titile text-sm md:text-xl lg:text-left text-center">
           {subtitle}
         </h4>
         <h2 className="pink-title text-2xl md:text-4xl mt-[19px] lg:text-left text-center">

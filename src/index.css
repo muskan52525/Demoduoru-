@@ -126,7 +126,7 @@ body {
 .green-titile {
   color: #a4c428;
   font-weight: 500;
-  line-height: 22px;
+  line-height: 0px;
   letter-spacing: 1.28px;
   font-family: "poppins";
   text-transform: uppercase;

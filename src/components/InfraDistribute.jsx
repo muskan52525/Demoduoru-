@@ -17,7 +17,7 @@ const InfraDistribute = () => {
       </div>      
       <div className="flex-1 lg:m-auto my-3 lg:px-0 px-5 ">
         <div className="px-4 py-10 md:py-10 lg:py-0 md:px-[45px]">
-          <h4 className="green-titile text-xl text-center lg:text-left">{t("infraDistribute.subtitle")}</h4>
+          <h4 className="green-titile text-sm md:text-2xl text-center lg:text-left">{t("infraDistribute.subtitle")}</h4>
           <h2 className="pink-title text-2xl md:text-4xl mt-[19px] text-center lg:text-left">{t("infraDistribute.title")}</h2>
           <p className="mt-3 md:mt-6 font-poppins text-center lg:text-left font-medium text-base  text-[#666F77] flex-wrap leading-7 whitespace-pre-line ">
             {t("infraDistribute.description")}

@@ -54,7 +54,7 @@ const Hero = () => {
 
       {/* TEXT SECTION */}
       <div className="bg-white text-center px-4 py-10 md:py-[100px] max-w-[1024px] mx-auto">
-        <h2 className="text-[#A4C428] uppercase font-medium text-xl md:text-2xl mb-3 leading-snug md:leading-[45px]">
+        <h2 className="text-[#A4C428] uppercase font-medium text-sm md:text-2xl mb-3 leading-snug md:leading-[45px]">
           {t("sobre.history_title")}
         </h2>
 
