@@ -61,9 +61,9 @@ import decor14 from "../assets/png/productdecore-14.png";
 import decor15 from "../assets/png/productdecore-15.png";
 import decor16 from "../assets/png/productdecore-16.png";
 import decor17 from "../assets/png/productdecore-17.png";
-import decor18 from "../assets/jpg/cereja/CEREJA_1.png";
-import decor19 from "../assets/jpg/cereja/CEREJA_2.png";
-import decor20 from "../assets/jpg/cereja/CEREJA_3.png";
+import decor18 from "../assets/png/productdecore-18.png";
+import decor19 from "../assets/png/productdecore-19.png";
+import decor20 from "../assets/png/productdecore-20.png";
 import decor21 from "../assets/png/productdecore-21.png";
 import decor22 from "../assets/png/productdecore-22.png";
 import decor23 from "../assets/png/productdecore-23.png";
@@ -91,6 +91,10 @@ import decor44 from "../assets/png/productdecore-44.png";
 import decor45 from "../assets/png/productdecore-45.png";
 import decor46 from "../assets/png/productdecore-46.png";
 import decor47 from "../assets/png/productdecore-47.png";
+import decor48 from "../assets/png/macafuji/productdecore-1.png";
+import decor49 from "../assets/png/macafuji/productdecore-2.png";
+import decor50 from "../assets/png/macafuji/productdecore-3.png";
+import decor51 from "../assets/png/productdecore-51.png";
 
 
 export const products = [
@@ -162,7 +166,7 @@ export const products = [
     decor: {
     topLeft:    decor7,
     topRight:   decor8,
-    bottomLeft: decor3
+    bottomLeft: decor51
   },
     storage: [
       { label: "Armazenamento", value: "macagolden.Armazenamento"},
@@ -220,9 +224,9 @@ export const products = [
     name: "macafuji.name",
     img: productcardFuji,
     decor: {
-    topLeft:    decor1,
-    topRight:   decor2,
-    bottomLeft: decor3
+    topLeft:    decor48,
+    topRight:   decor49,
+    bottomLeft: decor50
   },
     storage: [
       { label: "Armazenamento", value: "macafuji.Armazenamento"},
