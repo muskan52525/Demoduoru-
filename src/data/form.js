@@ -657,13 +657,13 @@ export const sobre = [
   {
     id: 4,
    name: "ANA PAULA SILVA",
-    role: "sobre.role4",
+    role: "sobre.role4female",
     image: sobreImg4,
   },
   {
     id: 5,
     name: "MARIA COSTA",
-    role: "sobre.role4",
+    role: "sobre.role4female",
     image: sobreImg5,
   },
   {
@@ -675,7 +675,7 @@ export const sobre = [
   {
     id: 7,
     name: "ISABEL PEDRO",
-    role: "sobre.role4",
+    role: "sobre.role4female",
     image: sobreImg7,
   },
   {
@@ -687,7 +687,7 @@ export const sobre = [
   {
     id: 9,
     name: "MARIA FERREIRA",
-    role: "sobre.role4",
+    role: "sobre.role4female",
     image: sobreImg9,
   },
   // {
@@ -705,14 +705,14 @@ export const sobre = [
   {
     id: 12,
     name: "ANA PAULA NORTE",
-    role: "sobre.role4",    
+    role: "sobre.role4female",    
     image: sobreImg12,
   },
 
   {
     id: 13,
     name: "EUGÉNIA SOUSA",
-    role: "sobre.role4",
+    role: "sobre.role4female",
     image: sobreImg13,
   },
   {
