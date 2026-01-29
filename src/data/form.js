@@ -126,7 +126,6 @@ export const products = [
      plantacao: { active: [0, 1, 2, 10, 11] },
   colheita: { active: [8, 7] },
   disponibilidade: { active: [0, 1, 2, 3, 4, 5, 8, 9, 10, 11] }
-
     },
   },
   {
@@ -284,8 +283,8 @@ export const products = [
     name: "macagranny.name",
     img: productcardGranny,
     decor: {
-    topLeft:    decor15,
-    topRight:   decor16,
+    topLeft:    decor16,
+    topRight:   decor15,
     bottomLeft: decor17
   },
     storage: [
@@ -499,8 +498,8 @@ export const products = [
     img: productcardFramboesa ,
     cat: "kweli;imara;adelita;kwanza;maravilla",
     decor: {
-    topLeft:    decor33,
-    topRight:   decor34,
+    topLeft:    decor34,
+    topRight:   decor33,
     bottomLeft: decor35
   },
      storage: [
