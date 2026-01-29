@@ -18,7 +18,7 @@ const AboutInfraStructure = () => {
           className="w-full h-full aspect-square object-cover"
         />
       </div>
-      <div className="max-w-full w-full lg:max-w-[668px] md:mx-auto py-8 lg:pb-8 px-5 2xl:px-0">
+      <div className="max-w-full w-full lg:max-w-[668px] md:mx-auto py-8 pt-[60px] pb-[60px] lg:pb-8 px-5 2xl:px-0">
         <h4 className="green-titile text-sm md:text-xl lg:text-left text-center">
           {subtitle}
         </h4>
