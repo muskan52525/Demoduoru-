@@ -77,7 +77,10 @@
     "required": "{{field}} is required",
     "invalidEmail": "Please enter a valid email",
     "buttonText": "submit",
-    "mobileButtonText": "to send"
+    "mobileButtonText": "to send",
+    "turnstileRequired": "Please verify you are human",
+    "successMessage": "Form submitted successfully!",
+    "errorMessage": "Something went wrong. Please try again."
   },
   "storypage": {
     "heading":"STAY UPDATED WITH THE LATEST NEWS",

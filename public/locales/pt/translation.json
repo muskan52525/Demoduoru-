@@ -78,7 +78,10 @@
     "required": "{{field}} é obrigatório",
     "invalidEmail": "Por favor, insira um email válido",
     "buttonText": "enviar",
-    "mobileButtonText": "enviar"
+    "mobileButtonText": "enviar",
+    "turnstileRequired": "Por favor verifique que é humano",
+    "successMessage": "Formulário enviado com sucesso!",
+    "errorMessage": "Algo correu mal. Por favor tente novamente."
   },
   "storypage": {
     "heading":"FIQUE A PAR DAS NOVIDADES",
