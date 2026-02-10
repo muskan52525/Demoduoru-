@@ -92,7 +92,7 @@ const ContactForm = ({
           turnstile_token: turnstileToken,
         };
 
-        const response = await fetch("https://www.demoduoro.pt/api/contact.php", {
+        const response = await fetch("https://demodouro.pt/api/contact.php", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
